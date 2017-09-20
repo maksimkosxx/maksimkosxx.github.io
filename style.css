@@ -1,0 +1,312 @@
+@font-face {
+    font-family: Futore;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/furore.otf');
+}
+
+@font-face {
+    font-family: HelveticaLight;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/helvetica_light_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/roboto.woff') format('woff');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 17px RobotoRegular, sans-serif;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.title {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e3821a;
+    font: 40px/50px Futore, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e3821a;
+}
+.title::before,
+.title::after {
+    content: "●";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+}
+.title::after {
+    left: auto;
+    right: -20px;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 124px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.mobile-btn {
+    display: none;
+}
+.header-column__right {
+    width: 80%;
+    max-width: 1242px;
+    margin-right: 7vw;
+    text-align: right;
+}
+
+.header-navigation__link {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 20px 20px 0 0;
+    font: 16px HelveticaLight, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-navigation__link:last-child {
+    margin: 20px 0 0 0;
+}
+
+.header-navigation__link:hover {
+    background-color: rgba(255, 147, 0, 0.3);
+    transition: background-color 0.2s linear;
+}
+
+.header-phone {
+    display: inline-block;
+    width: 80%;
+    margin: 0 -37px 0 0;
+    text-decoration: none;
+    font: 17px HelveticaLight, sans-serif;
+    font-weight: bold;
+}
+.header-phone:hover {
+    color: rgba(255, 147, 0, 0.8);
+    transition: color 0.2s linear;
+}
+.hero {
+    position: relative;
+    min-height: 775px;
+    padding: 8vh 7vw 9vh 7vw;
+    box-sizing: border-box;
+    background: url(/images/hero_grid_bg.png) center no-repeat,
+    url(/images/hero_bg.jpg) center no-repeat;
+    background-size: auto, cover;
+    font: 60px/70px Futore, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.hero-description {
+    max-width: 85%;
+}
+.hero-title {
+    position: absolute;
+    bottom: 7vh;
+    right: 7vw;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    text-align: right;
+    font: 60px/70px Futore, sans-serif;
+    letter-spacing: 1px;
+}
+.about {
+    position: relative;
+    padding: 12vh 30px;
+    background: url(/images/grid-about.png) 30% 82% no-repeat;
+    background-size: 55%;
+ }
+
+.about-title {
+    display: block;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+.about-item {
+    width: 50%;
+    margin-bottom: 6vh;
+}
+.about-item__text {
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.about-item:nth-child(odd) .about-item__text {
+    max-width: 300px;
+}
+.about-item:nth-child(even) .about-item__text {
+    float: right;
+    text-align: right;
+}
+.about-item:nth-child(even) .about-item__text::after {
+   clear: both;
+}
+.about-item__person {
+    text-align: right;
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .hero,
+    .hero-title {
+        font: 40px/50px Futore, sans-serif;
+    }
+
+    .about {
+        background: url(/images/grid-about.png) 30% 42% no-repeat;
+        background-size: 72%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header {
+        padding: 20px;
+    }
+    .header-logo {
+        max-width: 30%;
+    }
+    .header-logo img {
+        width: 80px;
+    }
+    .mobile-btn {
+        display: block;
+        float: right;
+        width: 30px;
+        height: 30px;
+    }
+    .mobile-btn span {
+        display: block;
+        height: 4px;
+        margin-bottom: 4px;
+        background-color: #333333;
+    }
+    .mobile-btn span {
+        display: block;
+        height: 4px;
+        margin-bottom: 4px;
+        background-color: #333333;
+    }
+    .header-column__right {
+        width: 70%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-navigation {
+        display: none;
+        position: absolute;
+        top: 128px;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #333;
+    }
+    .header-navigation__link {
+        display: block;
+        padding: 5px 10px;
+        margin: 10px 0 10px 0;
+        color: #ffffff;
+    }
+    .header-navigation__link:last-child {
+        margin: 10px 0 10px 0;
+    }
+    .header-phone {
+        width: 100%;
+        margin: 15px 0;
+        text-align: right;
+        font-size: 23px;
+    }
+
+    .title {
+        font: 25px/30px Futore, sans-serif;
+    }
+    .title::before, .title::after {
+        bottom: -13px;
+    }
+    .title::before{
+        left: -10px;
+    }
+    .title::after {
+        right: -10px;
+    }
+    .hero {
+        width: 100%;
+        min-height: inherit;
+        padding: 4vh 20px;
+        font: 20px/30px Futore, sans-serif;
+        background-size: cover, cover;
+    }
+    .hero-title {
+        position: static;
+        font: 30px/40px Futore, sans-serif;
+    }
+    .about {
+        padding: 12vh 20px;
+        background: url(/images/grid-about.png) center no-repeat;
+        background-size: cover;
+    }
+    .about-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    .about-item {
+        width: 100%;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .about-item:nth-child(even) {
+        margin-bottom:10vh;
+    }
+    .about-item:nth-child(even) .about-item__text {
+        margin-bottom: 20px;
+    }
+    .about-item__text {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .about-item img {
+        display: block;
+        width: 100%;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+}
+
