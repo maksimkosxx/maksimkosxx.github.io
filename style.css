@@ -134,8 +134,8 @@ a {
 }
 .about {
     position: relative;
-    padding: 12vh 30px;
-    background: url(/images/grid-about.png) 30% 82% no-repeat;
+    padding: 80px 30px 60px;
+    background: url(/images/grid-about.png) 38% 130px no-repeat;
     background-size: 55%;
  }
 
