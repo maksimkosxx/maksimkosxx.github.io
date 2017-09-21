@@ -1,0 +1,360 @@
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .hero,
+    .hero-title {
+        font: 40px/50px Futore, sans-serif;
+    }
+
+    .about {
+        background: url(/images/grid-about.png) 30% 42% no-repeat;
+        background-size: 72%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        padding: 20px;
+    }
+    .header-logo {
+        max-width: 30%;
+    }
+    .header-logo img {
+        width: 80px;
+    }
+    .mobile-btn {
+        display: block;
+        float: right;
+        width: 30px;
+        height: 30px;
+    }
+    .mobile-btn span {
+        display: block;
+        height: 4px;
+        margin-bottom: 4px;
+        background-color: #333333;
+    }
+    .mobile-btn span {
+        display: block;
+        height: 4px;
+        margin-bottom: 4px;
+        background-color: #333333;
+    }
+    .header-column__right {
+        width: 70%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-navigation {
+        display: none;
+        position: absolute;
+        top: 128px;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #333;
+    }
+    .header-navigation__link {
+        display: block;
+        padding: 5px 10px;
+        margin: 10px 0 10px 0;
+        color: #ffffff;
+    }
+    .header-navigation__link:last-child {
+        margin: 10px 0 10px 0;
+    }
+    .header-phone {
+        width: 100%;
+        margin: 15px 0;
+        text-align: right;
+        font-size: 23px;
+    }
+
+    .title {
+        font: 25px/30px Futore, sans-serif;
+    }
+    .title::before, .title::after {
+        bottom: -13px;
+    }
+    .title::before{
+        left: -10px;
+    }
+    .title::after {
+        right: -10px;
+    }
+    .hero {
+        width: 100%;
+        min-height: inherit;
+        padding: 4vh 20px;
+        font: 20px/30px Futore, sans-serif;
+        background-size: cover, cover;
+    }
+    .hero-title {
+        position: static;
+        font: 30px/40px Futore, sans-serif;
+    }
+    .about {
+        padding: 12vh 20px 4vh;
+        background: url(/images/grid-about.png) center no-repeat;
+        background-size: cover;
+    }
+    .about-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    .about-item {
+        width: 100%;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .about-item:nth-child(even) {
+        margin-bottom:10vh;
+    }
+    .about-item:nth-child(even) .about-item__text {
+        margin-bottom: 20px;
+    }
+    .about-item__text {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .about-item img {
+        display: block;
+        width: 100%;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .video-btn {
+        height: 98%;
+        padding-top: 25%;
+        font-size: 20px;
+    }
+    .about-courses {
+        padding: 10vh 20px 0;
+    }
+    .about-courses__content {
+        width: 100%;
+
+    }
+    .about-courses__item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .about-courses__icon {
+        width: 100%;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .about-courses__text {
+        max-width: 100%;
+        order: 2;
+    }
+    .program {
+        padding: 10vh 20px 0;
+    }
+    .program-item__header {
+        font-size: 25px;
+    }
+    .program-item__number {
+        width: 50px;
+        height: 50px;
+        font: 30px Futore, sans-serif;
+    }
+    .program-item__title {
+        font-size: 18px;
+        text-align: left;
+    }
+    .program-item__list {
+        width: 98%;
+        margin: 4vh 0 0 0;
+        padding-left: 15px;
+    }
+    .program-item__list li {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .order-content {
+        width: 100%;
+    }
+    .order-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .order-slogan {
+        margin-bottom: 20px;
+    }
+    .order-btn {
+        margin: 0 auto;
+    }
+    .teachers {
+        padding: 10vh 20px 0;
+    }
+    .teachers-content {
+        max-width: 100%;
+        margin: 13vh auto 0;
+    }
+    .teachers-item__photo {
+        margin-bottom: 15px;
+    }
+    .teachers-item__name {
+        font-size: 18px;
+    }
+    .teachers-item__description {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .scheme-item {
+        width: 100%;
+        max-width: 940px;
+        min-width: inherit;
+        margin: 0 auto 10vh;
+        text-align: center;
+    }
+    .scheme-item__description {
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .scheme-item__header {
+        font: 20px Futore, sans-serif;
+    }
+    .slick-prev, .slick-next {
+        top: 27%;
+    }
+    .about-us__description::after {
+        display: none;
+    }
+    .about-us__description {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .reviews-slider__photo img {
+       max-width: 100%;
+    }
+    .reviews-slider .slick-prev,
+    .reviews-slider .slick-next {
+        top: 10%;
+    }
+    .reviews-slider__text .name {
+        font: 20px Futore, sans-serif;
+    }
+    .reviews-slider__text .description {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .price {
+        padding: 5vh 20px 10vh;
+    }
+    .price-left, .price-right {
+        width: 100%;
+        min-height: 230px;
+        padding: 20px;
+    }
+    .price-sale div:first-child {
+        font-size: 20px;
+    }
+    .price-course {
+        bottom: 20px;
+        left: 20px;
+    }
+    .price-course div {
+        font-size: 25px;
+    }
+    .price-right {
+        min-height: 180px;
+
+    }
+    .price-result__btn {
+        width: 80%;
+        font-size: 18px;
+    }
+    .contacts-content {
+        width: 100%;
+    }
+    .footer {
+        margin: 5vh 0;
+    }
+    .footer-title {
+        margin-bottom: 10vh;
+    }
+    .contacts-content__left {
+        float: none;
+        width: 90%;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    .contacts-content__social {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contacts-content__btn {
+        width: 80%;
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .header {
+        padding: 20px 15px;
+    }
+    .header img {
+        width: 100px;
+    }
+    .header-column__right {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-navigation__link {
+        padding: 5px;
+        margin: 10px 0 0 0;
+        font: 15px HelveticaLight, sans-serif;
+    }
+    .header-phone {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        width: 100%;
+        margin: 0 0 0 0;
+        text-align: right;
+        font-size: 35px;
+    }
+    .hero-description {
+        font: 50px/65px Futore, sans-serif;
+    }
+    .about-content {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-top: 10vh;
+    }
+    .video-btn {
+        padding-top: 25%;
+        font-size: 40px;
+    }
+    .order-btn {
+        width: 60%;
+        max-width: 300px;
+        margin: 30px auto 0;
+    }
+    .scheme-item {
+        min-width: inherit;
+
+    }
+
+
+
+
+
+}
+
+

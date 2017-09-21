@@ -13,24 +13,26 @@
     <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
 
     <link rel="stylesheet" href="/libs/normalize.css">
+    <link rel="stylesheet" href="/libs/slick.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media.css">
 
 </head>
 <body>
 
 <div class="container">
-    <header class="header">
+    <header id="main" class="header">
         <a href="/" class="header-logo">
             <img src="/images/logo.png" alt="MCG">
         </a>
         <div class="header-column__right">
             <div class="header-navigation">
-                <a href="#" class="header-navigation__link">Описание курса</a>
-                <a href="#" class="header-navigation__link">Программа</a>
-                <a href="#" class="header-navigation__link">Преподаватели</a>
-                <a href="#" class="header-navigation__link">Форма занятий</a>
-                <a href="#" class="header-navigation__link">Стоимость</a>
-                <a href="#" class="header-navigation__link">Контакты</a>
+                <a href="#about" class="header-navigation__link">Описание курса</a>
+                <a href="#program" class="header-navigation__link">Программа</a>
+                <a href="#teachers" class="header-navigation__link">Преподаватели</a>
+                <a href="#scheme" class="header-navigation__link">Форма занятий</a>
+                <a href="#price" class="header-navigation__link">Стоимость</a>
+                <a href="#contacts" class="header-navigation__link">Контакты</a>
             </div>
             <a class="header-phone" href="tel:8(495) 678 75 75">8(495) 678-75-75</a>
             <div class="mobile-btn">
@@ -116,7 +118,7 @@
             Ролик о наших курсах
         </div>
         <div class="video-block">
-            <video id="video" width="100%">
+            <video id="video" width="100%" poster="/images/preview-video.jpg">
                 <source src="/video/blockchain.mp4" type="video/mp4">
             </video>
             <div class="video-btn">
@@ -126,7 +128,7 @@
             </div>
         </div>
     </section>
-    <section class="about-courses">
+    <section id="about" class="about-courses">
         <div class="about-courses__title title">
             Подробнее о курсах
         </div>
@@ -169,7 +171,7 @@
             </div>
         </div>
     </section>
-    <section class="program">
+    <section id="program" class="program">
         <div class="program-title title">
             Программа курса
         </div>
@@ -256,19 +258,21 @@
         </div>
     </section>
     <section class="order">
-        <div class="order-logo">
-            <img src="/images/oreder-logo.png" alt="MCG">
-            <div>educational course</div>
-        </div>
-        <div class="order-slogan">
-            Ваши инвестиции
-            в&nbsp;образование
-        </div>
-        <div class="order-btn">
-            Круто, я хочу купить!
+        <div class="order-content">
+            <div class="order-logo">
+                <img src="/images/oreder-logo.png" alt="MCG">
+                <div>educational course</div>
+            </div>
+            <div class="order-slogan">
+                Ваши инвестиции
+                в&nbsp;образование
+            </div>
+            <div class="order-btn">
+                Круто, я хочу купить!
+            </div>
         </div>
     </section>
-    <section class="teachers">
+    <section id="teachers" class="teachers">
         <div class="teachers-title title">
             Преподаватели
         </div>
@@ -342,10 +346,227 @@
             </div>
         </div>
     </section>
+    <section id="scheme" class="scheme">
+        <div class="scheme-title title">
+            Форма занятий
+        </div>
+        <div class="scheme-item">
+            <div class="scheme-item__header">
+                Занятия
+            </div>
+            <div class="scheme-item__description">
+                Программа будет состоять из 5 онлайн <br>
+                занятий длительностью до трех часов.
+            </div>
+            <div class="scheme-item__icon">
+                <img src="/images/clock.png" alt="">
+            </div>
+        </div>
+        <div class="scheme-item">
+            <div class="scheme-item__header">
+                РАСПИСАНИЕ
+            </div>
+            <div class="scheme-item__description">
+                Каждое занятие будет начинаться в 20:00 <br>
+                по Московскому времени, по понедельникам, <br>
+                5 недель подряд.
+
+            </div>
+            <div class="scheme-item__icon">
+                <img src="/images/schedule.png" alt="">
+            </div>
+        </div>
+        <div class="scheme-item">
+            <div class="scheme-item__header">
+                Домашнее Задание
+            </div>
+            <div class="scheme-item__description">
+                После просмотра вам будет предложено сделать <br>
+                небольшое домашнее задание, которое поможет закрепить <br>
+                полученный материал.
+            </div>
+            <div class="scheme-item__icon">
+                <img src="/images/pencil.png" alt="">
+            </div>
+        </div>
+        <div class="scheme-item">
+            <div class="scheme-item__header">
+                НЕ УСПЕЛ ПОСМОТРЕТЬ
+            </div>
+            <div class="scheme-item__description">
+                Если вы по каким-либо причинам <br>
+                не успели посмотреть вебинар вовремя, <br>
+                не переживайте, вы сможете посмотреть его <br>
+                в любое другое время.
+            </div>
+            <div class="scheme-item__icon">
+                <img src="/images/eyes.png" alt="">
+            </div>
+        </div>
+        <div class="scheme-item">
+            <div class="scheme-item__header">
+                ОБЩЕНИЕ
+            </div>
+            <div class="scheme-item__description">
+                В ходе курса будет создан закрытый чат <br>
+                с нашими преподавателями, где вы сможете спросить <br>
+                любой интересующий вас вопрос.
+            </div>
+            <div class="scheme-item__icon">
+                <img src="/images/dialog.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="about-us">
+        <div class="about-us__title title">
+            О нас
+        </div>
+        <div class="about-us__description">
+            Мы организовали более 10 мероприятий <br>
+            на тему инвестиций в блокчейн проекты в Москве.
+        </div>
+        <div class="about-us_slider">
+            <div class="slider-item">
+                <img src="/images/slider-img1.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="/images/slider-img1.jpg" alt="">
+            </div>
+            <div class="slider-item">
+                <img src="/images/slider-img1.jpg" alt="">
+            </div>
+        </div>
+        <div class="about-us__description">
+            На наших мероприятиях выступали одни из самых <br>
+            известных спикеров из сферы блокчейн.
+        </div>
+        <div class="about-us__description">
+            Некоторые из спикеров станут
+            Вашими преподавателями на время онлайн курса.
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="reviews-title title">
+            Отзывы
+        </div>
+        <div class="reviews-slider">
+            <div class="reviews-slider__item">
+                <div class="reviews-slider__photo">
+                    <img src="/images/review.png" alt="">
+                </div>
+                <div class="reviews-slider__text">
+                    <div class="name">
+                        Амир Зебров
+                    </div>
+                    <div class="description">
+                        Ходил пока на одну конференцию от этих ребят.
+                        Очень клевый набор <br> спикеров: из сбербанка,
+                        правительства, больших фондов.
+                        Один раз <br> воспользовался рекомендаций Николая Ермакова, результат: +20%.
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-slider__item">
+                <div class="reviews-slider__photo">
+                    <img src="/images/review.png" alt="">
+                </div>
+                <div class="reviews-slider__text">
+                    <div class="name">
+                        Иван Степнов
+                    </div>
+                    <div class="description">
+                        Ходил пока на одну конференцию от этих ребят.
+                        Очень клевый набор спикеров: из сбербанка,
+                        правительства, больших фондов.
+                        Один раз воспользовался рекомендаций Николая Ермакова, результат:+20%.
+                    </div>
+                </div>
+
+            </div>
+            <div class="reviews-slider__item">
+                <div class="reviews-slider__photo">
+                    <img src="/images/review.png" alt="">
+                </div>
+                <div class="reviews-slider__text">
+                    <div class="name">
+                       Степан Николаев
+                    </div>
+                    <div class="description">
+                        Ходил пока на одну конференцию от этих ребят.
+                        Очень клевый набор спикеров: из сбербанка,
+                        правительства, больших фондов.
+                        Один раз воспользовался рекомендаций Николая Ермакова, результат:+20%.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="price" class="price">
+        <div class="price-title title">
+            Стоимость
+        </div>
+       <div class="price-content">
+           <div class="price-left">
+               <div class="price-sale">
+                   <div>Первые 20 человек</div>
+                   <div class="price-btn">Продано</div>
+               </div>
+               <div class="price-course">
+                   <div>Стоимость курса</div>
+                   <div>12 000</div>
+               </div>
+           </div>
+           <div class="price-right">
+               <div class="price-sale">
+                   <div>Следующим 30 студентам</div>
+               </div>
+               <div class="price-course">
+                   <div>Стоимость курса</div>
+                   <div>15 000</div>
+               </div>
+           </div>
+       </div>
+        <div class="price-result">
+            <div>Итого</div>
+            <div>15000</div>
+        </div>
+        <div class="price-result__btn">
+            записаться на курс
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-title title">
+            Контакты
+        </div>
+        <div id="contacts" class="contacts-content">
+            <div class="contacts-content__left">
+                <div>MCG</div>
+                <a href="tel:+7 495 120 40 96" class="footer-phone">+7 495 120-40-96</a>
+            </div>
+            <div class="contacts-content__social">
+                <a href="#" class="social-btn vr"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a href="#" class="social-btn tlg"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="#" class="social-btn fb">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <br clear="both">
+        <div class="contacts-content__btn">
+            Связаться с нами
+        </div>
+    </footer>
+    <a href="#main" class="scroll-btn">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
 </div>
 
 
 <script src="/libs/jquery.min.js"></script>
+<script src="/libs/slick.min.js"></script>
 <script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
 <script src="/scripts.js"></script>
 
