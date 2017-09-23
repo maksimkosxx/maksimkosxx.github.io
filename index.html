@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <title>Личный кабинет</title>
+    <meta name="title" content="Проект древо: личный кабинет"/>
+    <meta name="description" content="Проект древо: личный кабинет"/>
+    <meta name="keywords" content="проект древо, личный кабинет"/>
+
+    <link rel="apple-touch-icon" sizes="32x32" href="/images/icons/favicon32.ico">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="/libs/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/styles/typography.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/media.css">
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <a href="/" class="header-logo">
+                <img src="/images/logo/logo_lk.png" alt="Проект Древо">
+            </a>
+            <div class="header-projectname">
+                Проект древо
+            </div>
+        </div>
+    </div>
+</header>
+<section class="form-group">
+    <div class="container">
+        <div class="row">
+            <div class="user-info col-lg-2">
+                <div class="user-info__wrapper">
+                    <div class="glyphicon glyphicon-user"></div>
+                    <div class="user-info__name">Username</div>
+                </div>
+            </div>
+            <div class="form-group__column col-lg-3">
+                <div class="input-group">
+                    <label for="ref">Реферальная ссылка</label>
+                    <input type="text" name="ref" id="ref" class="form-control" placeholder="/partnerid">
+                </div>
+            </div>
+            <div class="form-group__column col-lg-3">
+                <div class="input-group">
+                    <label for="ref">Старший партнер</label>
+                    <input type="password" name="partner" class="form-control" placeholder="Username">
+                    <div class="input-btn btn--show">
+                        <span class="glyphicon glyphicon-eye-open"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group__column col-lg-4">
+                <div class="input-group">
+                    <label for="ref">Кошелек</label>
+                    <input type="text" name="purse" class="form-control" placeholder="6541464654">
+                    <div class="input-btn">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="content">
+            <div class="tabs">
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="#keys" data-toggle="tab">Купить ключ</a></li>
+                    <li><a href="#partners" data-toggle="tab">Партнеры</a></li>
+                    <li class="active"><a href="#video" data-toggle="tab">Видеоуроки</a></li>
+                    <li><a href="#marketing" data-toggle="tab">Маркетинг</a></li>
+                    <li><a href="#profile" data-toggle="tab">Профиль </a></li>
+                    <li><a href="#exit" data-toggle="tab">Выйти</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane" id="keys">Купить ключ</div>
+                <div class="tab-pane" id="partners">Партнеры</div>
+                <div class="tab-pane active" id="video">
+                    <h2 class="tab-content__title">
+                        Заголовок
+                    </h2>
+                    <div class="video-block">
+                        <video width="100%">
+                            <source src="/video/blockchain.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-btn">
+                            <span class="glyphicon glyphicon-play"></span>
+                        </div>
+                    </div>
+                    <button class="tab-content__btn" type="button">
+                        Скачать текстовую версию
+                    </button>
+                </div>
+                <div class="tab-pane" id="marketing">Маркетинг</div>
+                <div class="tab-pane" id="profile">Профиль</div>
+                <div class="tab-pane" id="exit">Выйти</div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-info col-lg-8">
+                2017 | Проект ДРЕВО
+            </div>
+            <div class="footer-social col-lg-4">
+                <a href="#">VKontakte</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/libs/jquery.min.js"></script>
+<script src="/libs/bootstrap.min.js"></script>
+<script src="/scripts/scripts.js"></script>
+
+</body>
+</html>
