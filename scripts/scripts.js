@@ -37,12 +37,29 @@ $(document).ready(function () {
         }
     });
 
+    // VIDEO TABS
+
+    $('.panel-heading.heading--main').on('click', function () {
+
+        var item = $('.panel-heading.heading--main');
+
+        item.removeClass('active');
+
+        if(item.siblings('collaps.in')) {
+            $(this).addClass('active');
+        } else {
+            $(this).removeClass('active');
+        }
+    });
+
     // KEY ACTIVE
 
     $('.keys-item').on('click', function () {
         $('.keys-item').removeClass('active');
         $(this).addClass('active');
     });
+
+
 
 
 

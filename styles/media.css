@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .user-info__wrapper {
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
 
     .input-group {
