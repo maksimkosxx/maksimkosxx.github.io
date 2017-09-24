@@ -35,19 +35,19 @@
 <section class="form-group">
     <div class="container">
         <div class="row">
-            <div class="user-info col-lg-2">
+            <div class="user-info col-lg-2 col-sm-3">
                 <div class="user-info__wrapper">
                     <div class="glyphicon glyphicon-user"></div>
                     <div class="user-info__name">Username</div>
                 </div>
             </div>
-            <div class="form-group__column col-lg-3">
+            <div class="form-group__column col-lg-3 col-sm-4">
                 <div class="input-group">
                     <label for="ref">Реферальная ссылка</label>
                     <input type="text" name="ref" id="ref" class="form-control" placeholder="/partnerid">
                 </div>
             </div>
-            <div class="form-group__column col-lg-3">
+            <div class="form-group__column col-lg-3 col-sm-4">
                 <div class="input-group">
                     <label for="ref">Старший партнер</label>
                     <input type="password" name="partner" class="form-control" placeholder="Username">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group__column col-lg-4">
+            <div class="form-group__column col-lg-4 col-sm-8">
                 <div class="input-group">
                     <label for="ref">Кошелек</label>
                     <input type="text" name="purse" class="form-control" placeholder="6541464654">
@@ -71,21 +71,216 @@
 <div class="container">
     <div class="row">
         <div class="content">
-            <div class="tabs">
+            <div class="tabs col-xs-12">
                 <ul class="nav nav-pills nav-justified">
-                    <li><a href="#keys" data-toggle="tab">Купить ключ</a></li>
+                    <li class="active"><a href="#keys" data-toggle="tab">Купить ключ</a></li>
                     <li><a href="#partners" data-toggle="tab">Партнеры</a></li>
-                    <li class="active"><a href="#video" data-toggle="tab">Видеоуроки</a></li>
+                    <li><a href="#video" data-toggle="tab">Видеоуроки</a></li>
                     <li><a href="#marketing" data-toggle="tab">Маркетинг</a></li>
-                    <li><a href="#profile" data-toggle="tab">Профиль </a></li>
-                    <li><a href="#exit" data-toggle="tab">Выйти</a></li>
+                    <li><a href="#profile" class="tab-profile" data-toggle="tab">
+                        Профиль
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                            <path d="M500.1 343.9c-86 0-156 69.9-156 156 0 86 69.9 156 156 156 86 0 156.1-69.9 156.1-156 0-86-69.9-156-156.1-156zm0 293.6c-75.9 0-137.6-61.7-137.6-137.6 0-75.9 61.7-137.6 137.6-137.6 75.9 0 137.6 61.7 137.6 137.6 0 75.9-61.7 137.6-137.6 137.6z"/>
+                            <path d="M984.2 428.5l-1.1-7.1-126.5-12.5c-8.7-33.8-22-66.1-39.9-96.2l80.6-98.4-4.3-5.8c-28.6-38.6-62.7-72.7-101.3-101.3l-5.8-4.3-98.4 80.6c-30.1-17.8-62.4-31.2-96.2-39.9L578.7 17.1l-7.1-1.1c-53.7-7.9-89.6-7.9-143.3 0l-7.1 1.1-12.5 126.4c-33.8 8.7-66.1 22-96.1 39.9l-98.4-80.6-5.8 4.3c-38.6 28.6-72.7 62.7-101.3 101.3l-4.3 5.8 80.6 98.4c-17.8 30.1-31.2 62.4-39.9 96.1L16.9 421.3l-1.1 7.1c-4 27-5.8 49.8-5.8 71.7 0 21.7 1.8 44.4 5.8 71.5l1.1 7.1 126.4 12.5c8.7 33.8 22 66.1 39.9 96.2l-80.4 98.4 4.3 5.8c28.6 38.6 62.7 72.7 101.3 101.3l5.8 4.3 98.4-80.6c30.1 17.8 62.4 31.4 96.1 39.9L421.2 983l7.1 1.1c27 4 49.8 5.8 71.7 5.8s44.5-1.8 71.6-5.8l7.1-1.1 12.5-126.5c33.8-8.7 66.1-22 96.1-39.9l98.4 80.6 5.8-4.3c38.6-28.6 72.7-62.7 101.3-101.3l4.3-5.8-80.6-98.2c17.8-30.1 31.4-62.4 39.9-96.1L982.9 579l1.1-7.1c4-26.9 5.8-49.7 5.8-71.7.2-22-1.6-44.8-5.6-71.7zM967 562l-125.3 12.4-1.4 6.4c-8.5 36.2-23 70.9-42.8 102.7l-3.5 5.6 79.7 97.3c-25.2 32.8-54.5 62.2-87.5 87.3L689 794l-5.6 3.5c-31.8 19.8-66.4 34.1-102.7 42.6l-6.4 1.4-12.4 125.1c-45.8 6.3-77.5 6.3-123.6 0l-12.4-125.1-6.4-1.4c-36.3-8.5-70.9-23-102.7-42.8l-5.6-3.5-97.3 79.9c-32.8-25.2-62.2-54.5-87.5-87.5L206 689l-3.5-5.6c-19.8-31.8-34.1-66.6-42.6-102.7l-1.4-6.4-125.2-12.5c-3.1-23-4.5-42.8-4.5-61.7 0-19 1.4-38.9 4.7-61.9l125.1-12.4 1.4-6.4c8.7-36.3 23-70.9 42.8-102.7l3.5-5.6-79.8-97.3c25.2-32.8 54.5-62.2 87.5-87.3l97.3 79.8 5.6-3.5c32-19.8 66.6-34.1 102.9-42.6l6.4-1.4 12.4-125.1c45.7-6.3 77.8-6.3 123.6 0L574.6 159l6.4 1.4c36.3 8.5 70.9 23 102.7 42.6l5.6 3.5 97.3-79.8c32.8 25.2 62.2 54.5 87.5 87.5l-79.8 97.3 3.5 5.6c19.8 31.8 34.1 66.6 42.6 102.7l1.4 6.4 125.1 12.4c3.1 23 4.5 42.6 4.5 61.7.1 18.9-1.3 38.7-4.4 61.7z"/>
+                        </svg>
+                    </a></li>
+                    <li><a href="#exit" class="tab-exit">
+                        Выйти
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                            <path d="M736.3 727.5c-5.3 0-8.8-1.7-12.3-5.2-7-7-7-17.5 0-24.5l210-210c7-7 17.5-7 24.5 0s7 17.5 0 24.5l-210 210c-3.5 3.5-7 5.2-12.2 5.2z"/>
+                            <path d="M946.3 517.5c-5.3 0-8.8-1.8-12.3-5.3l-210-210c-7-7-7-17.5 0-24.5s17.5-7 24.5 0l210 210c7 7 7 17.5 0 24.5-3.5 3.6-7 5.3-12.2 5.3z"/>
+                            <path d="M946.3 517.5H368.8c-10.5 0-17.5-7-17.5-17.5s7-17.5 17.5-17.5h577.5c10.5 0 17.5 7 17.5 17.5-.1 10.5-7.1 17.5-17.5 17.5z"/>
+                            <path d="M648.7 990h-595c-10.5 0-17.5-7-17.5-17.5v-945c0-10.5 7-17.5 17.5-17.5h595c10.5 0 17.5 7 17.5 17.5V395c0 10.5-7 17.5-17.5 17.5s-17.5-7-17.5-17.5V45h-560v910h560V605c0-10.5 7-17.5 17.5-17.5s17.5 7 17.5 17.5v367.5c.1 10.5-7 17.5-17.5 17.5z"/>
+                        </svg>
+                    </a>
+                    </li>
                 </ul>
             </div>
             <div class="tab-content">
-                <div class="tab-pane" id="keys">Купить ключ</div>
-                <div class="tab-pane" id="partners">Партнеры</div>
-                <div class="tab-pane active" id="video">
-                    <h2 class="tab-content__title">
+                <div class="tab-pane active" id="keys">
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                    <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                        <div class="keys-item">
+                            <div class="keys-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M882.34 2.19c-25.83 6.65-26.85 7.67-249.6 229.91L416.39 448.2l-13.81-5.37c-31.2-12.53-50.89-16.37-91.04-17.65-43.22-1.53-65.98 1.02-98.97 11.25C82.91 476.83-2.76 606.23 11.56 739.98c7.16 64.96 33.76 123.01 78 169.81 58.56 61.89 137.07 93.34 223.77 89.25 138.35-6.39 251.9-110.48 271.08-248.32 10.74-76.72-12.02-158.81-61.12-219.93l-18.42-22.76 238.35-238.35L981.56 31.34l-9.72-8.44C955.22 8.32 936.8 1.42 912 .65c-12.02-.25-25.32.52-29.66 1.54zM275.73 683.72c41.17 19.44 65.98 64.96 58.56 106.9-6.14 34.78-24.81 60.1-56.01 75.44-18.41 9.21-20.71 9.72-43.99 9.72-21.99 0-25.83-.77-41.43-8.18-83.88-39.64-76.98-158.81 10.49-187.97 20.98-6.91 52.95-5.12 72.38 4.09z"/>
+                                    <path d="M765.21 275.82L545.53 495.5l8.95 11.25c4.86 5.88 12.79 16.62 17.39 23.78 4.6 6.91 8.95 13.3 9.46 14.07.51.51 21.99-19.95 47.82-45.78l46.8-46.8 16.37 2.3 16.37 2.3 20.97-20.46 21.23-20.46-9.46-9.72-9.46-9.72 18.93-19.18 18.92-19.18 9.72 9.46 9.72 9.46 20.46-20.2 20.46-20.2-9.46-9.72-9.46-9.72 22.25-22.25 22.25-22.25 9.72 9.46 9.72 9.46 17.65-17.9 17.9-17.9.77-19.95 1.03-19.69 38.61-38.87 38.87-39.13-1.02-37.59c-.26-20.97-1.53-39.38-2.56-40.92-1.05-2.02-81.87 77-221.24 216.37z"/>
+                                </svg>
+                            </div>
+                            <!--<div class="keys-item__number">1</div>-->
+                        </div>
+                        <div class="keys-price">20$</div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="partners">
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="glyphicon glyphicon-user"></div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="video">
+                    <h2 class="title">
                         Заголовок
                     </h2>
                     <div class="video-block">
@@ -96,13 +291,118 @@
                             <span class="glyphicon glyphicon-play"></span>
                         </div>
                     </div>
-                    <button class="tab-content__btn" type="button">
+                    <button class="tab-content__btn btn--default" type="button">
                         Скачать текстовую версию
                     </button>
                 </div>
-                <div class="tab-pane" id="marketing">Маркетинг</div>
-                <div class="tab-pane" id="profile">Профиль</div>
-                <div class="tab-pane" id="exit">Выйти</div>
+                <div class="tab-pane" id="marketing">
+                    <h2 class="marketing-title title">
+                        Заголовок
+                    </h2>
+                    <div class="marketing-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at aut consequuntur
+                            debitis doloribus excepturi, hic id illo mollitia nemo nostrum numquam officia sint suscipit
+                            veritatis voluptas, voluptate voluptatibus! Commodi ducimus inventore laudantium
+                            magnam obcaecati possimus quae, quaerat quam quibusdam totam.
+                            Accusantium aspernatur consectetur cumque dolore, eligendi esse
+                            et impedit libero, mollitia nisi officia possimus recusandae
+                            unde ut veniam. Assumenda cupiditate expedita facere
+                            laudantium minus molestiae nam provident rerum, sit vero.
+                            Commodi, doloremque doloribus eos excepturi facilis iusto
+                            , nisi numquam pariatur quos repellendus saepe, tempora
+                            temporibus vero. Beatae, ipsa. Autem distinctio fuga fugit
+                            illum mollitia. Adipisci aut dolorum est ex, id laboriosam,
+                            magnam magni maiores nam neque praesentium quia repellendus,
+                            rerum sequi suscipit vel veniam? Dicta libero odit quas.
+                        </p>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, culpa, officia! Commodi culpa iure nam. Aperiam autem consectetur corporis culpa est, explicabo hic magnam molestiae provident quae ratione similique sit.</span><span>Animi atque consequatur culpa cum dignissimos doloribus dolorum eius error est et illo minima nam nostrum odio porro possimus quia quibusdam quidem quod rem rerum, sequi tempore temporibus, ut, veritatis.</span>
+                        </p>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, cum delectus dicta, dolor doloremque in ipsum, itaque laboriosam laborum necessitatibus praesentium quo tenetur voluptate? Amet, iste quidem. Blanditiis, ipsam, similique?</span><span>Atque dicta dignissimos dolores libero, maiores odio praesentium ratione recusandae tenetur veniam? Adipisci amet at atque doloremque eveniet explicabo laudantium libero, perferendis quaerat reiciendis suscipit vitae. Atque commodi expedita possimus?</span><span>Aspernatur aut dignissimos esse illum possimus, qui sunt. Accusamus at commodi distinctio dolore ducimus eaque, esse exercitationem fuga illo incidunt natus nesciunt nisi obcaecati quam quibusdam quisquam soluta vero, vitae.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab-pane" id="profile">
+                    <div class="profile-column column--messengers col-lg-3  col-sm-4">
+                        <div class="profile-title">
+                            Мессенджеры
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-icon icon--wts">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">+7 (912) 234-34-52</div>
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-icon icon--tlg">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M798.9 938.3c-7.7 0-15.3-2.3-21.8-6.7L530.7 764.5l-132.2 95.1c-10.4 7.5-23.7 9.3-35.8 5-12-4.3-21.1-14.3-24.4-26.6L272 586.5 34.9 495.8c-14.9-5.7-24.8-20-24.9-36s9.6-30.4 24.4-36.3L936 64.8c4.1-1.7 8.4-2.7 12.8-3 1.6-.1 3.1-.1 4.7 0 9 .5 17.9 4.2 24.9 11 .7.7 1.4 1.4 2 2.2 5.7 6.6 8.9 14.6 9.5 22.7.1 2 .1 4.1 0 6.2-.1 1.5-.3 3-.6 4.4L837 906.8c-2.4 12.8-11.2 23.6-23.2 28.6-4.8 1.9-9.8 2.9-14.9 2.9zM552.4 685.4l219.5 148.9L890.3 213 462.6 624.5l88.7 60.2c.4.2.7.4 1.1.7zm-182.7-33.1L399 763.6l63.3-45.6-82.9-56.2c-3.8-2.6-7.1-5.8-9.7-9.5zM155.5 458.9l162.8 62.2c11.7 4.5 20.5 14.3 23.7 26.3l20.6 78.3c.9-9 5-17.5 11.7-23.9l407.5-392.1-626.3 249.2z"/>
+                                </svg>
+                            </div>
+                            <div class="profile-text">+7 (912) 234-34-52</div>
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-icon icon--skp">
+                                <i class="fa fa-skype" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">@drevo_project</div>
+                        </div>
+                        <div class="profile-row profile--add">
+                            <div class="profile-icon icon--vbr">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+                                    <path d="M871.7 119.6C794.2 43.7 669 6.9 499.4 10.2c-171 3.4-285.3 33.4-359.7 94.5-72 59.1-105.5 145.5-105.5 272v129.1c0 149.3 80 313.5 232.9 338.3 17.7 2.9 34.3-9.1 37.2-26.8 2.9-17.7-9.1-34.3-26.8-37.2-116-18.8-178.6-155.4-178.6-274.4V376.6c0-181.4 67.2-295.1 401.7-301.7 151.7-3 261.1 27.6 325.7 90.9 50.3 49.3 74.8 118.3 74.8 210.8v129.1c0 195.5-87.7 281.7-312.8 307.1H428.8c-8.6 0-16.8 3.4-22.9 9.5L293.4 934.7c-12.6 12.6-12.6 33.1 0 45.8 6.3 6.3 14.6 9.5 22.9 9.5 8.3 0 16.6-3.2 22.9-9.5l103-103h148c1.2 0 2.4-.1 3.6-.2 128.8-14.3 217-47.8 277.5-105.5 63.7-60.6 94.6-147.7 94.6-266.2v-129c0-109.2-31.7-195.7-94.2-257z"/>
+                                    <path d="M520.2 221.5c52.2 0 101.2 20.3 138.1 57.2 36.9 36.9 57.2 86 57.2 138.2 0 17.9 14.5 32.4 32.4 32.4s32.4-14.5 32.4-32.4c0-69.5-27.1-134.8-76.2-184-49.1-49.1-114.4-76.2-183.9-76.2-17.9 0-32.4 14.5-32.4 32.4s14.5 32.4 32.4 32.4z"/>
+                                    <path d="M520.2 335.4c44.9 0 81.5 36.6 81.5 81.5 0 17.9 14.5 32.4 32.4 32.4s32.4-14.5 32.4-32.4c0-80.6-65.6-146.2-146.3-146.3-17.9 0-32.4 14.5-32.4 32.4s14.5 32.4 32.4 32.4zM375 390.9c-14.8 10.1-18.5 30.2-8.5 45 10.1 14.8 30.2 18.5 45 8.5 11.6-7.9 38.8-26.5 36.9-63.7-1.2-22.2-21.3-54-37.9-76.7-24.3-33.3-45.3-53.3-62.1-59.5-15.8-5.9-32.2-6-49-.4-34.8 11.7-60 32.9-73 61.2-12.6 27.6-12.4 59.3.8 91.7 31.2 76.2 74.7 143 129.8 198.8 55.5 54.8 122.3 98.3 198.6 129.5 16.5 6.7 32.9 10.1 48.6 10.1 15.1 0 29.6-3.1 43.1-9.3 28.3-13 49.5-38.2 61.2-73 5.6-16.7 5.5-33.2-.3-48.9-6.3-17-26.3-37.9-59.5-62.3-22.7-16.6-54.5-36.7-76.8-37.9-37.1-1.9-55.7 25.3-63.6 36.9-10.1 14.8-6.3 34.9 8.4 45 14.8 10.1 34.9 6.3 45-8.4 3.5-5.2 5.5-7.5 6.7-8.5 18.2 5.8 70 43.9 79.3 58.5.2.9.3 2.4-.6 4.9-4.1 12.1-12 28-26.8 34.8-13.8 6.3-29.5 2.4-40.2-1.9-68.4-27.9-128.2-66.8-177.3-115.3-48.8-49.4-87.7-109.1-115.6-177.5-4.4-10.7-8.3-26.4-1.9-40.2 6.8-14.7 22.6-22.7 34.7-26.8 2.6-.9 4-.8 5-.6 14.6 9.3 52.7 61.2 58.5 79.3-1 1.1-3.3 3.1-8.5 6.7z"/>
+                                </svg>
+                            </div>
+                            <div class="profile-text">Добавить</div>
+                        </div>
+                    </div>
+                    <div class="profile-column column--social col-lg-3 col-sm-4">
+                        <div class="profile-title">
+                            Социальные сети
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-icon icon--fb">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">@drevo_project</div>
+                        </div>
+                        <div class="profile-row profile--add">
+                            <div class="profile-icon icon--lnk">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">Добавить</div>
+                        </div>
+                        <div class="profile-row profile--add">
+                            <div class="profile-icon icon--inst">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">Добавить</div>
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-icon icon--vk">
+                                <i class="fa fa-vk" aria-hidden="true"></i>
+                            </div>
+                            <div class="profile-text">vk.com/drevo_project</div>
+                        </div>
+                    </div>
+                    <div class="profile-column column--mail col-lg-3 col-sm-4">
+                        <div class="profile-title">
+                            Почта
+                        </div>
+                        <div class="profile-row">
+                            <div class="profile-text">info@drevo_.ru</div>
+                        </div>
+                    </div>
+                    <div class="profile-column column--edit col-lg-3 col-sm-6">
+                        <button class="profile-btn btn--default" type="button">
+                            Редактировать профиль
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -110,10 +410,10 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="footer-info col-lg-8">
+            <div class="footer-info col-lg-8 col-xs-12 col-sm-6">
                 2017 | Проект ДРЕВО
             </div>
-            <div class="footer-social col-lg-4">
+            <div class="footer-social col-lg-4 col-xs-12 col-sm-6">
                 <a href="#">VKontakte</a>
                 <a href="#">Facebook</a>
                 <a href="#">Instagram</a>
@@ -125,6 +425,7 @@
 
 <script src="/libs/jquery.min.js"></script>
 <script src="/libs/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
 <script src="/scripts/scripts.js"></script>
 
 </body>

@@ -1,0 +1,86 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .user-info__wrapper {
+        margin: 0 auto;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .nav > li:nth-child(n+5) > a {
+        border: 1px solid rgba(147, 147, 147, 0.1);
+    }
+    .tabs {
+        padding: 0 15px;
+    }
+    .tab-content {
+        padding: 40px 1px;
+    }
+
+    .video-block {
+        margin: 0 15px;
+        min-height: inherit;
+    }
+
+    .video-btn {
+        height: 98%;
+    }
+
+    .profile-column {
+        max-width: 200px;
+        margin: 0 auto 30px;
+    }
+
+    .profile-column:last-child {
+        max-width: 100%;
+    }
+
+    .profile-btn.btn--default {
+        float: none;
+        width: 270px;
+        margin: 20px auto 0;
+        border-radius: 0;
+    }
+
+    #marketing {
+        padding: 0 15px;
+    }
+
+    .footer {
+        padding: 5vh 15px;
+    }
+
+    .footer-social {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .footer-social a {
+        display: inline-block;
+        width: 30%;
+        margin-left: 0;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1169px) {
+    .tabs {
+        padding: 0;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        margin-top: -3px;
+        padding: 12px 5px;
+        font: 15px/20px RobotoMedium, sans-serif;
+    }
+
+    .profile-btn.btn--default {
+        float: left;
+        width: 270px;
+        margin: 40px 0 0 0;
+    }
+
+}
