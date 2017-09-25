@@ -53,7 +53,6 @@ $(document).ready(function () {
     // KEY ACTIVE
 
     $('.keys-item').on('click', function () {
-        $('.keys-item').removeClass('active');
         $(this).addClass('active');
     });
 
