@@ -45,7 +45,9 @@
     #marketing {
         padding: 0 15px;
     }
-
+    .panel-group {
+        margin-bottom: 30px;
+    }
     .footer {
         padding: 5vh 15px;
     }
@@ -81,6 +83,9 @@
         float: left;
         width: 270px;
         margin: 40px 0 0 0;
+    }
+    .video-block {
+        min-height: inherit;
     }
 
 }

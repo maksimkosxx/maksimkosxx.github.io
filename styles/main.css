@@ -299,21 +299,18 @@ body {
 }
 
 .panel-default .panel-heading.heading--main {
-    border-bottom: 2px solid #336e7b;
+    border-top: 2px solid #336e7b;
     border-right: 2px solid #336e7b;
     border-left: 2px solid #336e7b;
 }
 .panel-default .panel-heading.heading--main.active {
-    border: 2px solid #336e7b;
+    border-bottom: 2px solid #336e7b;
 }
 .panel-default .panel-heading.heading--main.active .panel-title a {
     color: #709aa3;
 }
-.panel--first .panel-heading.heading--main {
-    border-top: 2px solid #336e7b;
-    border-bottom: none;
-    border-right: 2px solid #336e7b;
-    border-left: 2px solid #336e7b;
+.panel--last .panel-heading.heading--main {
+    border-bottom: 2px solid #336e7b;
 }
 .panel-default > .panel-heading.sub {
     border-bottom: 2px solid #d8d8d8;
