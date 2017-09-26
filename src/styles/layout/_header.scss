@@ -1,0 +1,54 @@
+.header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  box-sizing: border-box;
+  font-family: $font-base-bold;
+  .nav-tabs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    li {
+      a {
+        padding: 13px 5px;
+        margin-right: 0;
+        border: none;
+        border-radius: 0;
+        color: $black;
+        &:hover,
+        &:focus {
+          color: $blue-dark;
+          background: transparent;
+          transition: color 0.2s linear;
+        }
+      }
+      &.active {
+        a {
+          border: none;
+          opacity: 0.5;
+          &:hover {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+  &-btn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    button.btn {
+      width: 80%;
+      max-width: 130px;
+      outline: none;
+      &:active,
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+}

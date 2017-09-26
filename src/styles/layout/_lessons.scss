@@ -1,0 +1,31 @@
+.lessons {
+  margin-bottom: 20vh;
+  padding: 7vh 0;
+  &-title {
+    margin-bottom: 5vh;
+  }
+  &-item {
+    margin-bottom: 20px;
+    a {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      min-height: 79px;
+      padding: 10px 15px 10px 30px;
+      border-radius: 5px;
+      border: solid 3px $blue-dark;
+      box-sizing: border-box;
+      font: 16px/22px $font-base;
+      text-decoration: none;
+    }
+    &:first-child a {
+      border: solid 3px #d3d3d3;
+    }
+    &:hover > a {
+      background: $blue-dark;
+      border: solid 3px $blue-dark;
+      color: #ffffff;
+      transition: all 0.2s linear;
+    }
+  }
+}

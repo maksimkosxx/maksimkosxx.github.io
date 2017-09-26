@@ -1,0 +1,56 @@
+body {
+  @include font($font-base, $font-size--base);
+  color: $black;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.title {
+  margin-bottom: 50px;
+  font: 60px $font-slab-light;
+  color: $blue-dark;
+}
+a {
+  color: $black;
+  text-decoration: none;
+}
+.btn {
+  padding: 9px 17px;
+  width: 138px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btn--blue {
+  border: 3px solid transparent;
+  background-color: $blue-dark;
+  color: #ffffff;
+  &:hover {
+    background-color: darken($blue-dark, 5%);
+    color: #ffffff;
+    transition: all 0.2s linear;
+  }
+}
+.btn--white {
+  border: 3px solid $blue-dark;
+  background-color: #fff;
+  color: $blue-dark;
+  &:hover {
+    background-color: transparent;
+    color: $blue-dark;
+    opacity: 0.6;
+    transition: all 0.2s linear;
+  }
+}
+.btn--transparent {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    opacity: 0.6;
+    transition: all 0.2s linear;
+  }
+}
+

@@ -1,0 +1,36 @@
+//Файлы должны быть импортированы в соответствии с папкой размещения,
+// один за другим, в соответствуещем порядке:
+//
+//vendors/
+//utils/
+//base/
+//components/
+//layout/
+//pages/
+//themes/
+//
+
+
+
+@import 'vendors/bootstrap';
+
+@import 'utils/variables',
+        'utils/mixins';
+
+@import 'base/reset',
+        'base/typography',
+        'base/base';
+
+@import 'layout/header',
+        'layout/hero',
+        'layout/advantages',
+        'layout/lessons';
+
+
+//@import 'media-queries';
+
+
+
+
+
+
