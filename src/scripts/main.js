@@ -40,16 +40,14 @@ $(document).ready(function () {
     // VIDEO TABS
 
     $('.panel-heading.heading--main').on('click', function () {
+        $(this).toggleClass('active');
+    });
 
-        var item = $('.panel-heading.heading--main');
-
-        item.removeClass('active');
-
-        if(item.siblings('collaps.in')) {
-            $(this).addClass('active');
-        } else {
-            $(this).removeClass('active');
-        }
+    $(function(){
+        $('.panel-body').slimScroll({
+            height: '200px',
+            size: '3px'
+        });
     });
 
     // KEY ACTIVE
@@ -58,6 +56,9 @@ $(document).ready(function () {
         $('.keys-item').removeClass('active');
         $(this).addClass('active');
     });
+
+
+
 
 
 
