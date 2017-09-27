@@ -12,7 +12,10 @@
     <link rel="apple-touch-icon" sizes="32x32" href="/src/images/icons/favicon32.ico">
     <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
 
+    <link rel="stylesheet" href="/src/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/libs/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/src/styles/main.css">
+
 
 
 </head>
@@ -22,10 +25,15 @@
     <header class="header">
         <div class="container">
             <div class="row">
+                <div class="mobile-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <ul class="nav nav-tabs col-lg-9">
                     <li><a href="#advantages">Преимущества</a></li>
-                    <li><a href="#learns">Уроки</a></li>
-                    <li class="active"><a href="#partnership">Партнерская программа</a></li>
+                    <li><a href="#lessons">Уроки</a></li>
+                    <li><a href="#partnership">Партнерская программа</a></li>
                     <li><a href="#efirium">Эфириум</a></li>
                     <li><a href="#video">Видео</a></li>
                     <li><a href="#how_work">Как это работает</a></li>
@@ -44,7 +52,8 @@
             <div class="row">
                 <div class="hero-wrapper">
                     <a href="/" class="hero-logo">
-                        <img src="/src/images/icons/logo_3x.png" alt="Проект Древо">
+                        <img src="/src/images/logo.png"
+                             srcset="/src/images/logo@2x.png 2x, /src/images/logo@3x.png 3x" class="Logo">
                     </a>
                     <h1 class="hero-title">
                         Проект древо
@@ -55,11 +64,11 @@
                         sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.
                     </div>
-                    <button class="btn hero-btn btn--transparent">
+                    <a href="#video" class="btn btn--play btn--transparent">
                         <span>Смотреть видео</span>
                         <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn--mouse"></button>
+                    </a>
+                    <a href="#advantages" class="btn--mouse"></a>
                 </div>
             </div>
         </div>
@@ -67,10 +76,12 @@
     <section class="advantages">
         <div class="container">
             <div class="row">
-                <div class="advantages-content">
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                <div id="advantages" class="advantages-content">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name_5.png" alt="">
+                            <img src="/src/images/advantages/invalid-name_5.png"
+                                 srcset="/src/images/advantages/invalid-name_5@2x.png 2x, /src/images/advantages/invalid-name_5@3x.png 3x"
+                                 class="layer">
                         </div>
                         <div class="advantages-item__title">
                             Старт за 10 минут
@@ -81,10 +92,11 @@
                             без рисков и с минимальными издержками.
                         </div>
                     </div>
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name_6.png" alt="">
-                        </div>
+                            <img src="/src/images/advantages/invalid-name_6.png"
+                                 srcset="/src/images/advantages/invalid-name_6@2x.png 2x, /src/images/advantages/invalid-name_6@3x.png 3x"
+                                 class="layer"></div>
                         <div class="advantages-item__title">
                             Станьте экспертом с нами
                         </div>
@@ -94,9 +106,11 @@
                             открывающих вам все возможности заработка на рынке криптовалют.
                         </div>
                     </div>
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name.png" alt="">
+                            <img src="/src/images/advantages/invalid-name.png"
+                                 srcset="/src/images/advantages/invalid-name@2x.png 2x, /src/images/advantages/invalid-name@3x.png 3x"
+                                 class="layer">
                         </div>
                         <div class="advantages-item__title">
                             Самый доступный
@@ -107,9 +121,11 @@
                             стоит всего 10 долларов.
                         </div>
                     </div>
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name_2.png" alt="">
+                            <img src="/src/images/advantages/invalid-name_2.png"
+                                 srcset="/src/images/advantages/invalid-name_2@2x.png 2x, /src/images/advantages/invalid-name_2@3x.png 3x"
+                                 class="layer">
                         </div>
                         <div class="advantages-item__title">
                             Партнерская программа
@@ -119,9 +135,11 @@
                             100% с приглашенного получаете вы, с каждого, на свой кошелек.
                         </div>
                     </div>
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name_3.png" alt="">
+                            <img src="/src/images/advantages/invalid-name_3.png"
+                                 srcset="/src/images/advantages/invalid-name_3@2x.png 2x, /src/images/advantages/invalid-name_3@3x.png 3x"
+                                 class="layer">
                         </div>
                         <div class="advantages-item__title">
                             Денежная магия
@@ -134,9 +152,11 @@
                             спирали Фибоначчи, и всего с двух приглашенных приносит $25тыс
                         </div>
                     </div>
-                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-6">
+                    <div class="advantages-item col-lg-4 col-sm-4 col-xs-12">
                         <div class="advantages-item__icon">
-                            <img src="/src/images/advantages/invalid-name_4.png" alt="">
+                            <img src="/src/images/advantages/invalid-name_4.png"
+                                 srcset="/src/images/advantages/invalid-name_4@2x.png 2x, /src/images/advantages/invalid-name_4@3x.png 3x"
+                                 class="layer">
                         </div>
                         <div class="advantages-item__title">
                             Нам не нужно доверять
@@ -155,80 +175,80 @@
     <section class="lessons">
         <div class="container">
             <div class="row">
-                <div class="lessons-title title col-lg-12">Уроки</div>
+                <div id="lessons" class="lessons-title title col-lg-12">Уроки</div>
                 <div class="lessons-content">
                     <div class="lessons-item col-lg-12">
                         <a href="#">
                             0. Как открыть кошелёк и купить криптовалюту
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             1. Как недопустить кражу криптовалюты
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             2. Как привлекать партнеров в свой проект
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             3. Критерии выбора криптовалютного кошелька
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             4. Технические и экономические принципы <br>
                             работы криптовалют
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             5. Введение в майниг криптовалют
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             6. Аппартаное обеспечение для майнига
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             7. Расчет прибыльности майнинга
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             8. Введение в трейдинг криптовалют
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             9. Торговые стратегии
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             10. Как выгодно инвестировать в ICO
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             11. Как создать свою криптовалюту
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             12. Как провести ICO
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             13. Устройтво Bloсkchain для разработчиков
                         </a>
                     </div>
-                    <div class="lessons-item col-lg-6 col-sm-12">
+                    <div class="lessons-item col-lg-6 col-sm-6">
                         <a href="#">
                             14. Cмарт-контракты и разработка <br>
                             децентрализованных приложений
@@ -238,12 +258,300 @@
             </div>
         </div>
     </section>
+    <section class="partnership">
+        <div class="container">
+            <div class="row">
+                <div id="partnership" class="partnership-title title">
+                    Партнерская программа
+                </div>
+                <div class="partnership-content">
+                    <div class="partnership-text col-lg-7 col-sm-8">
+                        <p>
+                            Мы готовы математически доказать вам,
+                            что партнерская программа Проекта ДРЕВО
+                            является самой выгодной из возможных!
+                        </p>
+                        <p>
+                            Все 100% привлеченных средств зарабатываете
+                            именно Вы, мнгновенно получая их напрямую на
+                            свой Ethereum кошелек.
+                            Благодаря математической формуле,
+                            которая использует принцип ряда Фибоначи,
+                            именныуемый у нас Золотое Сечение,
+                            пригласив всего трех участников,
+                            вы получаете 25 тысяч долларов пассивного
+                            дохода. Не верите, что такое возможно?
+                        </p>
+                        <button class="partnership-btn btn--transparent">
+                            Узнать подробнее
+                        </button>
+                    </div>
+                    <div class="partnership-image col-lg-5 col-sm-4">
+                        <img src="/src/images/team.png" srcset="/src/images/team@2x.png 2x, /src/images/team@3x.png 3x"
+                             class="team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="efirium">
+        <div class="container">
+            <div class="row">
+                <div class="efirium-content">
+                    <div class="efirium-image col-lg-5 col-sm-12">
+                        <img src="/src/images/group-4.png"
+                             srcset="/src/images/group-4@2x.png 2x, /src/images/group-4@3x.png 3x" class="group-4">
+                    </div>
+                    <div class="efirium-text col-lg-7 col-sm-12">
+                        <div id="efirium" class="efirium-title title">
+                            Почему Эфириум?
+                        </div>
+                        <p>
+
+                            Мы используем Эфериум в нашем проекте, так как эта валюта позволяет максимально сократить
+                            финансовые и временые издержки, а купить, продать и использовать её легче и выгоднее даже
+                            чем биткоин. Транзакции доходят до адресата в пределах одной минуты, а комиссия за перевод
+                            составляет всего 8-10 центов. По мимом этого, вы всегда можете обменять свои «эфиры» на
+                            реальные деньги или любую другую криптовалюту на любой из многочисленных криптовалютных
+                            бирж.</p>
+                        <p>
+                            Тот факт, что вы единственный обладаете адресом и приватным ключом от кошелька, а ваши
+                            средства хранятся в децентрализованной сети блокчейна эфериум делает вас полноправным
+                            хозяином ваших эфиров и никто не может у вас их изъять. Более того, вы можете создавать
+                            бесконечное количество не требующих идентификации кошельков и принимать на них эфиры, таким
+                            образом злоумышленники никогда не узнают, сколько у вас денег.
+                        </p>
+                        <p>
+                            Все вышеперечисленные факторы делают Эфериум самой лучшей валютой и благодаря факту её
+                            использования и сокращения издержек наш проект становится самым выгодным среди прочих
+                            проектов
+                            сетевого маркетинга.
+                        </p>
+                        <button class="efirium-btn btn--blue">
+                            Попробовать
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <div class="row">
+                <div id="video" class="video-title title">
+                    Видеоматериалы
+                </div>
+                <div class="video-content">
+                    <div class="video-item col-lg-6">
+                        <div class="video-clip">
+                            <video width="100%">
+                                <source src="/src/video/blockchain.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-btn play">
+                                <button class="btn btn--play btn--transparent">
+                                    <span>Смотреть видео</span>
+                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="video-item__title">
+                            Интервью с ведущим разработчиком
+                        </div>
+                        <div class="video-item__text">
+                            В этом интервью ведущий разработчик рассказывает
+                            о целях проекта и&nbsp;процессе его разработки.
+                        </div>
+                    </div>
+                    <div class="video-item col-lg-6">
+                        <div class="video-clip">
+                            <video width="100%">
+                                <source src="/src/video/blockchain.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-btn play">
+                                <button class="btn btn--play btn--transparent">
+                                    <span>Смотреть видео</span>
+                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="video-item__title">
+                            Видеообзор и процесс регистрации
+                        </div>
+                        <div class="video-item__text">
+                            В этом видео вы можете своими глазами увидеть, как устроенно
+                            и&nbsp;выглядит всё изнутри.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-work">
+        <div class="container">
+            <div class="row">
+                <div class="how-work__title title">
+                    Как это работает
+                </div>
+                <div class="how-work__content">
+                    <div class="how-work__image col-lg-5">
+                        <img src="/src/images/page-1.png"
+                             srcset="/src/images/page-1@2x.png 2x, /src/images/page-1@3x.png 3x" class="Page-1">
+                    </div>
+                    <div class="how-work__text col-lg-7">
+                        <p>Создавая проект, мы стремились достичь максимального уровня автоматизации, чтобы упростить
+                            пользователю
+                            взаимодействие с ситемой и сократить любые риски связанные с человеческими ошибками. </p>
+                        <p>
+                            Участник соврешает простые действия - всю логику работы обеспечивает программный код сайта.
+                        </p>
+                        <p>
+                            Нажав на кнопку «подробнее» вы можете узнать, как происходит происходит процесс участия в
+                            проекте и как
+                            всё устроенно изнутри.
+                        </p>
+                        <button class="how-work__btn btn--blue">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-block">
+        <div class="container">
+            <div class="row">
+                <div class="team-title title">
+                    Команда
+                </div>
+                <div class="team-content">
+                    <div class="team-item col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-item__icon"></div>
+                        <div class="team-item__name">
+                            John Smith
+                        </div>
+                        <div class="team-item__description">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class="team-item col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-item__icon"></div>
+                        <div class="team-item__name">
+                            John Smith
+                        </div>
+                        <div class="team-item__description">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class="team-item col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-item__icon"></div>
+                        <div class="team-item__name">
+                            John Smith
+                        </div>
+                        <div class="team-item__description">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class="team-item col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-item__icon"></div>
+                        <div class="team-item__name">
+                            John Smith
+                        </div>
+                        <div class="team-item__description">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                    <div class="team-item col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-item__icon"></div>
+                        <div class="team-item__name">
+                            John Smith
+                        </div>
+                        <div class="team-item__description">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </div>
+                    </div>
+                </div>
+                <button class="team-btn btn--blue">
+                    Стать участников проекта
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="row">
+                <div class="faq-title title">
+                    Часто задаваемые вопросы
+                </div>
+                <div class="faq-content col-lg-8">
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            Вопрос: Вы планируете перевод сайта на другие языки?
+                        </div>
+                        <div class="faq-item__answer">
+                            Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
+                            расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
+                            и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
+                            приглашать иностранных участников даже без знания языка, просто кидая иководства на
+                            английском языке. Остальные языки будут добавлятся по необходимости.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            Вопрос: Могу я принять участие в проекте не вкладывая средства?
+                        </div>
+                        <div class="faq-item__answer">
+                            Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
+                            расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
+                            и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
+                            приглашать иностранных участников даже без знания языка, просто кидая иководства на
+                            английском языке. Остальные языки будут добавлятся по необходимости.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-image col-lg-4">
+                    <img src="/src/images/invalid-name_7.png"
+                         srcset="/src/images/invalid-name_7@2x.png 2x, /src/images/invalid-name_7@3x.png 3x"
+                         class="layer">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-info col-lg-8 col-xs-12 col-sm-6">
+                    2017 | Проект ДРЕВО
+                </div>
+                <div class="footer-social col-lg-4 col-xs-12 col-sm-6">
+                    <a href="#">VKontakte</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 
 
-<script src="/src/libs/libs.js"></script>
+<script src="/src/libs/jquery.min.js"></script>
+<script src="/src/libs/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
-<script src="/src/scripts/main.js"></script>
+<script src="/src/scripts/main.min.js"></script>
 
 </body>
 </html>
