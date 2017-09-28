@@ -37,12 +37,12 @@ ul {
 
 @font-face {
     font-family: OpenSans;
-    src: url("/src/fonts/OpenSans/OpenSansRegular.ttf");
+    src: url("/src/fonts/Opensans/OpenSansRegular.ttf");
 }
 
 @font-face {
     font-family: OpenSansSemiBold;
-    src: url("/src/fonts/OpenSans/OpenSansSemiBold.ttf");
+    src: url("/src/fonts/Opensans/OpenSansSemiBold.ttf");
 }
 
 body {
@@ -68,7 +68,6 @@ a:active {
 
 .btn {
     padding: 9px 17px;
-    width: 138px;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -113,6 +112,11 @@ a:active {
     transition: all 0.2s linear;
 }
 
+.btn--transparent:active, .btn--transparent:focus {
+    color: #fff;
+    opacity: 0.6;
+}
+
 .btn--play {
     width: 80%;
     max-width: 188px;
@@ -128,6 +132,18 @@ a:active {
 
 .mobile-btn {
     display: none;
+}
+
+.modal-body {
+    padding: 30px 0;
+}
+
+.modal .video-content {
+    margin-top: 0;
+}
+
+.modal button {
+    width: auto;
 }
 
 .header {
@@ -194,7 +210,9 @@ a:active {
     padding: 9vh 0 5vh;
     box-sizing: border-box;
     text-align: center;
-    background: #336e7b;
+    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 50px no-repeat;
+    background-size: cover, auto;
+    background-color: #336e7b;
     color: #ffffff;
 }
 
@@ -220,6 +238,19 @@ a:active {
     color: #fff;
 }
 
+.hero-btn {
+    width: 80%;
+    max-width: 188px;
+    margin: 7vh auto;
+    font-family: OpenSansSemiBold, sans-serif;
+}
+
+.hero-btn i.fa-caret-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
 .hero .btn--mouse {
     position: relative;
     display: block;
@@ -237,11 +268,11 @@ a:active {
     display: block;
     position: absolute;
     top: 2px;
-    right: 2px;
+    left: 2px;
     width: 10px;
     height: 10px;
     background-color: #fff;
-    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
 }
 
 .hero .btn--mouse:active {
@@ -317,10 +348,11 @@ a:active {
     margin-bottom: 20px;
 }
 
-.lessons-item a {
+.lessons-item button {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    width: 100%;
     min-height: 79px;
     padding: 10px 15px 10px 30px;
     border-radius: 5px;
@@ -328,13 +360,14 @@ a:active {
     box-sizing: border-box;
     font: 16px/22px OpenSans, sans-serif;
     text-decoration: none;
+    background: #fff;
 }
 
-.lessons-item:first-child a {
+.lessons-item:first-child button {
     border: solid 3px #d3d3d3;
 }
 
-.lessons-item:hover > a {
+.lessons-item:hover > button {
     background: #336e7b;
     border: solid 3px #336e7b;
     color: #ffffff;
@@ -598,12 +631,8 @@ a:active {
     color: #ffffff;
 }
 
-.faq-title-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+.faq-wrapper {
+    margin-top: 6vh;
 }
 
 .faq-image {
@@ -625,6 +654,7 @@ a:active {
 .faq-item__question {
     margin-bottom: 15px;
     font: 20px/26px RobotoSlabBold, sans-serif;
+    cursor: pointer;
 }
 
 .faq-item__answer {
@@ -704,7 +734,11 @@ a:active {
         float: right;
         width: 30px;
         height: 30px;
-        margin: 11px 15px 0 0;
+        margin: 8px 15px 0 0;
+        padding: 0;
+        background: transparent;
+        border: none;
+        outline: none;
     }
 
     .mobile-btn span {
@@ -712,13 +746,23 @@ a:active {
         height: 4px;
         margin-bottom: 4px;
         background-color: #333333;
+        transition: all 0.2s linear;
     }
 
-    .mobile-btn span {
-        display: block;
-        height: 4px;
-        margin-bottom: 4px;
-        background-color: #333333;
+    .mobile-btn.active span:nth-child(1) {
+        margin-top: 7px;
+        transform: rotate(45deg);
+        background-color: #006e7d;
+    }
+
+    .mobile-btn.active span:nth-child(2) {
+        display: none;
+    }
+
+    .mobile-btn.active span:nth-child(3) {
+        margin-top: -7px;
+        transform: rotate(-45deg);
+        background-color: #006e7d;
     }
 
     .nav.nav-tabs {
@@ -816,24 +860,12 @@ a:active {
     }
 
     .how-work::after {
-        bottom: -10px;
+        bottom: -30px;
         height: 100px;
     }
 
-    .partnership-image {
-        order: 1;
-    }
-
-    .partnership-text {
-        order: 2;
-    }
-
-    .partnership button,
-    .efirium button,
-    .how-work button,
-    .faq button {
-        display: block;
-        margin: 40px auto;
+    .partnership-title {
+        text-align: left;
     }
 
     .nav.nav-tabs {
@@ -897,7 +929,6 @@ a:active {
 
     .footer-info {
         margin-bottom: 30px;
-        text-align: center;
     }
 
     .footer-social {
@@ -919,5 +950,10 @@ a:active {
     .faq img {
         width: 80%;
         object-fit: contain;
+    }
+
+    .how-work::after {
+        bottom: -40px;
+        height: 100px;
     }
 }

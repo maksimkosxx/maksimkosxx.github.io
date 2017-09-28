@@ -14,8 +14,8 @@
 
     <link rel="stylesheet" href="/src/libs/bootstrap.min.css">
     <link rel="stylesheet" href="/src/libs/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/src/styles/main.css">
 
+    <link rel="stylesheet" href="/src/styles/main.css">
 
 
 </head>
@@ -25,11 +25,11 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="mobile-btn">
+                <button class="mobile-btn">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
                 <ul class="nav nav-tabs col-lg-9">
                     <li><a href="#advantages">Преимущества</a></li>
                     <li><a href="#lessons">Уроки</a></li>
@@ -37,7 +37,7 @@
                     <li><a href="#efirium">Эфириум</a></li>
                     <li><a href="#video">Видео</a></li>
                     <li><a href="#how_work">Как это работает</a></li>
-                    <li><a href="#teqm">Команда</a></li>
+                    <li><a href="#team">Команда</a></li>
                     <li><a href="#faq">F.A.Q.</a></li>
                 </ul>
                 <div class="header-btn col-lg-3">
@@ -64,10 +64,10 @@
                         sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua.
                     </div>
-                    <a href="#video" class="btn btn--play btn--transparent">
+                    <button class="btn hero-btn btn--transparent" data-toggle="modal" data-target="#myModal">
                         <span>Смотреть видео</span>
                         <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </a>
+                    </button>
                     <a href="#advantages" class="btn--mouse"></a>
                 </div>
             </div>
@@ -178,81 +178,81 @@
                 <div id="lessons" class="lessons-title title col-lg-12">Уроки</div>
                 <div class="lessons-content">
                     <div class="lessons-item col-lg-12">
-                        <a href="#">
+                        <button data-toggle="modal" data-target="#myModal2">
                             0. Как открыть кошелёк и купить криптовалюту
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             1. Как недопустить кражу криптовалюты
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             2. Как привлекать партнеров в свой проект
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             3. Критерии выбора криптовалютного кошелька
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             4. Технические и экономические принципы <br>
                             работы криптовалют
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             5. Введение в майниг криптовалют
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             6. Аппартаное обеспечение для майнига
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             7. Расчет прибыльности майнинга
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             8. Введение в трейдинг криптовалют
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             9. Торговые стратегии
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             10. Как выгодно инвестировать в ICO
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             11. Как создать свою криптовалюту
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             12. Как провести ICO
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             13. Устройтво Bloсkchain для разработчиков
-                        </a>
+                        </button>
                     </div>
                     <div class="lessons-item col-lg-6 col-sm-6">
-                        <a href="#">
+                        <button>
                             14. Cмарт-контракты и разработка <br>
                             децентрализованных приложений
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -282,7 +282,7 @@
                             вы получаете 25 тысяч долларов пассивного
                             дохода. Не верите, что такое возможно?
                         </p>
-                        <button class="partnership-btn btn--transparent">
+                        <button class="partnership-btn btn--transparent" data-toggle="modal" data-target="#myModal">
                             Узнать подробнее
                         </button>
                     </div>
@@ -298,11 +298,11 @@
         <div class="container">
             <div class="row">
                 <div class="efirium-content">
-                    <div class="efirium-image col-lg-5 col-sm-12">
+                    <div class="efirium-image col-lg-5 col-md-6 col-sm-12">
                         <img src="/src/images/group-4.png"
                              srcset="/src/images/group-4@2x.png 2x, /src/images/group-4@3x.png 3x" class="group-4">
                     </div>
-                    <div class="efirium-text col-lg-7 col-sm-12">
+                    <div class="efirium-text col-lg-7 col-md-6 col-sm-12">
                         <div id="efirium" class="efirium-title title">
                             Почему Эфириум?
                         </div>
@@ -327,7 +327,7 @@
                             проектов
                             сетевого маркетинга.
                         </p>
-                        <button class="efirium-btn btn--blue">
+                        <button class="efirium-btn btn--blue" data-toggle="modal" data-target="#myModal2">
                             Попробовать
                         </button>
                     </div>
@@ -342,7 +342,7 @@
                     Видеоматериалы
                 </div>
                 <div class="video-content">
-                    <div class="video-item col-lg-6">
+                    <div class="video-item col-lg-6 col-md-6 col-sm-6">
                         <div class="video-clip">
                             <video width="100%">
                                 <source src="/src/video/blockchain.mp4" type="video/mp4">
@@ -362,7 +362,7 @@
                             о целях проекта и&nbsp;процессе его разработки.
                         </div>
                     </div>
-                    <div class="video-item col-lg-6">
+                    <div class="video-item col-lg-6 col-md-6 col-sm-6">
                         <div class="video-clip">
                             <video width="100%">
                                 <source src="/src/video/blockchain.mp4" type="video/mp4">
@@ -389,15 +389,15 @@
     <section class="how-work">
         <div class="container">
             <div class="row">
-                <div class="how-work__title title">
+                <div id="how_work" class="how-work__title title">
                     Как это работает
                 </div>
                 <div class="how-work__content">
-                    <div class="how-work__image col-lg-5">
+                    <div class="how-work__image col-lg-5 col-md-5 col-sm-5">
                         <img src="/src/images/page-1.png"
                              srcset="/src/images/page-1@2x.png 2x, /src/images/page-1@3x.png 3x" class="Page-1">
                     </div>
-                    <div class="how-work__text col-lg-7">
+                    <div class="how-work__text col-lg-7 col-md-7 col-sm-7">
                         <p>Создавая проект, мы стремились достичь максимального уровня автоматизации, чтобы упростить
                             пользователю
                             взаимодействие с ситемой и сократить любые риски связанные с человеческими ошибками. </p>
@@ -409,7 +409,7 @@
                             проекте и как
                             всё устроенно изнутри.
                         </p>
-                        <button class="how-work__btn btn--blue">
+                        <button class="how-work__btn btn--blue" data-toggle="modal" data-target="#myModal2">
                             Подробнее
                         </button>
                     </div>
@@ -420,7 +420,7 @@
     <section class="team-block">
         <div class="container">
             <div class="row">
-                <div class="team-title title">
+                <div id="team" class="team-title title">
                     Команда
                 </div>
                 <div class="team-content">
@@ -485,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="team-btn btn--blue">
+                <button class="team-btn btn--blue" data-toggle="modal" data-target="#myModal2">
                     Стать участников проекта
                 </button>
             </div>
@@ -494,39 +494,42 @@
     <section class="faq">
         <div class="container">
             <div class="row">
-                <div class="faq-title title">
+                <div id="faq" class="faq-title title">
                     Часто задаваемые вопросы
                 </div>
-                <div class="faq-content col-lg-8">
-                    <div class="faq-item">
-                        <div class="faq-item__question">
-                            Вопрос: Вы планируете перевод сайта на другие языки?
+
+                <div class="faq-wrapper">
+                    <div class="faq-content col-lg-8 col-md-8">
+                        <div class="faq-item">
+                            <div class="faq-item__question" data-toggle="collapse" data-target="#question1">
+                                Вопрос: Вы планируете перевод сайта на другие языки?
+                            </div>
+                            <div class="faq-item__answer collapse in" id="question1">
+                                Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
+                                расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
+                                и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
+                                приглашать иностранных участников даже без знания языка, просто кидая иководства на
+                                английском языке. Остальные языки будут добавлятся по необходимости.
+                            </div>
                         </div>
-                        <div class="faq-item__answer">
-                            Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
-                            расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
-                            и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
-                            приглашать иностранных участников даже без знания языка, просто кидая иководства на
-                            английском языке. Остальные языки будут добавлятся по необходимости.
+                        <div class="faq-item">
+                            <div class="faq-item__question" data-toggle="collapse" data-target="#question2">
+                                Вопрос: Могу я принять участие в проекте не вкладывая средства?
+                            </div>
+                            <div class="faq-item__answer collapse" id="question2">
+                                Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
+                                расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
+                                и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
+                                приглашать иностранных участников даже без знания языка, просто кидая иководства на
+                                английском языке. Остальные языки будут добавлятся по необходимости.
+                            </div>
                         </div>
                     </div>
-                    <div class="faq-item">
-                        <div class="faq-item__question">
-                            Вопрос: Могу я принять участие в проекте не вкладывая средства?
-                        </div>
-                        <div class="faq-item__answer">
-                            Ответ: Да, в самое ближайшее время сайт будет доступен также на английском языке. Это
-                            расширит географию охвата проекта и можно будет находить партнеров в Америке, Европе, Индии
-                            и других странах. Так же, мы сейчас переводим все обучающие материалы, что позволит
-                            приглашать иностранных участников даже без знания языка, просто кидая иководства на
-                            английском языке. Остальные языки будут добавлятся по необходимости.
-                        </div>
+                    <div class="faq-image col-lg-4 col-md-4">
+                        <img src="/src/images/invalid-name_7.png"
+                             srcset="/src/images/invalid-name_7@2x.png 2x, /src/images/invalid-name_7@3x.png 3x"
+                             class="layer">
                     </div>
-                </div>
-                <div class="faq-image col-lg-4">
-                    <img src="/src/images/invalid-name_7.png"
-                         srcset="/src/images/invalid-name_7@2x.png 2x, /src/images/invalid-name_7@3x.png 3x"
-                         class="layer">
                 </div>
             </div>
         </div>
@@ -545,6 +548,65 @@
             </div>
         </div>
     </footer>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel"> Видеообзор и процесс регистрации</h4>
+            </div>
+            <div class="modal-body">
+                <div class="video-content">
+                    <div class="video-item col-lg-12 col-md-12 col-sm-12">
+                        <div class="video-clip">
+                            <video width="100%">
+                                <source src="/src/video/blockchain.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-btn play">
+                                <button class="btn btn--play btn--transparent">
+                                    <span>Смотреть видео</span>
+                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">0. Как открыть кошелёк и купить криптовалюту</h4>
+            </div>
+            <div class="modal-body">
+                <div class="video-content">
+                    <div class="video-item col-lg-12 col-md-12 col-sm-12">
+                        <div class="video-clip">
+                            <video width="100%">
+                                <source src="/src/video/blockchain.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-btn play">
+                                <button class="btn btn--play btn--transparent">
+                                    <span>Смотреть видео</span>
+                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
