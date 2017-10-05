@@ -116,6 +116,9 @@ body {
     max-height: 100px;
     margin: 0 10px;
 }
+.social a:first-child img {
+    max-height: 90px;
+}
 .social a:hover {
     opacity: 0.5;
     transition: all 0.2s linear;
