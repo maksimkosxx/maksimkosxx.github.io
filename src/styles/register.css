@@ -147,6 +147,7 @@ body {
     .wrapper-register .logo img {
         width: 80px;
     }
+
     .wrapper-register input[type="text"],
     .wrapper-register input[type="submit"] {
         width: 100%;
