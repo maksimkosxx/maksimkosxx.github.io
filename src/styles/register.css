@@ -11,7 +11,7 @@ body {
     padding: 0;
     font: 14px RobotoSlabRegular, sans-serif;
     line-height: normal;
-    color: #ffffff;
+    color: rgba(255,255,255,0.9);
 }
 .wrapper {
     width: 100%;
@@ -29,10 +29,10 @@ body {
 .wrapper-register {
     display: inline-block;
     vertical-align: middle;
-    opacity: 0.9;
 }
 .wrapper-register .logo img {
     width: 150px;
+    opacity: 0.9;
 }
 .wrapper-register h2 {
     margin: 45px 0 60px;
@@ -54,20 +54,20 @@ body {
     text-align: center;
     font-size: 27px;
     outline: none;
-    color: rgba(255,255,255,1);
+    color: #fff;
     background: rgba(255,255,255,0.7);
     font-family: RobotoSlabRegular,sans-serif;
 }
 
 
 .wrapper-register input[type="text"]::-webkit-input-placeholder {
-    color: rgba(255,255,255,1);
+    color: #fff;
 }
 .wrapper-register input[type="text"]::-moz-placeholder {
-    color: rgba(255,255,255,1);
+    color: #fff;
 }
 .wrapper-register input[type="text"]:-ms-input-placeholder {
-    color: rgba(255,255,255,1);
+    color: #fff;
 }
 .wrapper-register input[type="text"]:hover::-webkit-input-placeholder {
     color: transparent;
@@ -96,6 +96,7 @@ body {
     color: #ffffff;
     background: transparent;
     cursor: pointer;
+    opacity: 0.9;
 }
 .wrapper-register input[type="submit"]:hover {
     opacity: 0.5;
@@ -128,6 +129,7 @@ body {
 .social img {
     display: inline-block;
     max-height: 100px;
+    opacity: 0.9;
 }
 @media (max-width: 1500px) and (min-width: 1025px){
     .wrapper {
