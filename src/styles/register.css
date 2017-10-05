@@ -1,10 +1,6 @@
 @font-face {
-    font-family: OpenSans;
-    src: url("/src/fonts/Opensans/OpenSansRegular.ttf");
-}
-@font-face {
-    font-family: OpenSansSemiBold;
-    src: url("/src/fonts/Opensans/OpenSansSemiBold.ttf");
+    font-family: RobotoSlabRegular;
+    src: url("/src/fonts/RobotoSlab/RobotoSlab-Regular.ttf");
 }
 
 
@@ -13,7 +9,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    font: 14px OpenSans, sans-serif;
+    font: 14px RobotoSlabRegular, sans-serif;
     line-height: normal;
     color: #ffffff;
 }
@@ -39,7 +35,7 @@ body {
 }
 .wrapper-register h2 {
     margin: 45px 0 60px;
-    font: 50px/60px OpenSansSemiBold, sans-serif;
+    font: 50px/60px RobotoSlabRegular, sans-serif;
 }
 .wrapper-register form {
     max-width: 1100px;
@@ -59,7 +55,9 @@ body {
     outline: none;
     color: #ffffff;
     background: rgba(255,255,255,0.6);
+    font-family: RobotoSlabRegular,sans-serif;
 }
+
 
 .wrapper-register input[type="text"]::-webkit-input-placeholder {
     color: #ffffff;
@@ -69,6 +67,18 @@ body {
 }
 .wrapper-register input[type="text"]:-ms-input-placeholder {
     color: #ffffff;
+}
+.wrapper-register input[type="text"]:hover::-webkit-input-placeholder {
+    color: transparent;
+    transition: all 0.2s linear;
+}
+.wrapper-register input[type="text"]:hover::-moz-placeholder{
+    color: transparent;
+    transition: all 0.2s linear;
+}
+.wrapper-register input[type="text"]:hover:-ms-input-placeholder {
+    color: transparent;
+    transition: all 0.2s linear;
 }
 .wrapper-register input[type="submit"] {
     width: 90%;
@@ -80,6 +90,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     font-size: 27px;
+    font-family: RobotoSlabRegular,sans-serif;
     outline: none;
     color: #ffffff;
     background: transparent;
@@ -101,7 +112,7 @@ body {
 }
 .social a {
     display: inline-block;
-    max-width: 200px;
+    max-width: 150px;
     max-height: 100px;
     margin: 0 10px;
 }
@@ -113,13 +124,26 @@ body {
     display: inline-block;
     max-height: 100px;
 }
-@media (max-width: 1500px){
+@media (max-width: 1500px) and (min-width: 1025px){
+    .wrapper {
+        background: #336e7b url(/src/images/lines.png) center -80% no-repeat;
+    }
     .wrapper-register h2 {
         margin: 30px 0 45px;
-        font: 40px/50px OpenSansSemiBold, sans-serif;
+        font: 35px/45px OpenSansSemiBold, sans-serif;
     }
     .wrapper-register .logo img {
         width: 100px;
+    }
+    .wrapper-register input[type="text"] {
+        max-width: 300px;
+        min-height: 50px;
+        font-size: 22px;
+    }
+    .wrapper-register input[type="submit"] {
+        max-width: 180px;
+        min-height: 50px;
+        font-size: 22px;
     }
 
     .register-text {
@@ -130,10 +154,24 @@ body {
         max-height: 100px;
     }
     .social img {
-        max-height: 70px;
+        max-height: 50px;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 1024px) and (min-width: 768px){
+    .register-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .social a {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .social img {
+        max-height: 60px;
+    }
+
+}
+@media (max-width: 767px) and (min-width: 320px){
     body {
         height: 100%;
     }
