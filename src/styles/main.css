@@ -16,12 +16,7 @@ ul {
 
 @font-face {
     font-family: RobotoBlack;
-    src: url("/src/fonts/Roboto/Roboto-Black.woff") format("woff"), url("/src/fonts/Roboto/Roboto-Black.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: RobotoSlabBold;
-    src: url("/src/fonts/RobotoSlab/RobotoSlab-Bold.woff") format("woff"), url("/src/fonts/RobotoSlab/RobotoSlab-Bold.ttf") format("ttf");
+    src: url("/src/fonts/Roboto/Roboto-Black.ttf") format("ttf");
 }
 
 @font-face {
