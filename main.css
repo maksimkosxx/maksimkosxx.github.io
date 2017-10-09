@@ -55,7 +55,7 @@ a:hover {
     flex-flow: row wrap;
     /*justify-content: space-between;*/
     align-items: flex-start;
-    max-width: 1533px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 30px 10px;
     box-sizing: border-box;
@@ -73,46 +73,44 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 1533px;
+    max-width: 960px;
     min-height: 70px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
     color: #ffffff;
 }
-.header-logo {
-    width: 100%;
-    max-width: 110px;
+
+.header-logo img {
+    max-width: 60px;
 }
 .header-nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    max-width: 240px;
+    max-width: 140px;
 }
 .header-nav__item {
-    font-size: 23px;
+    font-size: 14px;
 }
 .header-nav__number {
     position: relative;
-    top: -5px;
+    top: -3px;
     display: inline-block;
-    padding: 3px 7px;
+    padding: 1px 3px;
     border-radius: 3px;
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 12px HelveticaNeueLight, sans-serif;
     text-align: center;
     background: #bec7d7;
     color: #364050;
 }
 .header-title {
-    font-size: 36px;
+    font-size: 27px;
     font-family: SnellRoundhandBold, sans-serif;
     color: #606772;
 }
 .header-profile {
-    width: 100%;
-    max-width: 300px;
     text-align: right;
     cursor: pointer;
 }
@@ -120,15 +118,19 @@ a:hover {
     display: inline-block;
     vertical-align: middle;
 }
+.header-profile img {
+    max-width: 40px;
+}
 .header-profile__name {
-    margin-right: 20px;
-    font-size: 27px;
+    margin-right: 10px;
+    font-size: 14px;
 }
 .header-profile__arrow {
-    width: 17px;
-    height: 10px;
-    margin-left: 15px;
+    width: 11px;
+    height: 5px;
+    margin-left: 10px;
     background: url("/images/header/profile_arrow.png") center no-repeat;
+    background-size: cover;
 }
 
 
@@ -141,15 +143,15 @@ a:hover {
 
 
 .sidebar-left {
-    max-width: 220px;
-    margin: 20px 0 0 0;
+    max-width: 150px;
+    margin: 10px 0 0 0;
 }
 .sidebar-left__item {
-    line-height: 40px;
+    line-height: 30px;
     cursor: pointer;
 }
 .sidebar-left__item a {
-    font-size: 23px;
+    font-size: 14px;
     color: #364050;
 }
 .sidebar-left__item.item--special a {
@@ -172,12 +174,12 @@ a:hover {
 }
 .sidebar-left__item .count {
     position: relative;
-    top: -4px;
+    top: -2px;
     display: inline-block;
     margin-left: 8px;
-    padding: 3px 5px;
+    padding: 2px 4px;
     border-radius: 3px;
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 13px HelveticaNeueLight, sans-serif;
     background: #bec7d7;
 }
 .advertising {
@@ -190,21 +192,22 @@ a:hover {
 }
 .advertising-item img {
     display: block;
-    margin-bottom: 10px;
+    max-width: 150px;
+    margin-bottom: 8px;
 }
 .advertising-item span {
     display: block;
 }
 .advertising-item__title {
-    font-size: 18px;
+    font-size: 15px;
 }
 .advertising-item__link {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
     color: #b0b4bc;
 }
 .advertising-item__description {
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 13px HelveticaNeueLight, sans-serif;
 }
 
 /* SIDEBAR LEFT end */
@@ -216,27 +219,26 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    max-width: 980px;
-    margin: 20px 20px 0 20px;
+    max-width: 570px;
+    margin: 10px 10px 0 10px;
     background: #ffffff;
     color: #364050;
 }
 .center-header {
     width: 100%;
     padding: 15px 0 20px 60px;
-    font: 24px HelveticaNeueLight, sans-serif;
+    font: 18px HelveticaNeueLight, sans-serif;
     background: #f9f9f9;
 }
 .visitors {
     display: flex;
     flex-flow: row wrap;
-    padding: 13px 10px 0;
+    padding: 10px;
 }
 .visitors-item {
     display: block;
-    max-width: 220px;
-    min-height: 320px;
-    padding: 15px 10px;
+    max-width: 21%;
+    padding: 10px;
     color: #364050;
     background: #fff;
 }
@@ -247,7 +249,7 @@ a:hover {
 }
 .visitors-item__image {
     display: block;
-    min-height: 227px;
+
 }
 .visitors-item__image img {
     display: block;
@@ -256,19 +258,19 @@ a:hover {
 }
 .visitors-item__info {
     display: block;
-    min-height: 105px;
-    padding: 0 20px 15px;
+    min-height: 95px;
+    padding: 0 10px 15px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 13px;
     background: #f9f9f9;
 }
 .visitors-item__person {
     display: block;
     margin-bottom: 5px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .online-status {
-    font: 18px/20px HelveticaNeueThin, sans-serif;
+    font: 12px/15px HelveticaNeueThin, sans-serif;
 }
 .online-status.online {
     color: #15d311;
@@ -281,7 +283,7 @@ a:hover {
 }
 .person-status {
     float: right;
-    font: 18px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueLight, sans-serif;
 }
 .person-status span {
     display: inline-block;
@@ -298,7 +300,8 @@ a:hover {
 
 .sidebar-right {
     width: 100%;
-    max-width: 270px;
+    max-width: 200px;
+    margin-top: 10px;
 }
 .sidebar-right img {
     display: block;
@@ -306,9 +309,8 @@ a:hover {
 }
 .sidebar-right__header {
     width: 100%;
-    margin-top: 20px;
     padding: 15px 0 20px 0;
-    font: 24px HelveticaNeueLight, sans-serif;
+    font: 18px HelveticaNeueLight, sans-serif;
     text-align: center;
     background: #f9f9f9;
 }
@@ -370,10 +372,10 @@ a:hover {
 }
 .vip-btn {
     display: block;
-    width: 240px;
+    width: 80%;
     height: 47px;
     margin: 15px auto;
-    font: 24px HelveticaNeueLight, sans-serif;
+    font: 18px HelveticaNeueLight, sans-serif;
     border:none;
     border-bottom: 4px solid #ba343d;
     border-radius: 5px;
@@ -400,20 +402,3 @@ a:hover {
 /* SIDEBAR RIGHT end */
 
 
-@media (max-width: 1500px) {
-    .content {
-        justify-content: space-between;
-    }
-    .center {
-        max-width: 55%;
-    }
-    .visitors {
-        justify-content: center;
-    }
-}
-@media (max-width: 1360px) {
-    .sidebar-right {
-        width: 25%;
-        max-width: 240px;
-    }
-}
