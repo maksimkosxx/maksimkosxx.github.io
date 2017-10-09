@@ -218,7 +218,6 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 100%;
     max-width: 570px;
     margin: 10px 10px 0 10px;
     background: #ffffff;
@@ -326,23 +325,23 @@ a:hover {
 }
 .vip-person__item {
     padding-bottom: 25px;
-    font-size: 18px;
+    font-size: 15px;
     background: #ffffff;
 }
 .vip-person__info {
-    padding: 10px 15px 0;
+    padding: 5px 15px 0;
 }
 .vip-person__image {
     position: relative;
     z-index: 1;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .vip-person__image::before {
     content: '';
     display: block;
     position: absolute;
-    top: 17px;
-    right:8px;
+    top: 12px;
+    right:4px;
     z-index: 10;
     width: 23px;
     height: 12px;
@@ -357,18 +356,18 @@ a:hover {
     z-index: 1;
     width: 0;
     height: 0;
-    border-top: 70px solid #e94c3e;
-    border-left: 70px solid transparent;
+    border-top: 50px solid #e94c3e;
+    border-left: 50px solid transparent;
 }
 .vip-person__title {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .vip-person__price {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #b0b4bc;
 }
 .vip-person__description {
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueLight, sans-serif;
 }
 .vip-btn {
     display: block;
@@ -400,5 +399,16 @@ a:hover {
 
 
 /* SIDEBAR RIGHT end */
+
+/* FOOTER */
+
+
+footer {
+    margin: 15px 0;
+    font: 12px/15px HelveticaNeueThin, sans-serif;
+    color: #8e8d8d;
+}
+
+/* FOOTER end */
 
 
