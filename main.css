@@ -114,6 +114,7 @@ a:hover {
     width: 100%;
     max-width: 300px;
     text-align: right;
+    cursor: pointer;
 }
 .header-profile div {
     display: inline-block;
@@ -379,6 +380,11 @@ a:hover {
     text-transform: uppercase;
     color: #ffffff;
     background: #e94c3e;
+    cursor: pointer;
+}
+.vip-btn:hover {
+    background: #ba343d;
+    transition: all 0.2s linear;
 }
 .vip-btn span {
     line-height: 43px;
