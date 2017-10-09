@@ -398,3 +398,13 @@ a:hover {
 
 
 /* SIDEBAR RIGHT end */
+
+
+@media (max-width: 1500px) {
+    .center {
+        max-width: 55%;
+    }
+    .visitors {
+        justify-content: center;
+    }
+}
