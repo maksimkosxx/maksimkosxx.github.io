@@ -1,0 +1,80 @@
+.field-search {
+    width: 90%;
+    height: 25px;
+    padding-left: 28px;
+    border: none;
+    background: transparent;
+    font: 18px HelveticaNeueLight, sans-serif;
+    color: #364050;
+    outline: none;
+    background: url("/images/messages/search.png") 0 center no-repeat;
+    background-size: 15px;
+}
+.field-search::-webkit-input-placeholder {
+    color: #364050;
+}
+
+
+.messages-item {
+    min-height: 80px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+.messages-item.not-read {
+    background: #e9eef7;
+}
+.messages-photo {
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+}
+.messages-photo img {
+    width: 50px;
+}
+.message-info {
+    float: left;
+    width: 85%;
+
+}
+.message-header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.message-header .name {
+    float: left;
+    font: 15px HelveticaNeueLight, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.message-header .online-status {
+    float: left;
+    margin: 2px 0 0 15px;
+}
+.message-time {
+    float: right;
+}
+.message-text {
+    max-width: 381px;
+}
+.message-answer {
+    padding: 5px;
+    background: #e9eef7;
+}
+.photo-small {
+    float: left;
+    margin-right: 15px;
+}
+.photo-small img {
+    width: 35px;
+}
+
+
+
+.sound-off {
+    padding: 10px 0 10px 60px;
+    border-top: 1px solid #364050;
+    font: 18px HelveticaNeueLight, sans-serif;
+    cursor: pointer;
+}

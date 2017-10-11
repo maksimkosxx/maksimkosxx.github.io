@@ -76,7 +76,7 @@ a:hover {
     max-width: 960px;
     min-height: 70px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 10px;
     box-sizing: border-box;
     color: #ffffff;
 }
@@ -111,8 +111,13 @@ a:hover {
     color: #606772;
 }
 .header-profile {
+    position: relative;
     text-align: right;
     cursor: pointer;
+    padding: 12px 10px;
+}
+.header-profile.active {
+    background: #465264;
 }
 .header-profile div {
     display: inline-block;
@@ -132,7 +137,35 @@ a:hover {
     background: url("/images/header/profile_arrow.png") center no-repeat;
     background-size: cover;
 }
-
+.profile-list {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    display: block;
+    width: 100%;
+    border: 1px solid #364050;
+    border-top: none;
+    box-sizing: border-box;
+    text-align: left;
+    background: #ffffff;
+    z-index: 2;
+}
+.profile-list a {
+    display: block;
+    padding: 7px 0 7px 40px;
+    font-size: 14px;
+    color: #364050;
+}
+.profile-list li:first-child a {
+    padding: 15px 0 7px 40px;
+}
+.profile-list li:last-child a {
+    padding: 7px 0 15px 40px;
+}
+.profile-list a:hover {
+    background: #eee;
+    transition: all 0.2s linear;
+}
 
 /* HEADER end */
 
@@ -215,13 +248,12 @@ a:hover {
 /* VISITORS */
 
 .center {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     max-width: 570px;
+    width: 80%;
     margin: 10px 10px 0 10px;
     background: #ffffff;
     color: #364050;
+    overflow: hidden;
 }
 .center-header {
     width: 100%;
@@ -277,7 +309,6 @@ a:hover {
 .online-status span {
     display: inline-block;
     vertical-align: middle;
-    margin-top: 1px;
     font-size: 12px;
 }
 .person-status {
