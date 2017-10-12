@@ -346,7 +346,7 @@ a:hover {
 }
 .hero-form__title {
     margin-bottom: 25px;
-    font: 14px HelveticaNeueThin, sans-serif;
+    font: 14px/22px HelveticaNeueThin, sans-serif;
     text-align: center;
 }
 
