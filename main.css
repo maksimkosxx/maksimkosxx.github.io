@@ -320,8 +320,8 @@ a:hover {
 
 .main {
     width: 100%;
-    max-width: 780px;
-    margin-left: 10px;
+    max-width: 775px;
+    margin-left: 15px;
 }
 .hero {
     max-width: 100%;
@@ -341,7 +341,7 @@ a:hover {
 .hero-form {
     float: right;
     max-width: 360px;
-    margin: 45px 30px 0 0;
+    margin: 35px 30px 0 0;
     color: #364050;
 }
 .hero-form__title {
@@ -681,5 +681,8 @@ footer {
     }
     .sidebar-right {
         max-width: 20%;
+    }
+    .main {
+        width: 80%;
     }
 }
