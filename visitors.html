@@ -24,7 +24,8 @@
         </a>
         <div class="header-nav">
             <a href="#" class="header-nav__item item--mailing">
-                <span class="header-nav__title">Вход</span>
+                <span class="header-nav__title">Рассылки</span>
+                <span class="header-nav__number">12</span>
             </a>
             <a href="#" class="header-nav__item item--search">
                 <span class="header-nav__title">Поиск</span>
@@ -34,7 +35,13 @@
             Сайт успешных знакомств
         </div>
         <div class="header-profile">
-            Пройти регистрацию
+            <div class="header-profile__name">
+                Александра
+            </div>
+            <div class="header-profile__avatar">
+                <img src="/images/header/avatar.png" alt="">
+            </div>
+            <div class="header-profile__arrow"></div>
         </div>
     </header>
 </div>
@@ -42,52 +49,57 @@
     <div class="content">
         <div class="sidebar-left">
             <ul class="sidebar-left__nav">
-                <li class="sidebar-left__item">
-                    <a href="#">Главная</a>
+                <li class="sidebar-left__item"><a href="#">Мой профиль</a></li>
+                <li class="sidebar-left__item item--messages">
+                    <a href="#">Сообщения</a>
+                    <span class="count">1</span>
                 </li>
-                <li class="sidebar-left__item">
-                    <a href="#">О сайте</a>
+                <li class="sidebar-left__item item--persons">
+                    <a href="#">Мои посетители</a>
+                    <span class="count">4</span>
                 </li>
+                <li class="sidebar-left__item"><a href="#">Агенство</a></li>
+                <li class="sidebar-left__item item--special">
+                    <a href="#">Стать VIP</a>
+                </li>
+                <li class="sidebar-left__item"><a href="#">Черный список</a></li>
+                <li class="sidebar-left__item"><a href="#">Выход</a></li>
+                <li class="sidebar-left__item"><a href="#">О сайте</a></li>
             </ul>
-            <div class="sidebar-auth">
-                <form action="#" method="post">
-                    <label for="name">Логин или e-mail:</label>
-                    <input type="text" name="name" id="name" required>
-                    <label for="pass">Пароль:</label>
-                    <input type="password" name="pass" id="pass" required>
-                    <input type="submit" value="Войти">
-                    <a href="#" class="registration-btn">Регистрация</a>
-                    <input type="checkbox" id="keep_pass">
-                    <label for="keep_pass">Запомнить пароль</label>
-                </form>
+            <div class="advertising">
+                <a href="#" class="advertising-item">
+                    <img src="/images/advertising/ad_img.jpg" alt="">
+                    <span class="advertising-item__title">
+                        Новый спа-салон в&nbsp;центре Москвы
+                    </span>
+                    <span class="advertising-item__link">
+                        newspa-moscow.ru
+                    </span>
+                    <span class="advertising-item__description">
+                        Спа-салон премиум класса в cамом сердце столицы.
+                        Все виды услуг. Скидка 20% до 31 октября! Жми!
+                    </span>
+                </a>
+                <a href="#" class="advertising-item">
+                    <img src="/images/advertising/ad_img.jpg" alt="">
+                    <span class="advertising-item__title">
+                        Новый спа-салон в&nbsp;центре Москвы
+                    </span>
+                    <span class="advertising-item__link">
+                        newspa-moscow.ru
+                    </span>
+                    <span class="advertising-item__description">
+                        Спа-салон премиум класса в cамом сердце столицы.
+                        Все виды услуг. Скидка 20% до 31 октября! Жми!
+                    </span>
+                </a>
             </div>
         </div>
-        <div class="main">
-            <div class="hero">
-                <div class="hero-header">
-                    Contact City - Совершенно новый уровень знакомств в Интернете
-                </div>
-                <div class="hero-form">
-                    <div class="hero-form__title">
-                        Пройдите бесплатную регистрацию и получите доступ
-                        к расширенной версии сайта на 10 дней без ограничений!
-                    </div>
-                    <form action="#" method="post">
-                        <label for="name_reg">Как вас зовут?</label>
-                        <input type="text" name="name" id="name_reg" required>
-                        <label for="date">Дата рождения:</label>
-                        <input type="text" name="date" id="date">
-                        <label for="mail">Ваш e-mail:</label>
-                        <input type="email" name="mail" id="mail" required>
-                        <input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ">
-                    </form>
-                </div>
-                <div style="clear: both"></div>
-                <div class="hero-footer">
-                    Прямо сейчас 7419 человек online:
-                </div>
+        <div class="center">
+            <div class="center-header">
+                Эти пользователи посещали вашу страницу:
             </div>
-            <div class="online-persons">
+            <div class="center-content">
                 <div class="persons">
                     <a href="#" class="persons-item">
                         <span class="persons-item__content">
@@ -109,7 +121,44 @@
                     <a href="#" class="persons-item">
                         <span class="persons-item__content">
                             <span class="persons-item__image">
-                                <img src="/images/persons/girl1.jpg" alt="">
+                                <img src="/images/persons/girl2.jpg" alt="">
+                            </span>
+                            <span class="persons-item__info">
+                                <span class="persons-item__person">
+                                     <span class="name">Ольга, </span>
+                                     <span class="age">21 год, </span>
+                                     <span class="city">Москва</span>
+                                </span>
+                            <span class="online-status">
+                               Заходила вчера в&nbsp;20:54
+                            </span>
+                            <span class="person-status">
+                                <span>&star;</span> VIP
+                            </span>
+                        </span>
+                        </span>
+                    </a>
+                    <a href="#" class="persons-item">
+                        <span class="persons-item__content">
+                            <span class="persons-item__image">
+                                <img src="/images/persons/girl3.jpg" alt="">
+                            </span>
+                            <span class="persons-item__info">
+                                <span class="persons-item__person">
+                                <span class="name">Ольга, </span>
+                                <span class="age">21 год, </span>
+                                <span class="city">Москва</span>
+                            </span>
+                                <span class="online-status">
+                                    Заходила вчера в&nbsp;20:54
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <a href="#" class="persons-item">
+                        <span class="persons-item__content">
+                            <span class="persons-item__image">
+                                <img src="/images/persons/girl3.jpg" alt="">
                             </span>
                             <span class="persons-item__info">
                                 <span class="persons-item__person">
@@ -117,9 +166,26 @@
                                     <span class="age">21 год, </span>
                                     <span class="city">Москва</span>
                                 </span>
-                                <span class="online-status online">
-                                    online <span>&bull;</span>
+                                <span class="online-status">
+                               Заходила вчера в&nbsp;20:54
+                            </span>
+                            </span>
+                        </span>
+                    </a>
+                    <a href="#" class="persons-item">
+                        <span class="persons-item__content">
+                            <span class="persons-item__image">
+                                <img src="/images/persons/girl3.jpg" alt="">
+                            </span>
+                            <span class="persons-item__info">
+                                <span class="persons-item__person">
+                                    <span class="name">Ольга, </span>
+                                    <span class="age">21 год, </span>
+                                    <span class="city">Москва</span>
                                 </span>
+                                <span class="online-status">
+                               Заходила вчера в&nbsp;20:54
+                            </span>
                             </span>
                         </span>
                     </a>
@@ -143,52 +209,41 @@
                     <a href="#" class="persons-item">
                         <span class="persons-item__content">
                             <span class="persons-item__image">
-                                <img src="/images/persons/girl1.jpg" alt="">
+                                <img src="/images/persons/girl2.jpg" alt="">
                             </span>
                             <span class="persons-item__info">
                                 <span class="persons-item__person">
-                                    <span class="name">Ольга, </span>
-                                    <span class="age">21 год, </span>
-                                    <span class="city">Москва</span>
+                                     <span class="name">Ольга, </span>
+                                     <span class="age">21 год, </span>
+                                     <span class="city">Москва</span>
                                 </span>
-                                <span class="online-status online">
-                                    online <span>&bull;</span>
-                                </span>
+                            <span class="online-status">
+                               Заходила вчера в&nbsp;20:54
                             </span>
+                            <span class="person-status">
+                                <span>&star;</span> VIP
+                            </span>
+                        </span>
                         </span>
                     </a>
                     <a href="#" class="persons-item">
                         <span class="persons-item__content">
                             <span class="persons-item__image">
-                                <img src="/images/persons/girl1.jpg" alt="">
+                                <img src="/images/persons/girl2.jpg" alt="">
                             </span>
                             <span class="persons-item__info">
                                 <span class="persons-item__person">
-                                    <span class="name">Ольга, </span>
-                                    <span class="age">21 год, </span>
-                                    <span class="city">Москва</span>
+                                     <span class="name">Ольга, </span>
+                                     <span class="age">21 год, </span>
+                                     <span class="city">Москва</span>
                                 </span>
-                                <span class="online-status online">
-                                    online <span>&bull;</span>
-                                </span>
+                            <span class="online-status">
+                               Заходила вчера в&nbsp;20:54
+                            </span>
+                            <span class="person-status">
+                                <span>&star;</span> VIP
                             </span>
                         </span>
-                    </a>
-                    <a href="#" class="persons-item">
-                        <span class="persons-item__content">
-                            <span class="persons-item__image">
-                                <img src="/images/persons/girl1.jpg" alt="">
-                            </span>
-                            <span class="persons-item__info">
-                                <span class="persons-item__person">
-                                    <span class="name">Ольга, </span>
-                                    <span class="age">21 год, </span>
-                                    <span class="city">Москва</span>
-                                </span>
-                                <span class="online-status online">
-                                    online <span>&bull;</span>
-                                </span>
-                            </span>
                         </span>
                     </a>
                     <a href="#" class="persons-item">
@@ -261,52 +316,61 @@
                     </a>
                 </div>
             </div>
-            <div class="advantages">
-                <div class="advantages-title">
-                    <span>Contact City</span> - это новая платформа для знакомств, где вы найдёте:
+        </div>
+        <div class="sidebar-right">
+            <div class="sidebar-right__header">
+                <span>Объявления VIP</span>
+            </div>
+            <div class="vip-person">
+                <div class="vip-person__item">
+                    <div class="vip-person__image">
+                        <img src="/images/vip/men1.jpg" alt="">
+                    </div>
+                   <div class="vip-person__info">
+                       <div class="vip-person__title">
+                           Ишу девушку-секретаря
+                       </div>
+                       <div class="vip-person__price">
+                           60.000 руб.
+                       </div>
+                       <div class="vip-person__description">
+                           Возьму на работу в свой офис
+                           красивую девушку на должность
+                           секретаря с дополнительными
+                           обязанностями. 21+, 3 размер
+                           груди.
+                       </div>
+                   </div>
                 </div>
-                <div class="advantages-content">
-                    <div class="advantages-item">
-                        <div class="advantages-icon">
-                            <img src="/images/advantages-icon/1.png" alt="">
-                        </div>
-                        <div class="advantages-text">
-                            Знакомство и общение с очаровательными
-                            девушками и успешными мужчинами
-                        </div>
+                <div class="vip-person__item">
+                    <div class="vip-person__image">
+                        <img src="/images/vip/men1.jpg" alt="">
                     </div>
-                    <div class="advantages-item">
-                        <div class="advantages-icon">
-                            <img src="/images/advantages-icon/2.png" alt="">
-                        </div>
-                        <div class="advantages-text">
-                            Выгодные встречи с проверенными людьми на
-                            добровольной основе и 100% конфиденциально
-                        </div>
-                    </div>
-                    <div class="advantages-item">
-                        <div class="advantages-icon">
-                            <img src="/images/advantages-icon/3.png" alt="">
-                        </div>
-                        <div class="advantages-text">
-                            Поиск людей по интересующим вас параметрам,
-                            размещение объявлений
-                        </div>
-                    </div>
-                    <div class="advantages-item">
-                        <button class="advantages-btn">
-                            Получить бесплатный доступ
-                        </button>
-                    </div>
+                   <div class="vip-person__info">
+                       <div class="vip-person__title">
+                           Ишу девушку-секретаря
+                       </div>
+                       <div class="vip-person__price">
+                           60.000 руб.
+                       </div>
+                       <div class="vip-person__description">
+                           Возьму на работу в свой офис
+                           красивую девушку на должность
+                           секретаря с дополнительными
+                           обязанностями. 21+, 3 размер
+                           груди.
+                       </div>
+                   </div>
                 </div>
+                <button class="vip-btn">
+                    <span>Стать VIP</span>
+                </button>
             </div>
         </div>
         <footer class="footer">
             <p>
-                © Contact City, 2017. Все материалы данного сайта являются объектами авторского права (в том числе
-                дизайн). Запрещается копирование, распространение (в том числе путем копирования
-                на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без согласия
-                правообладателя. Cайт не является публичной офертой.
+                © Contact City,  2017. Все материалы данного сайта являются объектами авторского права (в том числе дизайн). Запрещается копирование, распространение (в том числе путем копирования
+                на другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без согласия правообладателя. Cайт не является публичной офертой.
             </p>
         </footer>
     </div>

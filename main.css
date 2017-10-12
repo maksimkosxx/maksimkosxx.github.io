@@ -4,6 +4,11 @@
 
 
 @font-face {
+    font-family: HelveticaNeue;
+    src: url("/fonts/helvetica/HelveticaNeue.woff") format("woff"),
+    url("/fonts/helvetica/HelveticaNeue.ttf") format("truetype");
+}
+@font-face {
     font-family: HelveticaNeueThin;
     src: url("/fonts/helvetica/HelveticaNeue-Thin.woff") format("woff"),
     url("/fonts/helvetica/HelveticaNeue-Thin.ttf") format("truetype");
@@ -13,6 +18,11 @@
     font-family: HelveticaNeueLight;
     src: url("/fonts/helvetica/HelveticaNeue-Light.woff") format("woff"),
     url("/fonts/helvetica/HelveticaNeue-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: HelveticaNeueCondensedBold;
+    src: url("/fonts/helvetica/HelveticaNeue-CondensedBold.woff") format("woff"),
+    url("/fonts/helvetica/HelveticaNeue-CondensedBold.ttf") format("truetype");
 }
 
 @font-face {
@@ -48,6 +58,7 @@ a:hover {
 }
 
 .wrapper-content {
+    min-height: 100vh;
     background: #dfe4ed;
 }
 .content {
@@ -89,7 +100,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    max-width: 140px;
+    max-width: 130px;
 }
 .header-nav__item {
     font-size: 14px;
@@ -243,9 +254,157 @@ a:hover {
     font: 13px HelveticaNeueLight, sans-serif;
 }
 
-/* SIDEBAR LEFT end */
 
-/* VISITORS */
+.sidebar-auth {
+    margin-top: 40px;
+    color: #364050;
+}
+.sidebar-auth  label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.sidebar-auth  input,
+.registration-btn {
+    width: 100%;
+    margin-bottom: 12px;
+    height: 27px;
+    padding-left: 10px;
+    border: 1px solid #364050;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+.sidebar-auth  input[type="submit"],
+.registration-btn  {
+    display: inline-block;
+    height: 35px;
+    padding-left: 0;
+    border:none;
+    border-bottom: 4px solid #ba343d;
+    border-radius: 5px;
+    font: 16px HelveticaNeueLight, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+}
+.sidebar-auth  input[type="submit"]:hover,
+.registration-btn:hover {
+    background: #ba343d;
+    transition: all 0.2s linear;
+}
+.registration-btn {
+    text-align: center;
+    line-height: 32px;
+}
+.sidebar-auth input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0 5px 0 0;
+    border-radius: 0;
+}
+.sidebar-auth input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+    margin: 0;
+}
+
+ /* SIDEBAR LEFT end */
+
+
+/* MAIN PAGES BLOCK */
+
+.main {
+    width: 100%;
+    max-width: 780px;
+    margin-left: 10px;
+}
+.hero {
+    max-width: 100%;
+    position: relative;
+    min-height: 500px;
+    background: url("/images/hero/brunetka.jpg") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.hero-header {
+    padding: 15px 40px 15px 0;
+    font: 16px HelveticaNeueLight, sans-serif;
+    text-align: right;
+    background: rgba(54,64,80,0.5);
+    color: rgba(255,255,255,0.8);
+}
+.hero-form {
+    float: right;
+    max-width: 360px;
+    margin: 45px 30px 0 0;
+    color: #364050;
+}
+.hero-form__title {
+    margin-bottom: 25px;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-align: center;
+}
+
+.hero form {
+    max-width: 230px;
+    margin: 0 auto;
+}
+.hero form  label {
+    display: block;
+    margin: 0 0 3px 25px;
+    font-size: 15px;
+}
+.hero form input {
+    width: 100%;
+    margin-bottom: 3px;
+    height: 27px;
+    padding-left: 10px;
+    border: 1px solid #364050;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+.hero form  input[type="submit"]  {
+    display: inline-block;
+    height: 40px;
+    padding-left: 0;
+    margin-top: 15px;
+    border:none;
+    border-bottom: 4px solid #ba343d;
+    border-radius: 5px;
+    font: 16px HelveticaNeueLight, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+}
+.hero form  input[type="submit"]:hover {
+    background: #ba343d;
+    transition: all 0.2s linear;
+}
+.hero-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0 15px 40px;
+    font: 16px HelveticaNeueLight, sans-serif;
+    text-align: left;
+    background: rgba(122,122,122,0.5);
+    color: rgba(255,255,255,0.8);
+}
+
+/* MAIN PAGES BLOCK end */
+
+
+
+
+/* PERSONS */
 
 .center {
     max-width: 570px;
@@ -261,33 +420,38 @@ a:hover {
     font: 18px HelveticaNeueLight, sans-serif;
     background: #f9f9f9;
 }
-.visitors {
+.online-persons {
+    background: #ffffff;
+}
+.persons {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     padding: 10px;
 }
-.visitors-item {
+.persons-item {
     display: block;
-    max-width: 21%;
+    width: 21%;
+    max-width: 130px;
     padding: 10px;
     color: #364050;
     background: #fff;
 }
 
-.visitors-item:hover .visitors-item__image {
+.persons-item:hover .persons-item__image {
     filter: contrast(0.67)saturate(2.5) hue-rotate(-30deg) sepia(0.4);
     transition: all 0.2s linear;
 }
-.visitors-item__image {
+.persons-item__image {
     display: block;
 
 }
-.visitors-item__image img {
+.persons-item__image img {
     display: block;
     width: 100%;
     height: 100%;
 }
-.visitors-item__info {
+.persons-item__info {
     display: block;
     min-height: 95px;
     padding: 0 10px 15px;
@@ -295,7 +459,7 @@ a:hover {
     font-size: 13px;
     background: #f9f9f9;
 }
-.visitors-item__person {
+.persons-item__person {
     display: block;
     margin-bottom: 5px;
     padding-top: 10px;
@@ -323,7 +487,75 @@ a:hover {
 }
 
 
-/* VISITORS end */
+/* PERSONS end */
+
+
+/* ADVANTAGES */
+
+.advantages {
+    margin: 20px 0 30px;
+    padding: 30px 20px;
+    background: #ffffff;
+    color: #364050;
+}
+.advantages-title {
+    margin-bottom: 25px;
+    font: 18px HelveticaNeueLight, sans-serif;
+    text-align: center;
+}
+.advantages-title span {
+    font-family: HelveticaNeueCondensedBold, sans-serif;
+}
+.advantages-content {
+    max-width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.advantages-item {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.advantages-icon {
+    float: left;
+    margin-right: 15px;
+}
+.advantages-icon img {
+    display: inline-block;
+    max-width: 30px;
+    max-height: 24px;
+}
+.advantages-text {
+    float: left;
+    max-width: 85%;
+    font: 13px HelveticaNeue, sans-serif;
+}
+.advantages-btn  {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    height: 40px;
+    padding-left: 0;
+    margin-left: 40px;
+    border:none;
+    border-bottom: 4px solid #ba343d;
+    border-radius: 5px;
+    font: 14px HelveticaNeueLight, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+}
+.advantages-btn:hover {
+    background: #ba343d;
+    transition: all 0.2s linear;
+}
+
+
+
+
+/* ADVANTAGES end */
 
 
 /* SIDEBAR RIGHT */
