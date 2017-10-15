@@ -103,11 +103,18 @@ a:hover {
 .header-nav {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .header-nav__item {
-    padding: 0 10px;
+    padding: 25px 15px;
     font-size: 15px;
+}
+.header-nav__item span {
+    text-align: center;
+}
+.header-nav__item:hover {
+    background: #465264;
+    transition: background 0.2s linear;
 }
 .header-nav__number {
     position: relative;
@@ -129,7 +136,7 @@ a:hover {
     position: relative;
     text-align: right;
     cursor: pointer;
-    padding: 12px 0 12px 40px;
+    padding: 25px 20px;
 }
 .header-profile:hover {
     background: #465264;
@@ -194,9 +201,11 @@ a:hover {
     margin-top: 10px;
 }
 .sidebar-left__item {
+    padding: 3px 0;
     line-height: 25px;
     cursor: pointer;
 }
+
 .sidebar-left__item a {
     font-size: 15px;
     color: #364050;
