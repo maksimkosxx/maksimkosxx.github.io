@@ -1,19 +1,26 @@
 .field-search {
     width: 90%;
-    height: 25px;
-    padding-left: 28px;
+    padding: 8px 0 8px 24px;
     border: none;
     background: transparent;
-    font: 18px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueLight, sans-serif;
     color: #364050;
     outline: none;
     background: url("/images/messages/search.png") 0 center no-repeat;
     background-size: 15px;
 }
 .field-search::-webkit-input-placeholder {
+    font-size: 16px;
     color: #364050;
 }
-
+.field-search::-moz-placeholder {
+    font-size: 16px;
+    color: #364050;
+}
+.field-search:-ms-input-placeholder {
+    font-size: 16px;
+    color: #364050;
+}
 
 .messages-item {
     min-height: 80px;
@@ -36,10 +43,11 @@
 .message-info {
     float: left;
     width: 85%;
+    margin-top: 5px;
 
 }
 .message-header {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     overflow: hidden;
 }
 .message-header .name {
@@ -54,9 +62,11 @@
 }
 .message-time {
     float: right;
+
 }
 .message-text {
     max-width: 381px;
+    font: 14px/20px HelveticaNeueLight, sans-serif;
 }
 .message-answer {
     padding: 5px;
@@ -70,11 +80,9 @@
     width: 35px;
 }
 
-
-
 .sound-off {
     padding: 10px 0 10px 60px;
-    border-top: 1px solid #364050;
+    border-top: 0.07em solid rgba(54,64,80,0.5);
     font: 18px HelveticaNeueLight, sans-serif;
     cursor: pointer;
 }

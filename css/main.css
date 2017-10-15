@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: HelveticaNeue;
-    src: url("/fonts/helvetica/HelveticaNeue.woff") format("woff"),
-    url("/fonts/helvetica/HelveticaNeue.ttf") format("truetype");
+    src: url("/fonts/helvetica/HelveticaNeue.ttf") format("truetype"),
+    url("/fonts/helvetica/HelveticaNeue.woff") format("woff");
 }
 @font-face {
     font-family: HelveticaNeueThin;
-    src: url("/fonts/helvetica/HelveticaNeue-Thin.woff") format("woff"),
-    url("/fonts/helvetica/HelveticaNeue-Thin.ttf") format("truetype");
+    src: url("/fonts/helvetica/HelveticaNeue-Thin.ttf") format("truetype"),
+    url("/fonts/helvetica/HelveticaNeue-Thin.woff") format("woff");
 }
 
 @font-face {
     font-family: HelveticaNeueLight;
-    src: url("/fonts/helvetica/HelveticaNeue-Light.woff") format("woff"),
-    url("/fonts/helvetica/HelveticaNeue-Light.ttf") format("truetype");
+    src: url("/fonts/helvetica/HelveticaNeue-Light.ttf") format("truetype"),
+    url("/fonts/helvetica/HelveticaNeue-Light.woff") format("woff");
 }
 @font-face {
     font-family: HelveticaNeueCondensedBold;
@@ -42,6 +42,7 @@ body {
     padding: 0;
     font: 14px Tahoma, sans-serif;
     line-height: normal;
+    color: #364050;
 }
 
 ul {
@@ -68,7 +69,7 @@ a:hover {
     align-items: flex-start;
     max-width: 960px;
     margin: 0 auto;
-    padding: 30px 10px;
+    padding: 7px 10px 30px 10px;
     box-sizing: border-box;
 }
 
@@ -91,19 +92,22 @@ a:hover {
     box-sizing: border-box;
     color: #ffffff;
 }
-
+.header-logo {
+    width: 100%;
+    max-width: 145px;
+}
 .header-logo img {
     max-width: 60px;
+    margin-left: 5px;
 }
 .header-nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
 }
 .header-nav__item {
-    font-size: 14px;
+    padding: 0 10px;
+    font-size: 15px;
 }
 .header-nav__number {
     position: relative;
@@ -125,7 +129,11 @@ a:hover {
     position: relative;
     text-align: right;
     cursor: pointer;
-    padding: 12px 10px;
+    padding: 12px 0 12px 40px;
+}
+.header-profile:hover {
+    background: #465264;
+    transition: background 0.2s linear;
 }
 .header-profile.active {
     background: #465264;
@@ -139,7 +147,7 @@ a:hover {
 }
 .header-profile__name {
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .header-profile__arrow {
     width: 11px;
@@ -164,15 +172,10 @@ a:hover {
 .profile-list a {
     display: block;
     padding: 7px 0 7px 40px;
-    font-size: 14px;
+    font-size: 15px;
     color: #364050;
 }
-.profile-list li:first-child a {
-    padding: 15px 0 7px 40px;
-}
-.profile-list li:last-child a {
-    padding: 7px 0 15px 40px;
-}
+
 .profile-list a:hover {
     background: #eee;
     transition: all 0.2s linear;
@@ -188,14 +191,14 @@ a:hover {
 
 .sidebar-left {
     max-width: 150px;
-    margin: 10px 0 0 0;
+    margin-top: 10px;
 }
 .sidebar-left__item {
-    line-height: 30px;
+    line-height: 25px;
     cursor: pointer;
 }
 .sidebar-left__item a {
-    font-size: 14px;
+    font-size: 15px;
     color: #364050;
 }
 .sidebar-left__item.item--special a {
@@ -207,9 +210,8 @@ a:hover {
 .sidebar-left__item.item--special a::after {
     content: '\2605';
     display: inline-block;
-    vertical-align: middle;
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .sidebar-left__item:hover a {
@@ -217,17 +219,15 @@ a:hover {
     transition: all 0.2s linear;
 }
 .sidebar-left__item .count {
-    position: relative;
-    top: -2px;
-    display: inline-block;
-    margin-left: 8px;
-    padding: 2px 4px;
-    border-radius: 3px;
-    font: 13px HelveticaNeueLight, sans-serif;
+    float: right;
+    margin: 4px 0 0 8px;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font: 12px HelveticaNeue, sans-serif;
     background: #bec7d7;
 }
 .advertising {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .advertising-item {
     display: block;
@@ -246,17 +246,17 @@ a:hover {
     font-size: 15px;
 }
 .advertising-item__link {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-size: 14px;
     color: #b0b4bc;
 }
 .advertising-item__description {
-    font: 13px HelveticaNeueLight, sans-serif;
+    font: 12px HelveticaNeueLight, sans-serif;
 }
 
 
 .sidebar-auth {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #364050;
 }
 .sidebar-auth  label {
@@ -266,34 +266,39 @@ a:hover {
 .sidebar-auth  input,
 .registration-btn {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     height: 27px;
     padding-left: 10px;
     border: 1px solid #364050;
     background: #ffffff;
     box-sizing: border-box;
 }
+.sidebar-auth  input[type="submit"] {
+    margin-top: 5px;
+}
 .sidebar-auth  input[type="submit"],
 .registration-btn  {
     display: inline-block;
     height: 35px;
-    padding-left: 0;
+    padding: 0;
     border:none;
-    border-bottom: 4px solid #ba343d;
+    border-bottom: 4px solid #d53a42;
     border-radius: 5px;
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueThin, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: #ffffff;
     background: #e94c3e;
     cursor: pointer;
+    outline: none;
 }
 .sidebar-auth  input[type="submit"]:hover,
 .registration-btn:hover {
-    background: #ba343d;
+    background: #de4638;
     transition: all 0.2s linear;
 }
 .registration-btn {
+    margin-bottom: 10px;
     text-align: center;
     line-height: 32px;
 }
@@ -305,12 +310,15 @@ a:hover {
     padding: 0;
     margin: 0 5px 0 0;
     border-radius: 0;
+    border: 1px solid #364050;
+    background: #ffffff;
 }
 .sidebar-auth input[type="checkbox"] + label {
     display: inline-block;
     vertical-align: middle;
     line-height: 15px;
     margin: 0;
+    font-size: 13px;
 }
 
  /* SIDEBAR LEFT end */
@@ -371,20 +379,21 @@ a:hover {
 .hero form  input[type="submit"]  {
     display: inline-block;
     height: 40px;
-    padding-left: 0;
+    padding: 0;
     margin-top: 15px;
     border:none;
-    border-bottom: 4px solid #ba343d;
+    border-bottom: 4px solid #d53a42;
     border-radius: 5px;
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueThin, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: #ffffff;
     background: #e94c3e;
     cursor: pointer;
+    outline: none;
 }
 .hero form  input[type="submit"]:hover {
-    background: #ba343d;
+    background: #ce584f;
     transition: all 0.2s linear;
 }
 .hero-footer {
@@ -407,18 +416,27 @@ a:hover {
 /* PERSONS */
 
 .center {
-    max-width: 570px;
+    max-width: 565px;
     width: 80%;
-    margin: 10px 10px 0 10px;
+    margin: 0 10px 0 15px;
     background: #ffffff;
     color: #364050;
     overflow: hidden;
 }
 .center-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding: 15px 0 20px 40px;
+    min-height: 45px;
+    padding: 6px 0 6px 40px;
+    box-sizing: border-box;
     font: 18px HelveticaNeueLight, sans-serif;
     background: #f9f9f9;
+}
+.visitors-title {
+    padding: 5px 0;
 }
 .online-persons {
     background: #ffffff;
@@ -453,11 +471,14 @@ a:hover {
 }
 .persons-item__info {
     display: block;
-    min-height: 95px;
-    padding: 0 10px 15px;
+    min-height: 87px;
+    padding: 0 9px 15px;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 11px;
     background: #f9f9f9;
+}
+.online-persons .persons-item__info {
+    min-height: inherit;
 }
 .persons-item__person {
     display: block;
@@ -477,7 +498,8 @@ a:hover {
 }
 .person-status {
     float: right;
-    font: 14px HelveticaNeueLight, sans-serif;
+    letter-spacing: 0.5px;
+    font: 13px HelveticaNeueLight, sans-serif;
 }
 .person-status span {
     display: inline-block;
@@ -493,7 +515,7 @@ a:hover {
 /* ADVANTAGES */
 
 .advantages {
-    margin: 20px 0 30px;
+    margin: 7px 0 30px;
     padding: 30px 20px;
     background: #ffffff;
     color: #364050;
@@ -531,24 +553,25 @@ a:hover {
     font: 13px HelveticaNeue, sans-serif;
 }
 .advantages-btn  {
+    display: inline-block;
     width: 100%;
     max-width: 300px;
-    display: inline-block;
     height: 40px;
-    padding-left: 0;
     margin-left: 40px;
+    padding: 0;
     border:none;
-    border-bottom: 4px solid #ba343d;
+    border-bottom: 4px solid #d53a42;
     border-radius: 5px;
-    font: 14px HelveticaNeueLight, sans-serif;
+    font: 14px HelveticaNeueThin, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: #ffffff;
     background: #e94c3e;
     cursor: pointer;
+    outline: none;
 }
 .advantages-btn:hover {
-    background: #ba343d;
+    background: #de4638;
     transition: all 0.2s linear;
 }
 
@@ -563,7 +586,6 @@ a:hover {
 .sidebar-right {
     width: 30%;
     max-width: 200px;
-    margin-top: 10px;
 }
 .sidebar-right img {
     display: block;
@@ -571,7 +593,9 @@ a:hover {
 }
 .sidebar-right__header {
     width: 100%;
-    padding: 15px 0 20px 0;
+    min-height: 45px;
+    padding: 11px 0;
+    box-sizing: border-box;
     font: 18px HelveticaNeueLight, sans-serif;
     text-align: center;
     background: #f9f9f9;
@@ -630,24 +654,27 @@ a:hover {
     color: #b0b4bc;
 }
 .vip-person__description {
-    font: 14px HelveticaNeueLight, sans-serif;
+    font: 12px HelveticaNeueLight, sans-serif;
 }
 .vip-btn {
     display: block;
     width: 80%;
-    height: 47px;
+    height: 43px;
     margin: 15px auto;
-    font: 18px HelveticaNeueLight, sans-serif;
+    padding: 0 0 0 8px;
     border:none;
-    border-bottom: 4px solid #ba343d;
+    border-bottom: 4px solid #d53a42;
     border-radius: 5px;
+    font: 16px HelveticaNeueThin, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
     color: #ffffff;
     background: #e94c3e;
     cursor: pointer;
+    outline: none;
 }
 .vip-btn:hover {
-    background: #ba343d;
+    background: #de4638;
     transition: all 0.2s linear;
 }
 .vip-btn span {

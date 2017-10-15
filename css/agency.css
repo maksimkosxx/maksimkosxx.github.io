@@ -1,0 +1,238 @@
+.agency {
+    min-height: 663px;
+    background: #fff;
+}
+
+.agency-hero {
+    height: 230px;
+    padding: 120px 0 0 30px;
+    box-sizing: border-box;
+    background: url("/images/agency/agensy-hero.png") center no-repeat;
+    background-size: cover;
+
+}
+
+.agency-info {
+    max-width: 230px;
+    font-family: HelveticaNeueLight, sans-serif;
+}
+
+.agency-hero__title {
+    background: #fff;
+    margin: 0 0 15px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.agency-hero__description div {
+    padding: 0 5px;
+    margin: 3px 0;
+    background: #fff;
+    font-size: 14px;
+}
+
+.agency-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 15px 20px 30px;
+}
+
+.agency-column:first-of-type {
+    width: 50%;
+}
+
+.agency-column:last-of-type {
+    width: 47%;
+    height: 480px;
+    border: 1px solid #364050;
+}
+
+.agency-column__text p {
+    margin-top: 0;
+    font: 12px/20px HelveticaNeue, sans-serif;
+}
+
+.agency-column__line {
+    height: 1px;
+    margin: 12px 0 15px;
+    background: #364050;
+}
+
+.agency-column__notice {
+    font: 12px/18px HelveticaNeueLight, sans-serif;
+}
+
+.btn-question {
+    width: 100%;
+    max-width: 190px;
+    height: 30px;
+    margin-top: 15px;
+    padding: 0;
+    border: none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-question:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}
+
+.agency-form__header {
+    min-height: 45px;
+    padding: 13px 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: #f9f9f9;
+    font: 14px HelveticaNeueLight, sans-serif;
+}
+
+.agency-form form {
+    padding: 10px;
+
+}
+
+.agency-form__row {
+    margin-bottom: 20px;
+}
+
+.agency-form input,
+.agency-form textarea {
+    height: 26px;
+    padding: 0 5px;
+    border: 1px solid #364050;
+    box-sizing: border-box;
+    outline: none;
+    background: #ffffff;
+}
+
+.agency-form label {
+    font-size: 12px;
+}
+
+.agency-form .field-age,
+.agency-form .field-bust {
+    max-width: 40px;
+}
+
+.agency-form .field-age {
+    margin-right: 5px;
+}
+
+.agency-form .field-options {
+    max-width: 70px;
+    margin-right: 5px;
+}
+
+.agency-form .field-height {
+    max-width: 40px;
+}
+
+.agency-form input::-webkit-input-placeholder,
+.agency-form textarea::-webkit-input-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.agency-form input::-moz-placeholder,
+.agency-form textarea::-moz-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.agency-form input:-ms-input-placeholder,
+.agency-form textarea:-ms-input-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.agency-form__cell {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.agency-form__cell:first-of-type {
+    max-width: 90px;
+}
+
+.agency-form__cell:last-of-type {
+    max-width: 130px;
+}
+
+.agency-form p {
+    margin: 0 0 5px;
+    font-size: 13px;
+}
+
+.agency-form__cell label {
+    display: inline-block;
+    width: 50px;
+    margin-left: 3px;
+    text-align: right;
+}
+
+.agency-form input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    padding: 0;
+    margin: 0 0 0 3px;
+    height: auto;
+    border: none;
+}
+
+.agency-form .label-city {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.agency-form .field-city {
+    max-width: 127px;
+    margin-left: 4px;
+}
+
+.label-target {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.agency-form textarea.field-target {
+    width: 100%;
+    min-height: 90px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.agency-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+    margin: 40px auto 0;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+
+.agency-form input[type="submit"]:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}

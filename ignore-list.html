@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/messages.css">
+    <link rel="stylesheet" href="/css/message-open.css">
+    <link rel="stylesheet" href="/css/ignore-list.css">
 
 
 </head>
@@ -35,7 +37,7 @@
         <div class="header-title">
             Сайт успешных знакомств
         </div>
-        <div class="header-profile active">
+        <div class="header-profile">
             <div class="header-profile__name">
                 Александра
             </div>
@@ -43,23 +45,6 @@
                 <img src="/images/header/avatar.png" alt="">
             </div>
             <div class="header-profile__arrow"></div>
-            <ul class="profile-list">
-                <li class="profile-list__item">
-                    <a href="#">Мой профиль</a>
-                </li>
-                <li class="profile-list__item">
-                    <a href="#">Настройки</a>
-                </li>
-                <li class="profile-list__item">
-                    <a href="#">Помощь</a>
-                </li>
-                <li class="profile-list__item">
-                    <a href="#">Игнор-лист</a>
-                </li>
-                <li class="profile-list__item">
-                    <a href="#">Выход</a>
-                </li>
-            </ul>
         </div>
 
     </header>
@@ -99,86 +84,21 @@
                         Все виды услуг. Скидка 20% до 31 октября! Жми!
                     </span>
                 </a>
-                <a href="#" class="advertising-item">
-                    <img src="/images/advertising/ad_img.jpg" alt="">
-                    <span class="advertising-item__title">
-                        Новый спа-салон в&nbsp;центре Москвы
-                    </span>
-                    <span class="advertising-item__link">
-                        newspa-moscow.ru
-                    </span>
-                    <span class="advertising-item__description">
-                        Спа-салон премиум класса в cамом сердце столицы.
-                        Все виды услуг. Скидка 20% до 31 октября! Жми!
-                    </span>
-                </a>
             </div>
         </div>
         <div class="center">
             <div class="center-header">
-                <input type="search" name="search" class="field-search" placeholder="Поиск">
+                <div class="ignore-buttons">
+                    <button class="btn btn--white">
+                        Черный список
+                    </button>
+                    <button class="btn btn--grey">
+                        Мой игнор-лист
+                    </button>
+                </div>
             </div>
             <div class="center-content">
                 <div class="messages">
-                    <div class="messages-item not-read">
-                        <div class="messages-photo">
-                            <img src="/images/messages/devushka-messages.png" alt="">
-                        </div>
-                        <div class="message-info">
-                           <div class="message-header">
-                               <div class="name">
-                                   Евгения Прекрасная
-                               </div>
-                               <div class="online-status online">
-                                    online <span>&bull;</span>
-                               </div>
-                               <div class="message-time">14:28</div>
-                           </div>
-                           <div class="message-text">
-                                Привет, хочу познакомиться! Напиши мне...
-                            </div>
-                        </div>
-                    </div>
-                    <div class="messages-item not-read">
-                        <div class="messages-photo">
-                            <img src="/images/messages/devushka-messages.png" alt="">
-                        </div>
-                        <div class="message-info">
-                           <div class="message-header">
-                               <div class="name">
-                                   Евгения Прекрасная
-                               </div>
-                               <div class="online-status online">
-                                    online <span>&bull;</span>
-                               </div>
-                               <div class="message-time">14:28</div>
-                           </div>
-                           <div class="message-text">
-                                Привет, хочу познакомиться! Напиши мне...
-                            </div>
-                        </div>
-                    </div>
-                    <div class="messages-item">
-                        <div class="messages-photo">
-                            <img src="/images/messages/devushka-messages.png" alt="">
-                        </div>
-                        <div class="message-info">
-                           <div class="message-header">
-                               <div class="name">
-                                   Евгения Прекрасная
-                               </div>
-                               <div class="message-time">14:28</div>
-                           </div>
-                           <div class="message-answer">
-                                <div class="photo-small">
-                                    <img src="/images/header/avatar.png" alt="">
-                                </div>
-                               <div class="message-text">
-                                   Рада познакомиться! Напиши мне, пожалуйста, свой номер т...
-                               </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="messages-item">
                         <div class="messages-photo">
                             <img src="/images/messages/devushka-messages.png" alt="">
@@ -188,13 +108,11 @@
                                 <div class="name">
                                     Евгения Прекрасная
                                 </div>
-                                <div class="online-status online">
-                                    online <span>&bull;</span>
-                                </div>
-                                <div class="message-time">14:28</div>
+                                <div class="btn btn--remove__ignore">Убрать из игнор-листа</div>
                             </div>
                             <div class="message-text">
-                                Привет, хочу познакомиться! Напиши мне...
+                                <span class="message-age">21 год,</span>
+                                <span class="message-city">Москва</span>
                             </div>
                         </div>
                     </div>
@@ -207,29 +125,11 @@
                                 <div class="name">
                                     Евгения Прекрасная
                                 </div>
-                                <div class="message-time">14:28</div>
+                                <div class="btn btn--remove__ignore">Убрать из игнор-листа</div>
                             </div>
                             <div class="message-text">
-                                Привет, хочу познакомиться! Напиши мне...
-                            </div>
-                        </div>
-                    </div>
-                    <div class="messages-item not-read">
-                        <div class="messages-photo">
-                            <img src="/images/messages/devushka-messages.png" alt="">
-                        </div>
-                        <div class="message-info">
-                            <div class="message-header">
-                                <div class="name">
-                                    Евгения Прекрасная
-                                </div>
-                                <div class="online-status online">
-                                    online <span>&bull;</span>
-                                </div>
-                                <div class="message-time">14:28</div>
-                            </div>
-                            <div class="message-text">
-                                Привет, хочу познакомиться! Напиши мне...
+                                <span class="message-age">21 год,</span>
+                                <span class="message-city">Москва</span>
                             </div>
                         </div>
                     </div>
@@ -242,21 +142,31 @@
                                 <div class="name">
                                     Евгения Прекрасная
                                 </div>
-                                <div class="message-time">14:28</div>
+                                <div class="btn btn--remove__ignore">Убрать из игнор-листа</div>
                             </div>
-                            <div class="message-answer">
-                                <div class="photo-small">
-                                    <img src="/images/header/avatar.png" alt="">
-                                </div>
-                                <div class="message-text">
-                                    Рада познакомиться! Напиши мне, пожалуйста, свой номер т...
-                                </div>
+                            <div class="message-text">
+                                <span class="message-age">21 год,</span>
+                                <span class="message-city">Москва</span>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="sound-off">
-                    Отключить звуковые уведомления
+                    <div class="messages-item">
+                        <div class="messages-photo">
+                            <img src="/images/messages/devushka-messages.png" alt="">
+                        </div>
+                        <div class="message-info">
+                            <div class="message-header">
+                                <div class="name">
+                                    Евгения Прекрасная
+                                </div>
+                                <div class="btn btn--remove__ignore">Убрать из игнор-листа</div>
+                            </div>
+                            <div class="message-text">
+                                <span class="message-age">21 год,</span>
+                                <span class="message-city">Москва</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

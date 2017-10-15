@@ -1,0 +1,39 @@
+.ignore-buttons button {
+    padding: 5px 10px;
+    color: #364050;
+    cursor: pointer;
+}
+
+.btn--white {
+    margin: 0 5px;
+    border: 1px solid #364050;
+    background: transparent;
+}
+
+.btn--white:hover {
+    background: #364050;
+    color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+.btn--grey {
+    border: 1px solid #e9eef7;
+    background: #e9eef7;
+}
+
+.btn--grey:hover {
+    opacity: 0.7;
+    transition: all 0.2s linear;
+}
+
+
+.btn--remove__ignore {
+    float: right;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.btn--remove__ignore:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+}

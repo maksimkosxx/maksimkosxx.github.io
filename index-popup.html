@@ -12,6 +12,7 @@
     <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/popups.css">
 
 
 </head>
@@ -309,6 +310,57 @@
                 правообладателя. Cайт не является публичной офертой.
             </p>
         </footer>
+    </div>
+</div>
+
+<div class="popup-wrapper">
+    <div class="popup popup--registration">
+        <div class="popup-header">
+            Пройдите регистрацию, заполнив поля
+        </div>
+        <div class="popup-content">
+            <form action="#" method="post">
+                <div class="popup-form__row">
+
+                    <div class="popup-form__cell">
+                        <p>Как вас зовут:</p>
+                        <input type="text" name="city" class="field-name" placeholder="Фамилия и имя...">
+                    </div>
+
+                    <div class="popup-form__cell">
+                        <p>Ваш город:</p>
+                        <input type="text" name="city" class="field-city" placeholder="Введите город">
+                    </div>
+
+                </div>
+                <div class="popup-form__row">
+
+                    <div class="popup-form__cell">
+                        <p>Дата рождения:</p>
+                        <input type="text" name="birth" class="field-birth" placeholder="ДД.ММ.ГГГГ">
+                    </div>
+
+                    <div class="popup-form__cell">
+                        <p>Ваш пол:</p>
+                        <label for="to_men" class="checkbox-label">мужской</label>
+                        <input type="checkbox" id="to_men" name="to_men">
+                        <label for="to_girl" class="checkbox-label">женский</label>
+                        <input type="checkbox" id="to_girl" name="to_girl">
+                    </div>
+
+                </div>
+                <div class="popup-form__row">
+                    <div class="popup-form__cell">
+                        <p>Ваш e-mail:</p>
+                        <input type="text" name="mail" class="field-mail" placeholder="Введите e-mail">
+                    </div>
+                    <div class="popup-form__cell">
+                        <input type="submit" value="Пройти регистрацию">
+                    </div>
+                </div>
+                <a href="#" class="link-rules">Правила сайта Contact City</a>
+            </form>
+        </div>
     </div>
 </div>
 

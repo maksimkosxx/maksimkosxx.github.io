@@ -1,0 +1,116 @@
+.vip-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 10px 20px;
+    border: 1px solid #364050;
+    border-radius: 3px;
+}
+.vip-content .vip-person__item {
+    width: 31%;
+    margin: 10px 0;
+    background: #f9f9f9;
+}
+.vip-content .vip-person__item img {
+    max-width: 100%;
+}
+.vip-content .vip-person__info {
+    padding: 0 10px;
+    font-size: 13px;
+}
+.advansed-searсh {
+    border: 1px solid #364050;
+    border-radius: 3px;
+}
+.advansed-searсh__header {
+    padding: 13px 0;
+    min-height: 45px;
+    box-sizing: border-box;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+}
+.advansed-searсh__form {
+    padding: 15px 14px 25px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.advansed-searсh__form div {
+    margin-bottom: 15px;
+}
+.advansed-searсh__form div span:first-of-type {
+    display: inline-block;
+    margin-right: 10px;
+}
+.advansed-searсh__form p,
+.advansed-searсh__form label {
+    margin: 0 0 5px;
+    font: 13px HelveticaNeueLight, sans-serif;
+    color: #364050;
+}
+.advansed-searсh__form .checkbox-label {
+    margin: 0;
+    font-family: HelveticaNeue, sans-serif;
+}
+
+.advansed-searсh__form input {
+    border: 1px solid #364050;
+    outline: none;
+}
+.advansed-searсh__form input::-webkit-input-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.advansed-searсh__form input::-moz-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.advansed-searсh__form input:-ms-input-placeholder {
+    font: 14px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+.checkbox-label,
+.advansed-searсh__form input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+.advansed-searсh__form input[type="text"] {
+    width: 97%;
+    max-width: 165px;
+    height: 25px;
+    padding: 0 5px 0 8px;
+    box-sizing: border-box;
+}
+.advansed-searсh__form input[type="text"].field-age {
+    width: 37%;
+    max-width: 63px;
+}
+.advansed-searсh__form input[type="submit"] {
+    display: block;
+    width: 97%;
+    height: 40px;
+    margin: 25px auto 0;
+    box-sizing: border-box;
+    padding: 0;
+    border:none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+.checkbox-online {
+    margin-left: 3px;
+}
+.advansed-searсh__form input[type="submit"]:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}

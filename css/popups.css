@@ -1,0 +1,416 @@
+.popup-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: rgba(68, 73, 81, 0.6);
+    text-align: center;
+}
+
+.popup-wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.popup {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 630px;
+    border: 1px solid #364050;
+    border-radius: 3px;
+    text-align: left;
+    background: #ffffff;
+    font: 18px HelveticaNeueLight, sans-serif;
+}
+
+.popup-header {
+    min-height: 45px;
+    padding: 12px 0;
+    text-align: center;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+.popup-content {
+    padding: 15px 20px;
+}
+
+.popup-balance {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 77%;
+    max-width: 464px;
+    margin: 0 auto 15px;
+    padding: 0 5px 5px;
+    text-align: center;
+    border-bottom: 1px solid #364050;
+}
+
+.popup-balance__btn {
+    font: 14px Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.popup-balance__btn:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+}
+
+.popup-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.popup-info__title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.popup-info ul {
+    margin: 15px 0 30px 15px;
+    padding-left: 15px;
+    list-style: disc;
+    color: #eb5e51;
+}
+
+.popup-info ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    color: #364050;
+}
+
+.popup-accounts__title {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.popup-accounts__content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.accounts-item {
+    width: 100%;
+    max-width: 290px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #364050;
+}
+
+.accounts-item__title {
+    font-size: 20px;
+}
+
+.accounts-item__title span:first-of-type {
+    font-size: 30px;
+}
+
+.accounts-item__title span:last-of-type {
+    font: 16px Tahoma, sans-serif;
+}
+
+.accounts-item__price {
+    font-size: 20px;
+}
+
+.accounts-price {
+    font-size: 24px;
+    color: #15d311;
+}
+
+.accounts-price.price-red {
+    margin-left: 15px;
+    color: #e94c3e;
+}
+
+.accounts-price span {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    max-width: 40px;
+    margin: 5px 2px 0;
+}
+
+.accounts-price span span {
+    display: block;
+    font-size: 11px;
+    line-height: 9px;
+    margin: 0;
+}
+
+.accounts-price span span:first-of-type {
+    padding-bottom: 3px;
+    margin: 0;
+    border-bottom: 1px solid #15d311;
+}
+
+.accounts-price.price-red span span:first-of-type {
+    padding-bottom: 3px;
+    margin: 0;
+    border-bottom: 1px solid #e94c3e;
+}
+
+.accounts-item__btn {
+    width: 100%;
+    height: 38px;
+    margin-top: 12px;
+    padding: 0;
+    border: none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 16px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+
+.accounts-item__btn:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}
+
+.popup--sending .popup-content {
+    padding: 20px 40px;
+}
+
+.popup-form__header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.popup-form__column:first-of-type {
+    max-width: 110px;
+}
+
+.popup-form__column:nth-of-type(2) {
+    max-width: 190px;
+}
+
+.popup-form__column p {
+    margin: 0 0 5px;
+}
+
+.popup-form__column .checkbox-label {
+    width: 75px;
+    margin-left: 5px;
+    text-align: right;
+    font-family: HelveticaNeue, sans-serif;;
+}
+
+.popup-form__column input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    margin: 0 0 0 3px;
+    padding: 0;
+    bottom: 0;
+    height: auto;
+}
+
+.popup--sending input,
+.popup--sending textarea {
+    height: 26px;
+    padding: 0 5px 0 10px;
+    border: 1px solid #364050;
+    box-sizing: border-box;
+    outline: none;
+    background: #ffffff;
+}
+
+.popup-form__column .field-age {
+    max-width: 80px;
+}
+
+.popup-form__column .field-city {
+    max-width: 170px;
+}
+
+.popup--sending input::-webkit-input-placeholder,
+.popup--sending textarea::-webkit-input-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.popup--sending input::-moz-placeholder,
+.popup--sending textarea::-moz-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.popup--sending input:-ms-input-placeholder,
+.popup--sending textarea:-ms-input-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.popup-label {
+    display: block;
+    margin: 30px 0 10px;
+}
+
+.field-title {
+    display: block;
+    width: 99%;
+    margin-left: 5px;
+}
+.popup--sending textarea.field-text {
+    width: 99%;
+    min-height: 93px;
+    margin: 0 0 25px 5px;
+    padding-top: 10px;
+    resize: none;
+}
+.label-payment {
+    margin-right: 15px;
+}
+.field-payment {
+    max-width: 150px;
+}
+.popup--sending input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 290px;
+    height: 38px;
+    margin: 40px auto 0;
+    padding: 0;
+    border: none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 16px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+
+.popup--sending input[type="submit"]:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}
+
+
+
+.popup.popup--registration {
+    max-width: 560px;
+}
+.popup.popup--registration .popup-content {
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.popup--registration input,
+.popup--registration textarea {
+    height: 26px;
+    padding: 0 5px 0 10px;
+    border: 1px solid #364050;
+    box-sizing: border-box;
+    outline: none;
+    background: #ffffff;
+}
+
+.popup-form__column .field-age {
+    max-width: 80px;
+}
+
+.popup-form__column .field-city {
+    max-width: 170px;
+}
+
+.popup--registration input::-webkit-input-placeholder,
+.popup--registration textarea::-webkit-input-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.popup--registration input::-moz-placeholder,
+.popup--registration textarea::-moz-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+
+.popup--registration input:-ms-input-placeholder,
+.popup--registration textarea:-ms-input-placeholder {
+    font: 16px HelveticaNeueLight, sans-serif;
+    color: #979797;
+}
+.popup-form__row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto 20px;
+}
+
+.popup-form__row  p {
+    margin: 0 0 8px;
+}
+.popup-form__row  .field-name {
+    width: 190px;
+}
+.popup-form__row  .field-city {
+    width: 190px;
+}
+.popup-form__row input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    padding: 0;
+    border: none;
+}
+.popup-form__row .checkbox-label:last-of-type {
+    margin-left: 10px;
+}
+.popup--registration input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 234px;
+    height: 38px;
+    margin: 25px 0 0;
+    padding: 0 20px;
+    border: none;
+    border-bottom: 4px solid #d53a42;
+    border-radius: 5px;
+    font: 14px HelveticaNeueThin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #e94c3e;
+    cursor: pointer;
+    outline: none;
+}
+
+.popup--registration input[type="submit"]:hover {
+    background: #de4638;
+    transition: all 0.2s linear;
+}
+
+.link-rules {
+    display: block;
+    margin: 30px 0 0;
+    text-align: center;
+    color: #364050;
+    font: 14px Tahoma, sans-serif;
+}
+.link-rules:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+}
+

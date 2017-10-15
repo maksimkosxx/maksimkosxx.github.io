@@ -1,0 +1,51 @@
+.search--black-list {
+    width: 47%;
+    padding: 5px 0 5px 35px;
+    margin: 0 20px 0 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-position: 10px center;
+}
+.content--black-list {
+    min-height: 500px;
+}
+.black-list__content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 40px 20px;
+}
+.black-list__item {
+    width: 33%;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.black-list__photo {
+    float: left;
+    height: 100%;
+    margin-right: 13px;
+}
+
+.black-list__photo img {
+    width: 40px;
+}
+
+.black-list__info {
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.black-list__info .name {
+    margin-top: 3px;
+}
+
+.complain {
+    margin-top: 5px;
+    color: #e94c3e;
+    cursor: pointer;
+}
+
+.complain:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+}
