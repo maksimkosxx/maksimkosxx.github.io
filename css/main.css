@@ -133,10 +133,11 @@ a:hover {
     color: #606772;
 }
 .header-profile {
+    display: block;
     position: relative;
     text-align: right;
     cursor: pointer;
-    padding: 25px 20px;
+    padding: 12px 20px;
 }
 .header-profile:hover {
     background: #465264;
