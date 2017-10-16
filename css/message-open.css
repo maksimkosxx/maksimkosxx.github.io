@@ -21,8 +21,8 @@
     vertical-align: middle;
     width: 100%;
     max-width: 278px;
-    height: auto;
-    padding: 5px 15px 5px 32px;
+    height: 29px;
+    padding: 0 15px 0 32px;
     background: #fff url(/images/messages/search.png) 10px 53% no-repeat;
     background-size: 15px;
     border: 1px solid #364050;
@@ -37,8 +37,10 @@
     outline: none;
 }
 .messages {
-    min-height: 500px;
+    height: calc(100vh - 190px);
+    overflow: auto;
 }
+
 .messages-item.message--answer {
     background: #e9eef7;
 }

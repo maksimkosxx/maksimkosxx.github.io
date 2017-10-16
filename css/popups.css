@@ -306,8 +306,6 @@
     transition: all 0.2s linear;
 }
 
-
-
 .popup.popup--registration {
     max-width: 560px;
 }
@@ -335,7 +333,7 @@
 
 .popup--registration input::-webkit-input-placeholder,
 .popup--registration textarea::-webkit-input-placeholder {
-    font: 16px HelveticaNeueLight, sans-serif;
+    font: 14px/16px HelveticaNeueLight, sans-serif;
     color: #979797;
 }
 
@@ -383,7 +381,7 @@
     width: 100%;
     max-width: 234px;
     height: 38px;
-    margin: 25px 0 0;
+    margin: 30px auto 0;
     padding: 0 20px;
     border: none;
     border-bottom: 4px solid #d53a42;

@@ -1,11 +1,13 @@
 .field-search {
     width: 90%;
-    padding: 8px 0 8px 24px;
+    height: 33px;
+    padding: 0 0 0 24px;
     border: none;
     background: transparent;
     font: 14px HelveticaNeueLight, sans-serif;
     color: #364050;
     outline: none;
+    box-sizing: border-box;
     background: url("/images/messages/search.png") 0 center no-repeat;
     background-size: 15px;
 }
@@ -21,13 +23,19 @@
     font-size: 16px;
     color: #364050;
 }
+.messages {
+    height: calc(100vh - 190px);
+    overflow: auto;
+}
 
 .messages-item {
+    display: block;
     min-height: 80px;
     padding: 20px 40px;
     box-sizing: border-box;
     overflow: hidden;
     cursor: pointer;
+    color: #364050;
 }
 .messages-item.not-read {
     background: #e9eef7;
@@ -81,8 +89,12 @@
 }
 
 .sound-off {
-    padding: 10px 0 10px 60px;
+    padding: 15px 0 15px 60px;
     border-top: 0.07em solid rgba(54,64,80,0.5);
     font: 18px HelveticaNeueLight, sans-serif;
     cursor: pointer;
+}
+.sound-off:hover {
+    background: #eee;
+    transition: background 0.2s linear;
 }

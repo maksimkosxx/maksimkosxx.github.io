@@ -59,7 +59,6 @@ a:hover {
 }
 
 .wrapper-content {
-    min-height: 100vh;
     background: #dfe4ed;
 }
 .content {
@@ -86,32 +85,32 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     max-width: 960px;
-    min-height: 70px;
+    min-height: 83px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 10px;
     box-sizing: border-box;
     color: #ffffff;
 }
-.header-logo {
-    width: 100%;
-    max-width: 145px;
-}
+
 .header-logo img {
     max-width: 60px;
     margin-left: 5px;
 }
 .header-nav {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    margin-left: 25px;
 }
 .header-nav__item {
-    padding: 25px 15px;
+    display: inline-block;
+    padding: 10px;
     font-size: 15px;
-}
-.header-nav__item span {
     text-align: center;
 }
+
 .header-nav__item:hover {
     background: #465264;
     transition: background 0.2s linear;
@@ -128,17 +127,18 @@ a:hover {
     color: #364050;
 }
 .header-title {
-    font-size: 27px;
+    font-size: 25px;
     font-family: SnellRoundhandBold, sans-serif;
     color: #606772;
 }
 .header-profile {
-    display: block;
+    padding: 10px;
+    box-sizing: border-box;
     position: relative;
     text-align: right;
     cursor: pointer;
-    padding: 12px 20px;
 }
+
 .header-profile:hover {
     background: #465264;
     transition: background 0.2s linear;
@@ -146,6 +146,19 @@ a:hover {
 .header-profile.active {
     background: #465264;
 }
+.header-registration {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header-registration:hover {
+    background: #465264;
+    transition: background 0.2s linear;
+}
+
 .header-profile div {
     display: inline-block;
     vertical-align: middle;
@@ -166,7 +179,7 @@ a:hover {
 }
 .profile-list {
     position: absolute;
-    top: 68px;
+    top: 64px;
     left: 0;
     display: block;
     width: 100%;
