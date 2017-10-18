@@ -741,11 +741,11 @@ a:active {
 .how-work::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -60px;
     left: 0;
     right: 0;
     width: 3px;
-    height: 17vh;
+    height: 190px;
     border: solid 4px #006e7d;
     margin: auto;
 }
@@ -833,11 +833,11 @@ a:active {
 
 .team-block .btn {
     display: block;
-    height: 50px;
-    max-width: 260px;
+    height: 70px;
+    max-width: 300px;
     margin: 30px auto 0;
     text-align: center;
-    line-height: 25px;
+    font: 25px/43px RobotoSlabRegular, sans-serif;
 }
 
 .faq {
