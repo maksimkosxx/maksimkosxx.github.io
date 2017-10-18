@@ -1022,6 +1022,9 @@ a:active {
     .efirium ul li {
         width: 100%;
     }
+    .efirium-btn {
+        margin: 40px auto 0;
+    }
 
     .mobile-btn {
         position: relative;
