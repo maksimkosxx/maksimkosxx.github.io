@@ -1083,6 +1083,9 @@ a:active {
     .header-btn {
         justify-content: flex-start;
     }
+    .header-btn a {
+        margin-left: 15px;
+    }
 
     .header-btn button.btn {
         width: 40%;
