@@ -1000,7 +1000,8 @@ a:active {
     }
 
     .how-work::after {
-        bottom: -35px;
+        bottom: -9%;
+        height: 150px;
     }
 
     .partnership-image {
