@@ -1172,13 +1172,15 @@ a:active {
     }
 
     .how-work::after {
-        bottom: -30px;
-        height: 100px;
+        bottom: -12%;
+        left: 5%;
+        height: 150px;
+    }
+    .efirium-btn {
+        margin: 40px auto 0;
     }
 
-    .partnership-title {
-        text-align: left;
-    }
+
 
     .nav.nav-tabs {
         margin-top: 50px;
