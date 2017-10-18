@@ -286,11 +286,14 @@ a:active {
 
 .hero-title {
     margin-top: 30px;
-    font: 100px/118px RobotoSlabRegular, sans-serif;
+    font: 90px/118px RobotoSlabBold, sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
+.hero-description {
+    margin-top: 20px;
+    font: 18px/25px RobotoSlabRegular, sans-serif;
+}
 .hero a.btn:active, .hero a.btn:focus {
     color: #fff;
 }
@@ -394,49 +397,8 @@ a:active {
 }
 
 .thesis-item__description {
-    font-size: 16px;
-    line-height: 23px;
+    font: 16px/23px RobotoSlabRegular, sans-serif;
 }
-
-/*.advantages {*/
-/*padding: 7vh 0 6vh;*/
-/*background: #f4f4f4;*/
-/*}*/
-
-/*.advantages-content {*/
-/*display: flex;*/
-/*flex-flow: row wrap;*/
-/*justify-content: center;*/
-/*}*/
-
-/*.advantages-item {*/
-/*min-height: 320px;*/
-/*margin-bottom: 20px;*/
-/*text-align: center;*/
-/*}*/
-
-/*.advantages-item__icon {*/
-/*display: flex;*/
-/*flex-flow: row wrap;*/
-/*justify-content: center;*/
-/*align-items: center;*/
-/*min-height: 136px;*/
-/*}*/
-
-/*.advantages-item__icon img {*/
-/*max-height: 136px;*/
-/*}*/
-
-/*.advantages-item__title {*/
-/*margin: 15px 0;*/
-/*font: 20px/26px RobotoSlabBold, sans-serif;*/
-/*color: #336e7b;*/
-/*}*/
-
-/*.advantages-item__description {*/
-/*font-size: 16px;*/
-/*line-height: 23px;*/
-/*}*/
 
 .lessons {
     padding: 7vh 0 9vh;
@@ -520,11 +482,10 @@ a:active {
 }
 
 .partner-advantages__item .description {
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
+    font: 14px/25px RobotoSlabRegular, sans-serif;
+    text-align: justify;
 }
 
 .partner-text {
@@ -534,8 +495,7 @@ a:active {
 .partner-text p,
 .partner-table__text p {
     margin: 20px 0;
-    font-size: 16px;
-    line-height: 25px;
+    font: 16px/25px RobotoSlabRegular, sans-serif;
 }
 
 .partner-text p span,
@@ -614,17 +574,24 @@ a:active {
     color: #ffffff;
 }
 
+.modal .close {
+    opacity: 0.3;
+    font-size: 30px;
+
+}
 .modal-partner .close {
     opacity: 0.8;
-    font-size: 30px;
     color: #ffffff;
+
 }
 
 .modal-partner .modal-header,
 .modal-partner .modal-body {
     background: #336e7b;
 }
-
+.modal-partner h2 {
+    margin-left: 15px;
+}
 .modal-partner .modal-body {
     padding: 20px;
 }
@@ -634,18 +601,19 @@ a:active {
 }
 
 .efirium-title {
-    font-size: 47px;
+    font-size: 41px;
 }
 
 .efirium-content {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
 .efirium-text {
-    font-size: 16px;
-    line-height: 23px;
+    font: 16px/23px RobotoSlabRegular, sans-serif;
+
 }
 
 .efirium-text p {
@@ -657,7 +625,7 @@ a:active {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0 20px 80px;
+    margin: 20px 0 20px 30px;
     list-style: disc;
     color: #336e7b;
 }
@@ -671,6 +639,7 @@ a:active {
     display: inline-block;
     vertical-align: middle;
     color: #404040;
+    font-size: 15px;
 }
 
 .efirium-btn {
@@ -772,7 +741,7 @@ a:active {
 .how-work::after {
     content: '';
     position: absolute;
-    bottom: -80px;
+    bottom: 0;
     left: 0;
     right: 0;
     width: 3px;
@@ -800,8 +769,7 @@ a:active {
 
 .how-work__text p {
     margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 23px;
+    font: 16px/23px RobotoSlabRegular, sans-serif;
 }
 
 .how-work__btn {
@@ -810,6 +778,16 @@ a:active {
     height: 43px;
     margin-top: 30px;
     border-radius: 5px;
+}
+.modal-dialog.modal--how {
+    width: 80%;
+}
+.modal-dialog h4 {
+    margin-left: 5px;
+}
+.modal--how .modal-body{
+    padding: 20px;
+    font: 16px/23px RobotoSlabRegular, sans-serif;
 }
 
 .team-block {
@@ -853,12 +831,13 @@ a:active {
     line-height: 23px;
 }
 
-.team-btn {
+.team-block .btn {
     display: block;
-    width: 100%;
-    height: 43px;
-    max-width: 235px;
+    height: 50px;
+    max-width: 260px;
     margin: 30px auto 0;
+    text-align: center;
+    line-height: 25px;
 }
 
 .faq {
@@ -900,6 +879,7 @@ a:active {
 .faq-item__answer {
     margin-left: 20px;
     padding-left: 20px;
+    font: 16px/23px RobotoSlabRegular, sans-serif;
     border-left: 3px solid #ffe26d;
 }
 

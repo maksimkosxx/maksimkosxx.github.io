@@ -133,6 +133,7 @@ body {
 }
 @media (max-width: 1500px) and (min-width: 1025px){
     .wrapper {
+        padding: 20px 0;
         background: #336e7b url(/src/images/lines.png) center -80% no-repeat;
     }
     .wrapper-register h2 {
@@ -155,6 +156,7 @@ body {
 
     .register-text {
         font-size: 18px;
+        line-height: 25px;
     }
     .social a {
         max-width: 100px;
