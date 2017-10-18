@@ -1,0 +1,225 @@
+@font-face {
+    font-family: RobotoSlabRegular;
+    src: url("/src/fonts/RobotoSlab/RobotoSlab-Regular.ttf");
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font: 14px RobotoSlabRegular, sans-serif;
+    line-height: normal;
+    color: rgba(255,255,255,0.9);
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: #336e7b url(/src/images/lines.png) center 130% no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+.wrapper::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.wrapper-register {
+    display: inline-block;
+    vertical-align: middle;
+}
+.wrapper-register .logo img {
+    width: 150px;
+    opacity: 0.9;
+}
+.wrapper-register h2 {
+    margin: 45px 0 60px;
+    font: 50px/60px RobotoSlabRegular, sans-serif;
+}
+.wrapper-register form {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.wrapper-register input[type="text"] {
+    width: 90%;
+    max-width: 400px;
+    min-height: 65px;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 27px;
+    outline: none;
+    color: #fff;
+    background: rgba(255,255,255,0.7);
+    font-family: RobotoSlabRegular,sans-serif;
+}
+
+
+.wrapper-register input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+}
+.wrapper-register input[type="text"]::-moz-placeholder {
+    color: #fff;
+}
+.wrapper-register input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+}
+.wrapper-register input[type="text"]:hover::-webkit-input-placeholder {
+    color: transparent;
+    transition: all 0.2s linear;
+}
+.wrapper-register input[type="text"]:hover::-moz-placeholder{
+    color: transparent;
+    transition: all 0.2s linear;
+}
+.wrapper-register input[type="text"]:hover:-ms-input-placeholder {
+    color: transparent;
+    transition: all 0.2s linear;
+}
+.wrapper-register input[type="submit"] {
+    width: 90%;
+    max-width: 230px;
+    min-height: 65px;
+    padding: 0 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 27px;
+    font-family: RobotoSlabRegular,sans-serif;
+    outline: none;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.wrapper-register input[type="submit"]:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear;
+}
+.register-text {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 50px auto 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    line-height: 40px;
+}
+.social {
+    margin-top: 50px;
+}
+.social a {
+    display: inline-block;
+    max-width: 150px;
+    max-height: 100px;
+    margin: 0 10px;
+}
+.social a:first-child img {
+    max-height: 90px;
+}
+.social a:hover {
+    opacity: 0.5;
+    transition: all 0.2s linear;
+}
+.social img {
+    display: inline-block;
+    max-height: 100px;
+    opacity: 0.9;
+}
+@media (max-width: 1500px) and (min-width: 1025px){
+    .wrapper {
+        background: #336e7b url(/src/images/lines.png) center -80% no-repeat;
+    }
+    .wrapper-register h2 {
+        margin: 30px 0 45px;
+        font: 35px/45px RobotoSlabRegular, sans-serif;
+    }
+    .wrapper-register .logo img {
+        width: 100px;
+    }
+    .wrapper-register input[type="text"] {
+        max-width: 300px;
+        min-height: 50px;
+        font-size: 22px;
+    }
+    .wrapper-register input[type="submit"] {
+        max-width: 180px;
+        min-height: 50px;
+        font-size: 22px;
+    }
+
+    .register-text {
+        font-size: 18px;
+    }
+    .social a {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .social a:first-child img {
+        max-height: 50px;
+    }
+    .social img {
+        max-height: 50px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px){
+    .register-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .social a {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .social img {
+        max-height: 60px;
+    }
+    .social a:first-child img {
+        max-height: 60px;
+    }
+
+}
+@media (max-width: 767px) and (min-width: 320px){
+    body {
+        height: 100%;
+    }
+    .wrapper-register {
+        padding: 6vh 20px;
+    }
+    .wrapper-register h2 {
+        margin: 30px 0 40px;
+        font: 30px/40px RobotoSlabRegular, sans-serif;
+    }
+    .wrapper-register .logo img {
+        width: 80px;
+    }
+
+    .wrapper-register input[type="text"],
+    .wrapper-register input[type="submit"] {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .register-text {
+        margin-top: 0;
+        padding: 0;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .social a {
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .social img {
+        max-height: 60px;
+    }
+    .social a:first-child img {
+        max-height: 60px;
+    }
+}

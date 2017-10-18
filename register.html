@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>Предварительная регистрация в проекте Древо</title>
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="stylesheet" href="/src/styles/register.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper-register">
+        <div class="logo">
+            <img src="/src/images/logo@3x.png" alt="">
+        </div>
+        <h2>Предварительная регистрация</h2>
+        <!--Данные введенные пользователем обрабатываются кодом в mail.php-->
+        <form action="/mail.php" method="post">
+            <!--Тег используется для группировки связанных элементов в форме-->
+            <!--Тег задает заголовок для групповых элементов-->
+            <input type="text" name="email" placeholder="Ваш E-mail" required>
+            <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
+            <input type="submit" value="Отправить">
+        </form>
+        <div class="register-text">
+            <p>
+                Команда проекта ДРЕВО БЕСПЛАТНО даёт первый ключ всем,
+                кто поддержит проект в&nbsp;социальных сетях.
+                Вам нужно рассказать о&nbsp;нас в&nbsp;социальной сети или вступить в&nbsp;Telegram-чат.
+            </p>
+            <p>
+                Если в&nbsp;процессе просмотра сайта у&nbsp;Вас возникнут вопросы или пожелания,
+                пожайлуста, пишите нам в&nbsp;Telegram-чат для наиболее оперативного ответа,
+                либо в&nbsp;другие социальные сети.
+            </p>
+        </div>
+        <div class="social">
+            <a href="https://vk.com/drevo_project" target="_blank">
+                <img src="/src/images/social/vk.png" alt="">
+            </a>
+            <a href="https://t.me/drevo_project" target="_blank">
+                <img src="/src/images/social/tlg.png" alt="">
+            </a>
+            <a href="https://facebook.com/drevoproject" target="_blank">
+                <img src="/src/images/social/fb.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
