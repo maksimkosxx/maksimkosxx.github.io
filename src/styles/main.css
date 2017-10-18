@@ -741,11 +741,11 @@ a:active {
 .how-work::after {
     content: '';
     position: absolute;
-    bottom: -60px;
+    bottom: -64px;
     left: 0;
     right: 0;
     width: 3px;
-    height: 190px;
+    height: 180px;
     border: solid 4px #006e7d;
     margin: auto;
 }
