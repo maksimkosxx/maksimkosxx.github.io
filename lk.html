@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <title>Личный кабинет</title>
+    <meta name="title" content="Проект древо: личный кабинет"/>
+    <meta name="description" content="Проект древо: личный кабинет"/>
+    <meta name="keywords" content="проект древо, личный кабинет"/>
+
+    <link rel="apple-touch-icon" sizes="32x32" href="/lk/images/icons/favicon32.ico">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/lk/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="/lk/libs/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/lk/styles/typography.css">
+    <link rel="stylesheet" href="/lk/styles/main.css">
+    <link rel="stylesheet" href="/lk/styles/media.css">
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <a href="/" class="header-logo">
+                <img src="/lk/images/icons/logo.svg" width="75" alt="Проект Древо">
+            </a>
+            <div class="header-projectname">
+                Проект древо
+            </div>
+        </div>
+    </div>
+</header>
+<section class="form-group">
+    <div class="container">
+        <div class="row">
+            <div class="user-info col-lg-2 col-sm-3">
+                <div class="user-info__wrapper">
+                    <div class="user-info__icon">
+                        <img src="/lk/images/icons/user@3x.png" alt="">
+                    </div>
+                    <div class="user-info__name">Username</div>
+                </div>
+            </div>
+            <div class="form-group__column col-lg-6 col-sm-12">
+                <div class="input-group">
+                    <label for="ref">Реферальная ссылка</label>
+                    <input type="text" name="ref" id="ref" value="www.drevoproject.com/?ref=32423nmsfsfssffffferwrrerwrerrrrr" class="form-control">
+                    <button id="copy-button" title="Копировать" data-clipboard-target="#ref"></button>
+                </div>
+            </div>
+            <div class="form-group__column col-lg-offset-1 col-lg-3 col-sm-4">
+                <a href="#" class="btn-old_partner">Старший партнер</a>
+                <!--<div class="input-group">                    -->
+                    <!--<label for="ref">Старший партнер</label>-->
+                    <!--<input type="password" name="partner" class="form-control" placeholder="Username">-->
+                    <!--<div class="input-btn btn&#45;&#45;show">-->
+                        <!--<span class="visibility">-->
+                            <!--<img src="/lk/images/icons/visibility@3x.png" width="27" alt="">-->
+                        <!--</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="content">
+            <div class="tabs col-xs-12">
+                <ul class="nav nav-pills nav-justified">
+                    <li class="active">
+                        <a href="#profile" class="tab-profile" data-toggle="tab">
+                        Профиль
+                        <img src="/lk/images/icons/settings@3x.png" width="17" alt="">
+                        </a>
+                    </li>
+                    <li><a href="#keys" data-toggle="tab">Покупка ключа</a></li>
+                    <li><a href="#video" data-toggle="tab">Видеоуроки</a></li>
+                    <li><a href="#partners" data-toggle="tab">Партнеры</a></li>
+                    <li><a href="#marketing" data-toggle="tab">Маркетинг</a></li>
+                    <li>
+                        <a href="#exit" class="tab-exit">
+                           Выйти
+                           <img src="/lk/images/icons/logout-2@3x.png" width="14" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane" id="keys">
+                    <div class="keys-content">
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--blue">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--purple">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--yellow">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                        <div class="keys-item--wrapper col-lg-2 col-xs-6 col-sm-3">
+                            <div class="keys-item keys--yellow">
+                                <div class="keys-item__icon"></div>
+                            </div>
+                            <div class="keys-price">20$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="partners">
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                    <div class="user-info col-lg-2 col-xs-6 col-sm-3">
+                        <div class="user-info__wrapper">
+                            <div class="user-info__icon">
+                                <img src="/lk/images/icons/user.svg" alt="">
+                            </div>
+                            <div class="user-info__name">Username</div>
+                            <div class="user-info__lavel">Уровень: 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="video">
+                    <div class="video-tabs col-lg-4 col-sm-4">
+                        <div class="title">
+                            Выберите урок
+                        </div>
+                        <div class="panel-group" id="accordion">
+                            <!-- 1 панель -->
+                            <div class="panel panel-default">
+                                <!-- Заголовок 1 панели -->
+                                <div class="panel-heading heading--main">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1 - Как
+                                            это работает?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <!-- Содержимое 1 панели -->
+                                    <div class="panel-body">
+                                        <div class="panel-group" id="accordion">
+                                            <!-- 1 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 1 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseOne_inner">1.1 - Как это работает?</a>
+                                                    </h4>
+                                                </div>
+
+                                            </div>
+                                            <!-- 2 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 2 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseTwo_inner">1.2 - Как это работает?
+                                                            Расскажем!</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <!-- 3 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseOne"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 панель -->
+                            <div class="panel panel-default">
+                                <!-- Заголовок 2 панели -->
+                                <div class="panel-heading heading--main">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">1 - Как
+                                            это работает?</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <!-- Содержимое 1 панели -->
+                                    <div class="panel-body">
+                                        <div class="panel-group" id="accordion">
+                                            <!-- 1 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 1 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseOne_inner">1.1 - Как это работает?</a>
+                                                    </h4>
+                                                </div>
+
+                                            </div>
+                                            <!-- 2 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 2 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseTwo_inner">1.2 - Как это работает?
+                                                            Расскажем!</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <!-- 3 панель -->
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <!-- Заголовок 3 панели -->
+                                                <div class="panel-heading sub">
+                                                    <h4 class="panel-title">
+                                                        <a data-toggle="collapse" data-parent="#collapseTwo"
+                                                           href="#collapseThree_inner">1.3 - Как это работает? Ну как
+                                                            же?</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 панель -->
+                            <div class="panel panel-default panel--last">
+                                <!-- Заголовок 3 панели -->
+                                <div class="panel-heading heading--main">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3.
+                                            Bootstrap 3 - Создание сайта</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <!-- Содержимое 3 панели -->
+                                    <div class="panel-body"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-content col-lg-8 col-sm-8">
+                        <h2 class="title">
+                            1-Как это работает?
+                        </h2>
+                        <div class="video-block">
+                            <video width="100%">
+                                <source src="/video/blockchain.mp4" type="video/mp4">
+                            </video>
+                            <div class="video-btn">
+                                <span class="glyphicon glyphicon-play"></span>
+                            </div>
+                        </div>
+                        <button class="tab-content__btn btn--default" type="button">
+                            Скачать текстовую версию
+                        </button>
+                    </div>
+                </div>
+                <div class="tab-pane" id="marketing">
+                    <h2 class="marketing-title title">
+                        Заголовок
+                    </h2>
+                    <div class="marketing-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at aut consequuntur
+                            debitis doloribus excepturi, hic id illo mollitia nemo nostrum numquam officia sint suscipit
+                            veritatis voluptas, voluptate voluptatibus! Commodi ducimus inventore laudantium
+                            magnam obcaecati possimus quae, quaerat quam quibusdam totam.
+                            Accusantium aspernatur consectetur cumque dolore, eligendi esse
+                            et impedit libero, mollitia nisi officia possimus recusandae
+                            unde ut veniam. Assumenda cupiditate expedita facere
+                            laudantium minus molestiae nam provident rerum, sit vero.
+                            Commodi, doloremque doloribus eos excepturi facilis iusto
+                            , nisi numquam pariatur quos repellendus saepe, tempora
+                            temporibus vero. Beatae, ipsa. Autem distinctio fuga fugit
+                            illum mollitia. Adipisci aut dolorum est ex, id laboriosam,
+                            magnam magni maiores nam neque praesentium quia repellendus,
+                            rerum sequi suscipit vel veniam? Dicta libero odit quas.
+                        </p>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, culpa, officia! Commodi culpa iure nam. Aperiam autem consectetur corporis culpa est, explicabo hic magnam molestiae provident quae ratione similique sit.</span><span>Animi atque consequatur culpa cum dignissimos doloribus dolorum eius error est et illo minima nam nostrum odio porro possimus quia quibusdam quidem quod rem rerum, sequi tempore temporibus, ut, veritatis.</span>
+                        </p>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, cum delectus dicta, dolor doloremque in ipsum, itaque laboriosam laborum necessitatibus praesentium quo tenetur voluptate? Amet, iste quidem. Blanditiis, ipsam, similique?</span><span>Atque dicta dignissimos dolores libero, maiores odio praesentium ratione recusandae tenetur veniam? Adipisci amet at atque doloremque eveniet explicabo laudantium libero, perferendis quaerat reiciendis suscipit vitae. Atque commodi expedita possimus?</span><span>Aspernatur aut dignissimos esse illum possimus, qui sunt. Accusamus at commodi distinctio dolore ducimus eaque, esse exercitationem fuga illo incidunt natus nesciunt nisi obcaecati quam quibusdam quisquam soluta vero, vitae.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab-pane active" id="profile">
+                    <div class="profile">
+                        <div class="profile-header">
+                            <div class="level"><span>14</span> уровень</div>
+                            <div class="mail-confirm not_confirm">Email не подтвержден</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-info col-lg-8 col-xs-12 col-sm-6">
+                2017 | Проект ДРЕВО
+            </div>
+            <div class="footer-social col-lg-4 col-xs-12 col-sm-6">
+                <a href="#">VKontakte</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/lk/libs/jquery.min.js"></script>
+<script src="/lk/libs/bootstrap.min.js"></script>
+<script src="/lk/libs/jquery.slimscroll.min.js"></script>
+<script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
+<script src="/lk/scripts/scripts.js"></script>
+
+</body>
+</html>
