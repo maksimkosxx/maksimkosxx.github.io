@@ -32,5 +32,5 @@
 }
 @font-face {
     font-family: OpenSans;
-    src: url('/lk/fonts/OpenSans/OpenSansSemiBold.ttf');
+    src: url('/lk/fonts/OpenSans/OpenSansSemiBold.ttf') format('truetype');
 }
