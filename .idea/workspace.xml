@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/bg/key-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/bg/old-partner-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/bg/partners-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/bg/video-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/icons/cadr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/icons/confirm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/icons/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/icons/key-copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/images/icons/user_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlab-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlabLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk_old_partner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lk_video.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/images/icons/key-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/images/icons/key-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/images/icons/key-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/images/icons/key-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lk/lk.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lk/images/icons/close.png" afterPath="$PROJECT_DIR$/lk/images/icons/not_confirm.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk.html" afterPath="$PROJECT_DIR$/lk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk/images/icons/user.svg" afterPath="$PROJECT_DIR$/lk/images/icons/user.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk/scripts/scripts.js" afterPath="$PROJECT_DIR$/lk/scripts/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk/styles/main.css" afterPath="$PROJECT_DIR$/lk/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk/styles/media.css" afterPath="$PROJECT_DIR$/lk/styles/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lk/styles/typography.css" afterPath="$PROJECT_DIR$/lk/styles/typography.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,21 +16,21 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53839123">
+    <splitter split-orientation="horizontal" split-proportion="0.507109">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="lk.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="lk.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lk.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
+                <state relative-caret-position="1000">
+                  <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
                   <folding>
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -82,7 +53,6 @@
                     <element signature="n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#18;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#19;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#a#2;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -109,9 +79,9 @@
                     <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <marker date="1508862091703" expanded="false" signature="19980:22932" ph="..." />
-                    <marker date="1508862091703" expanded="false" signature="28156:28872" ph="..." />
-                    <marker date="1508862091703" expanded="false" signature="28398:28405" ph="×" />
+                    <marker date="1508862735471" expanded="false" signature="20194:23146" ph="..." />
+                    <marker date="1508862735471" expanded="false" signature="28370:29086" ph="..." />
+                    <marker date="1508862735471" expanded="false" signature="28612:28619" ph="×" />
                   </folding>
                 </state>
               </provider>
@@ -133,10 +103,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lk_video.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lk_video.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lk_video.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
+                <state relative-caret-position="261">
                   <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
                   <folding>
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -160,8 +130,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
-                  <caret line="346" column="26" lean-forward="true" selection-start-line="346" selection-start-column="26" selection-end-line="346" selection-end-column="26" />
+                <state relative-caret-position="199">
+                  <caret line="334" column="1" lean-forward="true" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -170,8 +140,8 @@
           <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lk/styles/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="588">
-                  <caret line="228" column="26" lean-forward="false" selection-start-line="228" selection-start-column="26" selection-end-line="228" selection-end-column="26" />
+                <state relative-caret-position="204">
+                  <caret line="176" column="38" lean-forward="false" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -190,8 +160,8 @@
           <file leaf-file-name="typography.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lk/styles/typography.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
-                  <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="34" />
+                <state relative-caret-position="614">
+                  <caret line="34" column="72" lean-forward="false" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
                   <folding />
                 </state>
               </provider>
@@ -304,15 +274,15 @@
         <option value="$USER_HOME$/Desktop/t3/новая папка/cources.html" />
         <option value="$PROJECT_DIR$/lk/index.html" />
         <option value="$PROJECT_DIR$/lk/images/icons/dialog.svg" />
-        <option value="$PROJECT_DIR$/lk/styles/typography.css" />
         <option value="$PROJECT_DIR$/lk/images/icons/user.svg" />
         <option value="$PROJECT_DIR$/lk/images/icons/parners-bg.svg" />
         <option value="$PROJECT_DIR$/lk/scripts/scripts.js" />
         <option value="$PROJECT_DIR$/lk/styles/main.css" />
-        <option value="$PROJECT_DIR$/lk.html" />
-        <option value="$PROJECT_DIR$/lk/styles/media.css" />
         <option value="$PROJECT_DIR$/lk_old_partner.html" />
         <option value="$PROJECT_DIR$/lk_video.html" />
+        <option value="$PROJECT_DIR$/lk.html" />
+        <option value="$PROJECT_DIR$/lk/styles/typography.css" />
+        <option value="$PROJECT_DIR$/lk/styles/media.css" />
       </list>
     </option>
   </component>
@@ -324,9 +294,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="73" />
-    <option name="width" value="1314" />
+    <option name="x" value="169" />
+    <option name="y" value="68" />
+    <option name="width" value="1464" />
     <option name="height" value="951" />
   </component>
   <component name="ProjectView">
@@ -356,6 +326,19 @@
               <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="lk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Opensans" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -513,7 +496,7 @@
       <workItem from="1507802686271" duration="34000" />
       <workItem from="1508766282844" duration="10316000" />
       <workItem from="1508822557062" duration="12718000" />
-      <workItem from="1508835749050" duration="21971000" />
+      <workItem from="1508835749050" duration="22541000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1505927168606</created>
@@ -746,24 +729,46 @@
       <option name="project" value="LOCAL" />
       <updated>1508776535853</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="finish new lk">
+      <created>1508862481275</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1508862481275</updated>
+    </task>
+    <task id="LOCAL-00035" summary="links">
+      <created>1508862748326</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1508862748326</updated>
+    </task>
+    <task id="LOCAL-00036" summary="font">
+      <created>1508862884927</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1508862884927</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202753000" />
+    <option name="totallyTimeSpent" value="203323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="73" width="1314" height="951" extended-state="0" />
+    <frame x="169" y="68" width="1464" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040669855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2485755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2769608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -798,7 +803,10 @@
     <MESSAGE value="pages main and messages" />
     <MESSAGE value="fix" />
     <MESSAGE value="start new lk page" />
-    <option name="LAST_COMMIT_MESSAGE" value="start new lk page" />
+    <MESSAGE value="finish new lk" />
+    <MESSAGE value="links" />
+    <MESSAGE value="font" />
+    <option name="LAST_COMMIT_MESSAGE" value="font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,6 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +925,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,14 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="124" column="74" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/typography.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,14 +1024,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="346" column="26" lean-forward="true" selection-start-line="346" selection-start-column="26" selection-end-line="346" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lk/scripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1038,25 +1032,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/media.css">
+    <entry file="file://$PROJECT_DIR$/lk_old_partner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="228" column="26" lean-forward="false" selection-start-line="228" selection-start-column="26" selection-end-line="228" selection-end-column="26" />
+        <state relative-caret-position="355">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lk_video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#video#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="334" column="1" lean-forward="true" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="1000">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1079,7 +1105,6 @@
             <element signature="n#div#17;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#18;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#19;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#1;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#2;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1106,42 +1131,26 @@
             <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1508862091703" expanded="false" signature="19980:22932" ph="..." />
-            <marker date="1508862091703" expanded="false" signature="28156:28872" ph="..." />
-            <marker date="1508862091703" expanded="false" signature="28398:28405" ph="×" />
+            <marker date="1508862735471" expanded="false" signature="20194:23146" ph="..." />
+            <marker date="1508862735471" expanded="false" signature="28370:29086" ph="..." />
+            <marker date="1508862735471" expanded="false" signature="28612:28619" ph="×" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk_old_partner.html">
+    <entry file="file://$PROJECT_DIR$/lk/styles/typography.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="614">
+          <caret line="34" column="72" lean-forward="false" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk_video.html">
+    <entry file="file://$PROJECT_DIR$/lk/styles/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#video#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="176" column="38" lean-forward="false" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
