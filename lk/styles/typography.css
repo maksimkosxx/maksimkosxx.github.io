@@ -23,6 +23,14 @@
     url('/lk/fonts/RobotoSlab/RobotoSlab-Bold.ttf') format('ttf');
 }
 @font-face {
+    font-family: RobotoSlabRegular;
+    src: url('/lk/fonts/RobotoSlab/RobotoSlab-Regular.ttf');
+}
+@font-face {
+    font-family: RobotoSlabLight;
+    src: url('/lk/fonts/RobotoSlab/RobotoSlabLight.ttf');
+}
+@font-face {
     font-family: OpenSans;
     src: url('/lk/fonts/OpenSans/OpenSansSemiBold.ttf');
 }

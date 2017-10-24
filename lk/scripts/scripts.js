@@ -1,28 +1,17 @@
-
 $(document).ready(function () {
 
-    // SHOW-HIDE USERNAME
-
-    // $('.btn--show').on('click', function () {
-    //
-    //     var field = $('.input-group input[name="partner"]');
-    //
-    //     $(this).toggleClass('show');
-    //
-    //     if($(this).hasClass('show')) {
-    //         field.attr('type','text');
-    //     } else {
-    //         field.attr('type','password');
-    //     }
-    // });
-
-    (function(){
+    (function () {
         new Clipboard('#copy-button');
     })();
 
+    $('.btn-change').on('click', function () {
+        $('.slimScrollDiv').hide();
+        $('.profile-contacts form').show('easy');
+    });
+
     // VIDEO
 
-    $('.video-btn').on("click", function(event) {
+    $('.video-btn').on("click", function (event) {
 
         if ($(this).hasClass('play')) {
             $(this).removeClass('play');
@@ -47,12 +36,21 @@ $(document).ready(function () {
         $(this).toggleClass('active');
     });
 
-    $(function(){
-        $('.panel-body').slimScroll({
-            height: '200px',
-            size: '3px'
-        });
+
+    $('.partners-content').slimScroll({
+        height: '510px',
+        size: '4px',
+        railOpacity: 0.5,
+        color: '#336e7b'
     });
+    $('.profile-contacts__info').slimScroll({
+        height: '150px',
+        size: '4px',
+        railOpacity: 0.5,
+        color: '#336e7b'
+    });
+
+
 
     // KEY ACTIVE
 
@@ -60,12 +58,6 @@ $(document).ready(function () {
         $('.keys-item').removeClass('active');
         $(this).addClass('active');
     });
-
-
-
-
-
-
 
 
 });

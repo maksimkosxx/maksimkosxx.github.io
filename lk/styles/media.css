@@ -6,6 +6,17 @@
     .input-group {
         margin-bottom: 15px;
     }
+    #ref {
+        padding:10px 5px;
+        font-size: 11px;
+    }
+
+    .btn-old_partner {
+        text-align: center;
+    }
+    #copy-button {
+        display: none;
+    }
 
     .nav > li:nth-child(n+5) > a {
         border: 1px solid rgba(147, 147, 147, 0.1);
@@ -16,14 +27,112 @@
     .tab-content {
         padding: 40px 1px;
     }
+    .content-box {
+        min-height: inherit;
+        margin-top: 40px;
+        padding:20px 15px;
+    }
+    .video-title {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .video-title .number {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .requisites {
+        font-size: 16px;
+    }
+    .requisites .purse-number {
+        display: block;
+        margin-top: 3px;
+        word-break: break-all;
+    }
+    .content-box form {
+        margin-bottom: 25px;
+    }
+    .key-check form {
+        padding-top: 20px;
+    }
+    .btn-change {
+        float: none;
+    }
+    .profile {
+        background: none;
+    }
+    .contacts-info__title {
+        font-size: 20px;
+    }
+    .content-box input[type="text"], .content-box textarea {
+        font-size: 89%;
+    }
+    .content-box input[type="submit"] {
+        margin-top: 15px;
+    }
+    .profile-contacts textarea {
+        min-height: 90px;
+    }
+    .profile-contacts textarea + input[type="submit"] {
+        top: 0;
+    }
+    .purse-form__notice {
+        font-size: 13px;
+    }
+    .key-content {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .key-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .cost span {
+        font-size: 40px;
+    }
+    .partner-username {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .tab-content {
+        min-height: inherit;
+    }
+    .content {
+        min-height: inherit;
+    }
+    .old_partner {
+        min-height: inherit;
+        background: none;
+    }
+    .video-content {
+        background: url(/lk/images/bg/video-bg.png) 95% bottom no-repeat;
+        background-size: 35%;
+    }
 
     .video-block {
         margin: 0 15px;
         min-height: inherit;
     }
+    .video-item {
+        max-width: 40%;
+    }
+    .video-item__preview {
+        background: #ffe26d url(/lk/images/icons/cadr.png) 100% 100% no-repeat;
+        background-size: 60%;
+    }
 
     .video-btn {
         height: 98%;
+    }
+    .partners-content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 
     .profile-column {
@@ -65,6 +174,22 @@
     }
 
 }
+@media only screen and (max-width: 360px) {
+    #ref {
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+        font-size: 10px;
+    }
+    .btn-old_partner {
+        text-align: right;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+    .video-item__preview {
+        background: #ffe26d url(/lk/images/icons/cadr.png) 100% 100% no-repeat;
+        background-size: 90px;
+    }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1169px) {
     .tabs {
@@ -76,7 +201,7 @@
         display: block;
         margin-top: -3px;
         padding: 12px 5px;
-        font: 15px/20px RobotoMedium, sans-serif;
+        font: 14px/20px RobotoMedium, sans-serif;
     }
 
     .profile-btn.btn--default {
@@ -86,6 +211,28 @@
     }
     .video-block {
         min-height: inherit;
+    }
+    .content-box input[type="submit"] {
+        margin-top: 15px;
+    }
+    .profile-contacts textarea {
+        min-height: 90px;
+    }
+    .profile-contacts textarea + input[type="submit"] {
+        top: 0;
+    }
+    .key-content {
+        max-width: 90%;
+    }
+    .key {
+        background: url(/lk/images/bg/key-bg.png) 100% bottom no-repeat;
+        background-size: 20%;
+    }
+    .video-content {
+        justify-content: center;
+    }
+    .video-item {
+        margin: 29px 3.5% 0;
     }
 
 }
