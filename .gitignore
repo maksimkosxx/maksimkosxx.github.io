@@ -1,6 +1,2 @@
-.idea
 .gitignore
-package.json
-gruntfile.js
-node_modules
-.sass-cache
+.idea

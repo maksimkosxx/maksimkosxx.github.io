@@ -39,8 +39,8 @@
         align-items: center;
         text-align: center;
         padding: 5px 0;
-        font-size: 17px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 23px;
     }
     .video-title .number {
         font-size: 25px;
@@ -76,6 +76,11 @@
     }
     .contacts-info__title {
         font-size: 20px;
+    }
+    .contacts-requisites,
+    .profile-contacts {
+        width: 100%!important;
+        max-width: 100%;
     }
     .content-box input[type="text"], .content-box textarea {
         font-size: 90%;

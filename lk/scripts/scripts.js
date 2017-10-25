@@ -49,9 +49,10 @@ $(document).ready(function () {
     $('.contacts-requisites').slimScroll({
         height: '110px',
         size: '2px',
-        railOpacity: 0.5,
-        color: '#336e7b'
+        railOpacity: 0,
+        color: '#fff'
     });
+
     $('.marketing').slimScroll({
         height: '510px',
         size: '4px',

@@ -92,7 +92,7 @@ body {
 
 .input-group label {
     margin-bottom: 10px;
-    font: 18px/24px RobotoRegular, sans-serif;
+    font: 18px/24px RobotoBold, sans-serif;
     color: #336e7b;
     user-select: none;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 .form-group__column:nth-of-type(3) {
-    margin-top: 23px;
+    margin-top: 22px;
 }
 .form-group__column:nth-child(2) input.form-control {
     width: 100%;
@@ -147,7 +147,7 @@ body {
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
-    font: 18px/47px RobotoRegular, sans-serif;
+    font: 18px/47px RobotoMedium, sans-serif;
     text-align: right;
     background: #336e7b url("/lk/images/icons/dialog.png") 20px 98% no-repeat;
     background-size: 70px;
@@ -185,7 +185,7 @@ body {
     display: block;
     margin-top: -1px;
     padding: 16px 15px;
-    font: 18px/24px RobotoRegular, sans-serif;
+    font: 18px/24px RobotoBold, sans-serif;
     background-color: #f7f7f7;
     color: #4a4a4a;
     border-bottom: 2px solid #f7f7f7;
@@ -220,7 +220,7 @@ body {
     color: #9b9b9b;
 }
 .nav > li:first-of-type.active > a {
-    background: #336e7b url("/lk/images/icons/settings@3x-white.png") 75% center no-repeat;
+    background: #336e7b url("/lk/images/icons/settings@3x-white.png") 74% center no-repeat;
     background-size: 17px;
     color: #ffffff;
 
@@ -527,6 +527,7 @@ video {
     font-size: 56px;
     line-height: 45px;
 }
+
 .mail-confirm {
     display: inline-block;
     width: 270px;
@@ -535,7 +536,8 @@ video {
     padding: 0 13px 0 10px;
     border: none;
     border-radius: 10px;
-    font: 18px/46px RobotoRegular, sans-serif;
+    font: 18px/46px RobotoMedium, sans-serif;
+    font-weight: lighter;
     text-align: right;
     color: #336e7b;
     outline: none;
@@ -635,7 +637,7 @@ video {
     color: #000000;
 }
 .requisites {
-    font-size: 18px;
+    font-size: 20px;
     color: #000000;
 }
 .requisites span {
@@ -657,7 +659,8 @@ video {
     margin-right: 5px;
     border: none;
     border-radius: 10px;
-    font-size: 22px;
+    font: 22px RobotoMedium, sans-serif;
+
     background: #ffe573;
     color: #000;
     outline: none;
@@ -681,15 +684,20 @@ video {
     float: left;
 }
 .contacts-requisites {
-    overflow: auto;
+    width: 600px!important;
+    max-width: 80%;
+
+}
+.profile-contacts__info {
+    overflow: hidden;
 }
 .contacts-info__title {
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 24px;
     color: #000000;
 }
 .profile-contacts .requisites {
-    margin: 5px 0;
+    margin: 7px 0;
 }
 .btn-change {
     float: right;
@@ -813,7 +821,7 @@ input[type="text"].purse-number {
     background: none;
     border: none;
     color: #000000;
-    font-size: 20px;
+    font: 20px RobotoBold, sans-serif;
 }
 
 /* keys end */
@@ -864,6 +872,11 @@ input[type="text"].purse-number {
 .footer-social a {
     margin-left: 20px;
     color: #404040;
+}
+.footer-social a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.2s linear;
 }
 
 /* FOOTER end */
