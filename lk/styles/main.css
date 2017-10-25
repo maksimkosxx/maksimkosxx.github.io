@@ -32,6 +32,7 @@ body {
 
 }
 
+
 /* MODAL */
 
 /* HEADER */
@@ -91,7 +92,7 @@ body {
 
 .input-group label {
     margin-bottom: 10px;
-    font: 18px/24px RobotoBold, sans-serif;
+    font: 18px/24px RobotoRegular, sans-serif;
     color: #336e7b;
     user-select: none;
 }
@@ -113,7 +114,7 @@ body {
     position: absolute;
     bottom: 9px;
     right: 10px;
-    z-index: 2;
+    z-index: 3;
     display: block;
     width: 20px;
     height: 20px;
@@ -121,6 +122,14 @@ body {
     background: transparent url("/lk/images/icons/edit-2@3x.png") center no-repeat;
     background-size: contain;
     outline: none;
+}
+#copy-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+}
+#copy-button:active {
+    transform: scale(0.9);
+    transition: transform 0.1s linear;
 }
 
 .form-group__column:nth-of-type(3) {
@@ -138,7 +147,7 @@ body {
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
-    font: 18px/47px RobotoBold, sans-serif;
+    font: 18px/47px RobotoRegular, sans-serif;
     text-align: right;
     background: #336e7b url("/lk/images/icons/dialog.png") 20px 98% no-repeat;
     background-size: 65px;
@@ -176,7 +185,7 @@ body {
     display: block;
     margin-top: -1px;
     padding: 16px 15px;
-    font: 18px/24px RobotoBold, sans-serif;
+    font: 18px/24px RobotoRegular, sans-serif;
     background-color: #f7f7f7;
     color: #4a4a4a;
     border-bottom: 2px solid #f7f7f7;
@@ -199,6 +208,22 @@ body {
 
 .nav-pills > li.active {
     pointer-events: none;
+    color: #ffffff;
+}
+.nav-pills > li.active > a {
+    color: #ffffff;
+}
+.nav > li:first-of-type > a {
+    background: #fff url("/lk/images/icons/settings@3x.png") 75% center no-repeat;
+    background-size: 17px;
+    text-indent: -30px;
+    color: #9b9b9b;
+}
+.nav > li:first-of-type.active > a {
+    background: #336e7b url("/lk/images/icons/settings@3x-white.png") 75% center no-repeat;
+    background-size: 17px;
+    color: #ffffff;
+
 }
 
 .nav-pills > li.active > a,
@@ -216,6 +241,7 @@ body {
 /* TABS CONTENT */
 
 .tab-content {
+    position: relative;
     min-height: 610px;
     padding: 40px;
     overflow: hidden;
@@ -279,10 +305,24 @@ body {
 
 .video-block {
     position: relative;
-    max-width: 840px;
+    max-width: 770px;
     min-height: 380px;
     margin: 0 auto;
     overflow: hidden;
+}
+.link-back {
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+.link-back:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.2s linear;
 }
 .video-clip {
     position: relative;
@@ -338,8 +378,8 @@ video {
     flex-flow: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 5px 0;
-    font: 27px/40px RobotoSlabRegular, sans-serif;
+    padding: 5px 10px;
+    font: 24px/35px RobotoSlabRegular, sans-serif;
     background: #f7f7f7;
     color: #000000;
 }
@@ -347,20 +387,20 @@ video {
     display: inline-block;
     max-width: 80px;
     margin-right: 10px;
-    font-size: 80px;
+    font-size: 72px;
     line-height: 40px;
 }
 .btn-download {
     display: block;
     width: 100%;
-    max-width: 200px;
+    max-width: 220px;
     min-height: 50px;
     margin: 25px auto 0;
-    padding: 0 15px 0 20px;
+    padding: 0 30px 0 20px;
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
-    font: 27px RobotoBold, sans-serif;
+    font: 30px RobotoRegular, sans-serif;
     text-align: right;
     background: #336e7b url(/lk/images/icons/download.png) 20px 98% no-repeat;
     background-size: 65px;
@@ -384,7 +424,11 @@ video {
 .marketing-title {
     text-align: left;
 }
-
+.marketing {
+    padding-right: 10px;
+    background: url(/lk/images/bg/marketing-bg.jpg) 100% bottom no-repeat;
+    background-size: 25%;
+}
 .marketing-text p {
     font-size: 16px;
     line-height: 25px;
@@ -417,8 +461,8 @@ video {
     margin-bottom: 30px;
 }
 .partners-content .user-info:hover {
-    transition: transform 0.15s linear;
-    transform: scale(0.98);
+    opacity: 0.6;
+    transition: opacity 0.2s linear;
 }
 .user-info__wrapper.wrapper--partners {
     max-width: 150px;
@@ -438,7 +482,7 @@ video {
     height: 68px;
 }
 .wrapper--partners .user-info__name {
-    font-size: 16px;
+    font-size: 15px;
 }
 .wrapper--partners .user-info__lavel {
     font-size: 14px;
@@ -473,23 +517,25 @@ video {
 .level,
 .cost {
     color: #000000;
-    font: 30px RobotoSlabRegular, sans-serif;
+    font: 24px RobotoSlabRegular, sans-serif;
 }
-.level span,
+.level span {
+    font-size: 72px;
+    line-height: 80px;
+}
 .cost span {
-    font-size: 80px;
-    line-height: 60px;
+    font-size: 56px;
+    line-height: 45px;
 }
 .mail-confirm {
     display: inline-block;
-    width: 260px;
-    height: 43px;
+    width: 270px;
+    height: 45px;
     margin: 10px 20px 0 0;
-    padding: 0 10px;
+    padding: 0 13px 0 10px;
     border: none;
     border-radius: 10px;
-    font-size: 15px;
-    line-height: 40px;
+    font: 18px/46px RobotoRegular, sans-serif;
     text-align: right;
     color: #336e7b;
     outline: none;
@@ -497,7 +543,7 @@ video {
 .mail-confirm.not_confirm {
     height: 41px;
     background: #ffe573 url("/lk/images/icons/not_confirm.png") 10px 100% no-repeat;
-    background-size: 55px;
+    background-size: 58px;
 }
 .mail-confirm.not_confirm:hover {
     background-color: #f5db69;
@@ -512,7 +558,8 @@ video {
 .mail-confirm.confirm {
     border: 3px solid #336e7b;
     background: #fff url("/lk/images/icons/confirm.png") 10px 100% no-repeat;
-    background-size: 55px;
+    background-size: 58px;
+    line-height: 43px;
 }
 .mail-confirm.confirm:hover {
     background-color: #f3f1f1;
@@ -544,28 +591,39 @@ video {
     padding: 0 3px;
     color: #336e7b;
     background: #ffffff;
-    font: 15px RobotoSlabRegular,sans-serif;
+    font: 14px RobotoSlabRegular,sans-serif;
 }
 .content-box input[type="text"],
 .content-box textarea {
     width: 100%;
     max-width: 673px;
-    height: 43px;
+    height: 48px;
     padding: 10px 15px;
-    font: 16px OpenSans, sans-serif;
+    font: 18px RobotoRegular, sans-serif;
     color: #3f3f3f;
     background-color: #ededed;
     border: none;
     box-shadow: none;
     outline: none;
 }
+
 .content-box input[type="text"]::-webkit-input-placeholder,
 .content-box textarea::-webkit-input-placeholder {
     color: #3f3f3f;
 }
+.content-box input[type="text"]:focus::-webkit-input-placeholder,
+.content-box textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+    transition: color 0.15s linear;
+}
 .content-box input[type="text"]::-moz-placeholder,
 .content-box textarea::-moz-placeholder {
     color: #3f3f3f;
+}
+.content-box input[type="text"]:focus::-moz-placeholder,
+.content-box textarea:focus::-moz-placeholder {
+    color: transparent;
+    transition: color 0.15s linear;
 }
 
 .purse::before {
@@ -577,7 +635,7 @@ video {
     color: #000000;
 }
 .requisites {
-    font-size: 22px;
+    font-size: 18px;
     color: #000000;
 }
 .requisites span {
@@ -594,25 +652,24 @@ video {
 .content-box input[type="submit"] {
     position: relative;
     top: 2px;
-    width: 165px;
-    height: 43px;
+    width: 180px;
+    height: 48px;
     margin-right: 5px;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 22px;
     background: #ffe573;
     color: #000;
     outline: none;
     box-sizing: border-box;
 }
+
 .content-box input[type="submit"]:hover {
     background-color: #f5db69;
     transition: background-color 0.2s linear;
 }
 .content-box__notice {
-    font-family: RobotoRegular,sans-serif;
-    font-weight: lighter;
-    line-height: 20px;
+    font: 16px/20px RobotoRegular,sans-serif;
 }
 
 
@@ -620,18 +677,15 @@ video {
     content: 'Контакты';
 }
 
-.profile-contacts__info {
-    height: 150px;
-   overflow: auto;
-}
-
 .profile-contacts__info > div {
     float: left;
-
+}
+.contacts-requisites {
+    overflow: auto;
 }
 .contacts-info__title {
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 22px;
     color: #000000;
 }
 .profile-contacts .requisites {
@@ -641,12 +695,12 @@ video {
     float: right;
     position: relative;
     top: 15px;
-    width: 165px;
-    height: 43px;
+    width: 180px;
+    height: 48px;
     margin: 15px 5px 0 0;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 22px;
     background: #36707e;
     color: #fff;
     outline: none;
@@ -669,11 +723,11 @@ video {
     float: right;
     position: relative;
     top: 15px;
-    width: 165px;
-    height: 43px;
+    width: 180px;
+    height: 48px;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 22px;
     background: #36707e;
     color: #fff;
 }
@@ -724,8 +778,8 @@ video {
     margin: 10px 0 0;
 }
 .key-btn {
-    width: 75px;
-    height: 75px;
+    width: 84px;
+    height: 84px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -745,11 +799,24 @@ video {
     margin-bottom: 30px;
 }
 .key-check input[type="text"] {
-   max-width: 525px;
+    max-width: 525px;
+}
+.requisites span.purse-title {
+    display: inline-block;
+    font-family: RobotoRegular, sans-serif;
+}
+input[type="text"].purse-number {
+    display: inline-block;
+    width: 68%;
+    max-width: inherit;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
 }
 
-
- /* keys end */
+/* keys end */
 
 
 /* old partner */

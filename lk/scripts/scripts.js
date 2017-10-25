@@ -1,11 +1,14 @@
 $(document).ready(function () {
 
-    (function () {
+    $(function () {
         new Clipboard('#copy-button');
-    })();
+    });
+    $(function () {
+        new Clipboard('.key-btn');
+    });
 
     $('.btn-change').on('click', function () {
-        $('.slimScrollDiv').hide();
+        $('.profile-contacts__info').hide();
         $('.profile-contacts form').show('easy');
     });
 
@@ -43,13 +46,18 @@ $(document).ready(function () {
         railOpacity: 0.5,
         color: '#336e7b'
     });
-    $('.profile-contacts__info').slimScroll({
-        height: '150px',
+    $('.contacts-requisites').slimScroll({
+        height: '110px',
+        size: '2px',
+        railOpacity: 0.5,
+        color: '#336e7b'
+    });
+    $('.marketing').slimScroll({
+        height: '510px',
         size: '4px',
         railOpacity: 0.5,
         color: '#336e7b'
     });
-
 
 
     // KEY ACTIVE

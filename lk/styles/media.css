@@ -55,13 +55,21 @@
         word-break: break-all;
     }
     .content-box form {
-        margin-bottom: 25px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    .content-box__notice {
+        font: 12px/20px RobotoRegular,sans-serif;
+    }
+    input[type="text"].purse-number {
+        width: 100%;
     }
     .key-check form {
         padding-top: 20px;
     }
     .btn-change {
         float: none;
+        margin: 0 0 15px;
     }
     .profile {
         background: none;
@@ -70,13 +78,14 @@
         font-size: 20px;
     }
     .content-box input[type="text"], .content-box textarea {
-        font-size: 89%;
+        font-size: 90%;
     }
+
     .content-box input[type="submit"] {
         margin-top: 15px;
     }
     .profile-contacts textarea {
-        min-height: 90px;
+        min-height: 110px;
     }
     .profile-contacts textarea + input[type="submit"] {
         top: 0;
@@ -149,6 +158,10 @@
         width: 270px;
         margin: 20px auto 0;
         border-radius: 0;
+    }
+    input[type="text"].purse-number {
+        height: auto;
+        font-size: 12px;
     }
 
     #marketing {
@@ -233,6 +246,9 @@
     }
     .video-item {
         margin: 29px 3.5% 0;
+    }
+    input[type="text"].purse-number {
+        width: 100%;
     }
 
 }

@@ -47,7 +47,7 @@
                 <div class="input-group">
                     <label for="ref">Реферальная ссылка</label>
                     <input type="text" name="ref" id="ref"
-                           value="www.drevoproject.com/?ref=32423nmsfsfssffffferwrrerwrerrrrr" class="form-control">
+                           value="www.drevoproject.com/?ref=32423nmsfsfssffffferwrrerwrerrrrr" class="form-control" readonly>
                     <button id="copy-button" title="Копировать" data-clipboard-target="#ref"></button>
                 </div>
             </div>
@@ -62,13 +62,12 @@
         <div class="content">
             <div class="tabs col-xs-12">
                 <ul class="nav nav-pills nav-justified">
-                    <li class="active">
+                    <li>
                         <a href="#profile" class="tab-profile" data-toggle="tab">
                             Профиль
-                            <img src="/lk/images/icons/settings@3x.png" width="17" alt="">
                         </a>
                     </li>
-                    <li><a href="#keys" data-toggle="tab">Покупка ключа</a></li>
+                    <li class="active"><a href="#keys" data-toggle="tab">Покупка ключа</a></li>
                     <li><a href="#video" data-toggle="tab">Видеоуроки</a></li>
                     <li><a href="#partners" data-toggle="tab">Партнеры</a></li>
                     <li><a href="#marketing" data-toggle="tab">Маркетинг</a></li>
@@ -81,7 +80,7 @@
                 </ul>
             </div>
             <div class="tab-content">
-                <div class="tab-pane" id="keys">
+                <div class="tab-pane active" id="keys">
                     <div class="key">
                         <div class="key-content">
                             <div class="key-payment content-box">
@@ -89,15 +88,17 @@
                                     <div class="cost">
                                         <span>12200</span> eth
                                     </div>
-                                    <button class="key-btn"></button>
+                                    <button class="key-btn" title="Копировать" data-clipboard-target="#purse"></button>
                                 </div>
                                 <div class="requisites">
                                     Получатель:
                                     <span>buykeylvlresult.username</span>
                                 </div>
                                 <div class="requisites">
-                                    Номер кошелька:
-                                    <span class="purse-number">0x344444444444444444444444444444443</span>
+                                    <span class="purse-title">
+                                        Номер кошелька:
+                                    </span>
+                                    <input type="text" name="purse" id="purse" class="purse-number" value="0x344444444444444444444444444444443" readonly>
                                 </div>
                             </div>
                             <div class="key-check content-box">
@@ -364,35 +365,37 @@
                     </div>
                 </div>
                 <div class="tab-pane" id="marketing">
-                    <h2 class="marketing-title title">
-                        Заголовок
-                    </h2>
-                    <div class="marketing-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at aut consequuntur
-                            debitis doloribus excepturi, hic id illo mollitia nemo nostrum numquam officia sint suscipit
-                            veritatis voluptas, voluptate voluptatibus! Commodi ducimus inventore laudantium
-                            magnam obcaecati possimus quae, quaerat quam quibusdam totam.
-                            Accusantium aspernatur consectetur cumque dolore, eligendi esse
-                            et impedit libero, mollitia nisi officia possimus recusandae
-                            unde ut veniam. Assumenda cupiditate expedita facere
-                            laudantium minus molestiae nam provident rerum, sit vero.
-                            Commodi, doloremque doloribus eos excepturi facilis iusto
-                            , nisi numquam pariatur quos repellendus saepe, tempora
-                            temporibus vero. Beatae, ipsa. Autem distinctio fuga fugit
-                            illum mollitia. Adipisci aut dolorum est ex, id laboriosam,
-                            magnam magni maiores nam neque praesentium quia repellendus,
-                            rerum sequi suscipit vel veniam? Dicta libero odit quas.
-                        </p>
-                        <p>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, culpa, officia! Commodi culpa iure nam. Aperiam autem consectetur corporis culpa est, explicabo hic magnam molestiae provident quae ratione similique sit.</span><span>Animi atque consequatur culpa cum dignissimos doloribus dolorum eius error est et illo minima nam nostrum odio porro possimus quia quibusdam quidem quod rem rerum, sequi tempore temporibus, ut, veritatis.</span>
-                        </p>
-                        <p>
-                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, cum delectus dicta, dolor doloremque in ipsum, itaque laboriosam laborum necessitatibus praesentium quo tenetur voluptate? Amet, iste quidem. Blanditiis, ipsam, similique?</span><span>Atque dicta dignissimos dolores libero, maiores odio praesentium ratione recusandae tenetur veniam? Adipisci amet at atque doloremque eveniet explicabo laudantium libero, perferendis quaerat reiciendis suscipit vitae. Atque commodi expedita possimus?</span><span>Aspernatur aut dignissimos esse illum possimus, qui sunt. Accusamus at commodi distinctio dolore ducimus eaque, esse exercitationem fuga illo incidunt natus nesciunt nisi obcaecati quam quibusdam quisquam soluta vero, vitae.</span>
-                        </p>
-                    </div>
+                   <div class="marketing">
+                       <h2 class="marketing-title title">
+                           Заголовок
+                       </h2>
+                       <div class="marketing-text">
+                           <p>
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at aut consequuntur
+                               debitis doloribus excepturi, hic id illo mollitia nemo nostrum numquam officia sint suscipit
+                               veritatis voluptas, voluptate voluptatibus! Commodi ducimus inventore laudantium
+                               magnam obcaecati possimus quae, quaerat quam quibusdam totam.
+                               Accusantium aspernatur consectetur cumque dolore, eligendi esse
+                               et impedit libero, mollitia nisi officia possimus recusandae
+                               unde ut veniam. Assumenda cupiditate expedita facere
+                               laudantium minus molestiae nam provident rerum, sit vero.
+                               Commodi, doloremque doloribus eos excepturi facilis iusto
+                               , nisi numquam pariatur quos repellendus saepe, tempora
+                               temporibus vero. Beatae, ipsa. Autem distinctio fuga fugit
+                               illum mollitia. Adipisci aut dolorum est ex, id laboriosam,
+                               magnam magni maiores nam neque praesentium quia repellendus,
+                               rerum sequi suscipit vel veniam? Dicta libero odit quas.
+                           </p>
+                           <p>
+                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, culpa, officia! Commodi culpa iure nam. Aperiam autem consectetur corporis culpa est, explicabo hic magnam molestiae provident quae ratione similique sit.</span><span>Animi atque consequatur culpa cum dignissimos doloribus dolorum eius error est et illo minima nam nostrum odio porro possimus quia quibusdam quidem quod rem rerum, sequi tempore temporibus, ut, veritatis.</span>
+                           </p>
+                           <p>
+                               <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, cum delectus dicta, dolor doloremque in ipsum, itaque laboriosam laborum necessitatibus praesentium quo tenetur voluptate? Amet, iste quidem. Blanditiis, ipsam, similique?</span><span>Atque dicta dignissimos dolores libero, maiores odio praesentium ratione recusandae tenetur veniam? Adipisci amet at atque doloremque eveniet explicabo laudantium libero, perferendis quaerat reiciendis suscipit vitae. Atque commodi expedita possimus?</span><span>Aspernatur aut dignissimos esse illum possimus, qui sunt. Accusamus at commodi distinctio dolore ducimus eaque, esse exercitationem fuga illo incidunt natus nesciunt nisi obcaecati quam quibusdam quisquam soluta vero, vitae.</span>
+                           </p>
+                       </div>
+                   </div>
                 </div>
-                <div class="tab-pane active" id="profile">
+                <div class="tab-pane" id="profile">
                     <div class="profile">
                         <div class="profile-header">
                             <div class="level"><span>14</span> уровень</div>
@@ -426,40 +429,38 @@
                                         <div class="contacts-info__title">
                                             С вами свяжутся через:
                                         </div>
-                                        <div class="requisites">
+                                        <div class="contacts-requisites">
+                                            <div class="requisites">
                                         <span>
                                             Skype:
                                             user.skype
                                         </span>
-                                        </div>
-                                        <div class="requisites">
-                                            <span>vk.com/user</span>
-                                        </div>
-                                        <div class="requisites">
+                                            </div>
+                                            <div class="requisites">
+                                                <span>vk.com/user</span>
+                                            </div>
+                                            <div class="requisites">
                                         <span>
                                             Viber:
                                             +79214234567
                                         </span>
-                                        </div>
-                                        <div class="contacts-info__title">
-                                            С вами свяжутся через:
-                                        </div>
-                                        <div class="requisites">
+                                            </div>
+                                            <div class="requisites">
                                         <span>
                                             Skype:
                                             user.skype
                                         </span>
-                                        </div>
-                                        <div class="requisites">
-                                            <span>vk.com/user</span>
-                                        </div>
-                                        <div class="requisites">
+                                            </div>
+                                            <div class="requisites">
+                                                <span>vk.com/user</span>
+                                            </div>
+                                            <div class="requisites">
                                         <span>
                                             Viber:
                                             +79214234567
                                         </span>
+                                            </div>
                                         </div>
-
                                     </div>
                                     <button class="btn-change">Изменить</button>
                                 </div>
@@ -483,9 +484,9 @@
                 2017 | Проект ДРЕВО
             </div>
             <div class="footer-social col-lg-4 col-xs-12 col-sm-6">
-                <a href="#">VKontakte</a>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
+                <a href="https://vk.com/drevo_project">VKontakte</a>
+                <a href="https://facebook.com/drevoproject">Facebook</a>
+                <a href="https://t.me/drevo_project">Instagram</a>
             </div>
         </div>
     </div>
