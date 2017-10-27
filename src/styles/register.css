@@ -1,6 +1,6 @@
 @font-face {
-    font-family: RobotoRegular;
-    src: url("/src/fonts/Roboto/Roboto-Regular.ttf");
+    font-family: RobotoLight;
+    src: url("/src/fonts/Roboto/Roboto-Light.ttf");
 }
 @font-face {
     font-family: SegoeUIRegular;
@@ -21,7 +21,7 @@ body {
 
 .wrapper {
     height: 100vh;
-    padding-top: 40px;
+    padding: 40px 0 10vh;
     box-sizing: border-box;
     background: url("/src/images/reg-bg.svg") center no-repeat;
     background-size: 80%;
@@ -70,7 +70,7 @@ body {
     box-sizing: border-box;
     background: #40808d;
     color: rgba(255,255,255,0.9);
-    font-size: 24px;
+    font: 24px SegoeUIRegular, sans-serif;
     outline: none;
     box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
 }
