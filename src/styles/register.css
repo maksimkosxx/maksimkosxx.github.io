@@ -70,7 +70,7 @@ body {
     box-sizing: border-box;
     background: #40808d;
     color: rgba(255,255,255,0.9);
-    font: 24px SegoeUIRegular, sans-serif;
+    font: 22px SegoeUIRegular, sans-serif;
     outline: none;
     box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
 }
