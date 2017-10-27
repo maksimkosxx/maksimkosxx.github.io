@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Предварительная регистрация в проекте Древо</title>
     <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
     <link rel="stylesheet" href="/src/styles/register.css">
@@ -11,42 +11,26 @@
 <div class="wrapper">
     <div class="wrapper-register">
         <div class="logo">
-        <a href="/" class="nlogo">
-            <img src="/src/images/logo@3x.png" alt="">
+            <a href="/" class="logo">
+                <img src="/src/images/logo.svg" alt="">
+                <span>Проект древо</span>
             </a>
         </div>
-        <h2>Предварительная регистрация</h2>
-        <!--Данные введенные пользователем обрабатываются кодом в mail.php-->
         <form action="/mail.php" method="post">
-            <!--Тег используется для группировки связанных элементов в форме-->
-            <!--Тег задает заголовок для групповых элементов-->
-            <input type="text" name="email" placeholder="Ваш E-mail" required>
-            <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
-            <input type="submit" value="Отправить">
+            <label for="name">Имя пользователя</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" required>
+            <label for="password">Пароль</label>
+            <input type="password" name="password" id="password" required>
+            <label for="password-repeat">Повторите пароль</label>
+            <input type="password" name="password-repeat" id="password-repeat" required>
+            <label for="parent-partner">Вас подключает</label>
+            <input type="text" name="parent-partner" id="parent-partner" value="" readonly>
+            <input type="checkbox" id="check">
+            <label for="check">Я принимаю условие пользователького соглашения</label>
+            <input type="submit" value="Регистрация">
         </form>
-        <div class="register-text">
-            <p>
-                Команда проекта ДРЕВО БЕСПЛАТНО даёт первый ключ всем,
-                кто поддержит проект в&nbsp;социальных сетях.
-                Вам нужно рассказать о&nbsp;нас в&nbsp;социальной сети или вступить в&nbsp;Telegram-чат.
-            </p>
-            <p>
-                Если в&nbsp;процессе просмотра сайта у&nbsp;Вас возникнут вопросы или пожелания,
-                пожайлуста, пишите нам в&nbsp;Telegram-чат для наиболее оперативного ответа,
-                либо в&nbsp;другие социальные сети.
-            </p>
-        </div>
-        <div class="social">
-            <a href="https://vk.com/drevo_project" target="_blank">
-                <img src="/src/images/social/vk.png" alt="">
-            </a>
-            <a href="https://t.me/drevo_project" target="_blank">
-                <img src="/src/images/social/tlg.png" alt="">
-            </a>
-            <a href="https://facebook.com/drevoproject" target="_blank">
-                <img src="/src/images/social/fb.png" alt="">
-            </a>
-        </div>
     </div>
 </div>
 </body>
