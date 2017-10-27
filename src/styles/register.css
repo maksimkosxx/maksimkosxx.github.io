@@ -20,11 +20,11 @@ body {
 }
 
 .wrapper {
-    height: calc(100vh - 40px);
-    margin: 40px auto 0;
+    height: 100vh;
+    padding-top: 40px;
     box-sizing: border-box;
     background: url("/src/images/reg-bg.svg") center no-repeat;
-    background-size: contain;
+    background-size: 80%;
 }
 .wrapper-register {
     max-width: 360px;
@@ -121,7 +121,7 @@ body {
     transform: scale(0.98);
     transition: all 0.15s linear;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1800px) {
     .wrapper {
         height: auto;
     }
