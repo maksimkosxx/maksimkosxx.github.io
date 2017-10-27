@@ -126,6 +126,11 @@ body {
         height: auto;
     }
 }
+@media (max-width: 1200px) {
+    .wrapper {
+        background-size: cover;
+    }
+}
 @media (max-width: 400px) {
     .wrapper {
         height: auto;
@@ -138,12 +143,12 @@ body {
     .logo {
         margin-bottom: 40px;
     }
-}
-@media (max-width: 1200px) {
-    .wrapper {
-        background-size: cover;
+    .wrapper-register input[type="text"],
+    .wrapper-register input[type="password"] {
+        height: 50px;
     }
 }
+
 
 
 
