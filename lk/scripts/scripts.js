@@ -33,11 +33,6 @@ $(document).ready(function () {
         }
     });
 
-    // VIDEO TABS
-
-    $('.panel-heading.heading--main').on('click', function () {
-        $(this).toggleClass('active');
-    });
 
 
     $('.partners-content').slimScroll({
@@ -70,5 +65,3 @@ $(document).ready(function () {
 
 
 });
-
-

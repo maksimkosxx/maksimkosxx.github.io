@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Предварительная регистрация в проекте Древо</title>
     <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="stylesheet" href="/src/libs/bootstrap.min.css">
     <link rel="stylesheet" href="/src/styles/register.css">
 </head>
 <body>
@@ -23,16 +24,53 @@
             <input type="text" name="email" id="email" required>
             <label for="password">Пароль</label>
             <input type="password" name="password" id="password" required>
-            <label for="password-repeat">Повторите пароль</label>
+            <label for="password-repeat" class="pass-repeat_label">Повторите пароль</label>
             <input type="password" name="password-repeat" id="password-repeat" required>
             <label for="parent-partner">Вас подключает</label>
             <input type="text" name="parent-partner" id="parent-partner" value="" readonly>
             <input type="checkbox" id="check">
-            <label for="check">Я принимаю условия пользователького соглашения</label>
-            <input type="submit" value="Регистрация">
+            <p>Я принимаю условия <a href="#" data-toggle="modal" data-target="#agreement">пользователького соглашения</a></p>
+            <input type="submit" id="submit" value="Регистрация">
         </form>
     </div>
 </div>
+<div class="modal fade" id="agreement" tabindex="1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-not_confirm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title">Пользовательское соглашение</h3>
+            </div>
+            <div class="modal-body">
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi consequatur, dicta
+                    dolores ea enim explicabo fugit necessitatibus numquam obcaecati possimus quae quasi repellat sequi
+                    voluptate. Animi assumenda ipsum quod.
+                </div>
+                <div>Beatae deserunt, dolorem eveniet ipsam natus nemo pariatur! Blanditiis optio quo recusandae,
+                    tempora unde veritatis? Consectetur cumque illo rem totam? Blanditiis, culpa cupiditate est et
+                    expedita ipsam nobis quasi quos?
+                </div>
+                <div>Ea id maiores quam quos, voluptas voluptates. Consequuntur culpa dicta dignissimos dolorum hic in
+                    laudantium neque provident quae quaerat! Animi ipsam itaque molestias quam recusandae repudiandae
+                    sequi temporibus velit voluptas!
+                </div>
+                <div>Ad adipisci animi consequatur cum error est explicabo facere fuga, illo laudantium libero minus
+                    nulla, officiis optio perferendis possimus quidem quis reiciendis reprehenderit sapiente sequi
+                    similique temporibus vel vitae voluptates.
+                </div>
+                <div>Ad architecto aut commodi dolor dolore ducimus et ex id in incidunt, ipsa itaque laboriosam minima
+                    nisi officia perspiciatis porro praesentium quas repellat sunt suscipit tenetur unde veniam vitae
+                    voluptatibus!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/src/libs/jquery.min.js"></script>
+<script src="/src/libs/bootstrap.min.js"></script>
+<script src="/src/scripts/main.min.js"></script>
 </body>
 </html>
 
