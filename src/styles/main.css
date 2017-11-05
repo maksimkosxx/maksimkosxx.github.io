@@ -210,28 +210,16 @@ a:active {
     width: auto;
 }
 
-section {
-    min-height: 100vh;
-}
 
 .header {
+    border: 1px solid #EEEEEE;
+    background: #fff;
+    transition: all 0.1s linear;
     padding-top: 18px;
     padding-bottom: 18px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: OpenSansSemiBold, sans-serif;
-}
-.header.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    z-index: 100000;
-    width: 100%;
-    border: 1px solid #EEEEEE;
-    background: #fff;
-    transition: all 0.1s linear;
 }
 
 .header .nav-tabs {
@@ -311,6 +299,22 @@ section {
 
 .hero {
     padding: 9vh 0 5vh;
+}
+.thesis {
+    padding:2vh 0;
+}
+/*.lessons,*/
+/*.efirium,*/
+/*.how-work,*/
+/*.faq,*/
+/*.partnership {*/
+    /*padding: 7vh 0 9vh;*/
+/*}*/
+.team-block {
+    margin-top: 50px;
+    padding-bottom: 12vh;
+}
+.hero {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
@@ -472,9 +476,6 @@ section {
     font: 16px/23px RobotoSlabRegular, sans-serif;
 }
 
-.lessons {
-    padding: 7vh 0 9vh;
-}
 
 .lessons-title {
     margin-bottom: 5vh;
@@ -496,8 +497,8 @@ section {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    min-height: 79px;
-    padding: 10px 15px 10px 30px;
+    min-height: 67px;
+    padding: 7px 15px 7px 30px;
     border-radius: 5px;
     border: solid 3px #336e7b;
     -webkit-box-sizing: border-box;
@@ -521,7 +522,6 @@ section {
 }
 
 .partnership {
-    padding: 7vh 0 9vh;
     text-align: center;
     background-color: #336e7b;
     color: #ffffff;
@@ -543,8 +543,7 @@ section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 370px;
-    margin: 20px 0;
+    min-height: 340px;
 }
 
 .partner-advantages__item .icon {
@@ -568,6 +567,7 @@ section {
     display: inline-block;
     max-width: 150px;
     max-height: 110px;
+
 }
 
 .partner-advantages__item:nth-of-type(2) img {
@@ -694,10 +694,6 @@ section {
     padding: 20px;
 }
 
-.efirium {
-    padding: 7vh 0 9vh;
-}
-
 .efirium-title {
     font-size: 41px;
 }
@@ -782,7 +778,6 @@ section {
 }
 
 .video {
-    padding: 7vh 0 9vh;
     background-color: #f4f4f4;
 }
 
@@ -854,7 +849,6 @@ section {
 
 .how-work {
     position: relative;
-    padding: 7vh 0 9vh;
 }
 
 .how-work::after {
@@ -970,7 +964,7 @@ section {
 }
 
 .faq {
-    padding: 7vh 0 9vh;
+
     background: #006e7d;
 }
 
@@ -1447,5 +1441,24 @@ section {
     .how-work::after {
         bottom: -40px;
         height: 100px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero {
+        padding: 9vh 0 5vh;
+    }
+    .thesis {
+        padding:2vh 0;
+    }
+    .lessons,
+    .efirium,
+    .how-work,
+    .faq,
+    .partnership {
+        padding: 7vh 0 9vh;
+    }
+    .team-block {
+        margin-top: 50px;
+        padding-bottom: 12vh;
     }
 }

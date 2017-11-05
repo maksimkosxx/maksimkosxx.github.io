@@ -11,10 +11,10 @@ $(document).ready(function () {
         }),
 
 
-        $(".btn--mouse").on("click", function () {
-            var a = $(this).attr("href");
-            return 0 != $(a).length && $("html, body").animate({scrollTop: $(a).offset().top}, 800), !1
-        }),
+        // $(".btn--mouse").on("click", function () {
+        //     var a = $(this).attr("href");
+        //     return 0 != $(a).length && $("html, body").animate({scrollTop: $(a).offset().top}, 800), !1
+        // }),
 
         $(".video-btn").on("click", function () {
             if ($(this).hasClass("play")) $(this).removeClass("play"), $(this).addClass("pause"), $("video").get(0).play(); else {
@@ -50,16 +50,22 @@ $(document).ready(function () {
     //     }
     // });
 
-    // $('#fullpage').fullpage({
-    //     menu: '.header',
-    //     lockAnchors: false,
-    //     anchors:['advantages', 'lessons', 'partnership', 'efirium'],
-    //     navigationPosition: 'top',
-    //
-    //     css3: true,
-    //     scrollingSpeed: 700,
-    //     autoScrolling: true,
-    //     fitToSection: true
-    // });
+    // FULLPAGE SCROLL
+
+    if ($(window).width() > 1280) {
+        $('#fullpage').fullpage({
+            css3: true,
+            scrollingSpeed: 700,
+            autoScrolling: true
+        });
+    } else {
+
+    }
+    $('.btn--mouse').on('click', function(){
+        $.fn.fullpage.moveSectionDown();
+    });
+
+
+
 
 });
