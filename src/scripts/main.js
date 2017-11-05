@@ -36,4 +36,30 @@ $(document).ready(function () {
         }
     });
 
+
+    // $(window).scroll(function() {
+    //     if ($(this).scrollTop() > 50
+    //     ){
+    //         $('.header').addClass('sticky');
+    //         $('.sticky').animate({
+    //             opacity: 1
+    //         }, 200);
+    //     }
+    //     else{
+    //         $('.header').removeClass('sticky');
+    //     }
+    // });
+
+    // $('#fullpage').fullpage({
+    //     menu: '.header',
+    //     lockAnchors: false,
+    //     anchors:['advantages', 'lessons', 'partnership', 'efirium'],
+    //     navigationPosition: 'top',
+    //
+    //     css3: true,
+    //     scrollingSpeed: 700,
+    //     autoScrolling: true,
+    //     fitToSection: true
+    // });
+
 });
