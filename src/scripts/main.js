@@ -34,7 +34,7 @@ $(document).ready(function () {
 
     // FULLPAGE
 
-    if ($(window).width() > 2000) {
+    if ($(window).width() > 4000) {
         $('#fullpage').fullpage({
             css3: true,
             scrollingSpeed: 700,
