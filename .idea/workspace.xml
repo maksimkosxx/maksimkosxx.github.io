@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="fixed">
+    <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
     </list>
@@ -54,8 +54,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="671">
-                  <caret line="664" column="23" lean-forward="true" selection-start-line="664" selection-start-column="23" selection-end-line="664" selection-end-column="23" />
+                <state relative-caret-position="411">
+                  <caret line="519" column="14" lean-forward="false" selection-start-line="519" selection-start-column="14" selection-end-line="519" selection-end-column="14" />
                   <folding>
                     <element signature="e#29471#31920#0" expanded="false" />
                   </folding>
@@ -522,14 +522,7 @@
       <workItem from="1509447983192" duration="2425000" />
       <workItem from="1509451568767" duration="1591000" />
       <workItem from="1509711764066" duration="1321000" />
-      <workItem from="1510033481672" duration="31804000" />
-    </task>
-    <task id="LOCAL-00003" summary="clean to drevo_lp">
-      <created>1506457118510</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1506457118510</updated>
+      <workItem from="1510033481672" duration="31830000" />
     </task>
     <task id="LOCAL-00004" summary="drevo_lp production">
       <created>1506546512118</created>
@@ -867,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510069802081</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="fixed">
+      <created>1510069867489</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1510069867489</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292948000" />
+    <option name="totallyTimeSpent" value="292974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="44" width="1468" height="1032" extended-state="0" />
@@ -1228,8 +1228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="664" column="23" lean-forward="true" selection-start-line="664" selection-start-column="23" selection-end-line="664" selection-end-column="23" />
+        <state relative-caret-position="411">
+          <caret line="519" column="14" lean-forward="false" selection-start-line="519" selection-start-column="14" selection-end-line="519" selection-end-column="14" />
           <folding>
             <element signature="e#29471#31920#0" expanded="false" />
           </folding>
