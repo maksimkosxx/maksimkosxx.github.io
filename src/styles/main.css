@@ -531,8 +531,8 @@ a:active {
     display: block;
     position: absolute;
     top: -4px;
-    left: 50.1%;
-    width: 3.5px;
+    left: 396px;
+    width: 0.25em;
     height: 4px;
     background: #fff;
     z-index: 2;
@@ -631,7 +631,12 @@ a:active {
     transition: .6s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-
+    white-space:normal;
+}
+@-moz-document url-prefix() {
+    .lessons-item button {
+        overflow: hidden;
+    }
 }
 .lessons-item button .front {
     display: -webkit-box;
@@ -657,7 +662,7 @@ a:active {
     overflow: hidden;
 }
 .lessons-item button .front span {
-    max-width: 87%;
+    max-width: 85%;
 }
 .lessons-item button .back {
     position: absolute;
@@ -673,7 +678,6 @@ a:active {
     box-shadow: 0 6px 18px 0 rgba(147, 147, 147, 0.5);
     background: #fff;
     border: 4px solid #336e7b;
-
     border-radius: 10px;
     line-height: 20px;
     -webkit-transition: all .2s linear;
@@ -681,7 +685,6 @@ a:active {
     opacity: 0;
     height: 0;
     overflow: hidden;
-
 }
 
 .lessons-item button.active .front,
@@ -698,6 +701,11 @@ a:active {
     position: relative;
     z-index: 10;
 }
+@-moz-document url-prefix() {
+    .lessons-item button.active {
+        overflow: visible;
+    }
+}
 .lessons-item button.active .front {
     -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
@@ -706,8 +714,8 @@ a:active {
     opacity: 1;
     height: auto;
     min-height: 150px;
-    -webkit-transform: rotateX(0deg) scale(1.03);
-    transform: rotateX(0deg) scale(1.03);
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
 }
 
 .lessons-item button .front::before {

@@ -57,6 +57,5 @@ $(document).ready(function () {
         }
         return false;
     });
-    FastClick.attach(document.body);
 
 });
