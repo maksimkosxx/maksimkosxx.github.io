@@ -1349,6 +1349,10 @@ a:active {
     }
     .lessons-content {
         padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .lessons-content::before {
+        left: 50.2%;
     }
     .lessons-item:nth-child(even)::before,
     .lessons-item:nth-child(odd)::before,
