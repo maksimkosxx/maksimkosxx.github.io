@@ -5,12 +5,12 @@
 @font-face {
     font-family: SegoeUIRegular;
     src: url("/src/fonts/SegoeUI/SegoeUIRegular.woff") format('woff'),
-         url("/src/fonts/SegoeUI/SegoeUIRegular.ttf") format('tryetype');
+    url("/src/fonts/SegoeUI/SegoeUIRegular.ttf") format('tryetype');
 }
 @font-face {
     font-family: SegoeUIBold;
     src: url("/src/fonts/SegoeUI/SegoeUIBold.woff") format('woff'),
-         url("/src/fonts/SegoeUI/SegoeUIBold.ttf") format('tryetype');
+    url("/src/fonts/SegoeUI/SegoeUIBold.ttf") format('tryetype');
 }
 body {
     margin: 0;
@@ -22,6 +22,7 @@ body {
 .wrapper {
     height: 100vh;
     padding: 40px 0 10vh;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background: url("/src/images/reg-bg.svg") center no-repeat;
     background-size: 80%;
@@ -68,11 +69,13 @@ body {
     padding-left: 15px;
     border-radius: 10px;
     border: none;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background: #40808d;
     color: rgba(255,255,255,0.9);
     font: 22px SegoeUIRegular, sans-serif;
     outline: none;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
     box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
 }
 
@@ -82,7 +85,10 @@ body {
 
 .wrapper-register input[type="text"]:focus,
 .wrapper-register input[type="password"]:focus {
+    -webkit-box-shadow: 0 4px 12px 0 rgba(147, 147, 147, 0.9);
     box-shadow: 0 4px 12px 0 rgba(147, 147, 147, 0.9);
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 .wrapper-register input[type="text"]:-webkit-autofill,
@@ -129,14 +135,21 @@ body {
     background: #ffe26d;
     outline: none;
     cursor: pointer;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
     box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.8);
 }
 .wrapper-register input[type="submit"]:hover {
     background: #f3d662;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 .wrapper-register input[type="submit"]:active {
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
     transform: scale(0.98);
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
     transition: all 0.15s linear;
 }
 .modal {
@@ -200,7 +213,6 @@ body {
         height: 50px;
     }
 }
-
 
 
 

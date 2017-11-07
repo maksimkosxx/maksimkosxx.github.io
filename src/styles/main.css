@@ -51,7 +51,7 @@ body {
 }
 
 .title {
-    margin-bottom: 5vh;
+    margin-bottom: 50px;
     font: 60px RobotoSlabLight, sans-serif;
     color: #336e7b;
 }
@@ -164,7 +164,7 @@ a:active {
 .btn--play {
     width: 80%;
     max-width: 188px;
-    margin: 7vh auto;
+    margin: 70px auto;
     font-family: OpenSansSemiBold, sans-serif;
     outline: none;
 }
@@ -210,11 +210,7 @@ a:active {
     width: auto;
 }
 
-
 .header {
-    border: 1px solid #EEEEEE;
-    background: #fff;
-    transition: all 0.1s linear;
     padding-top: 18px;
     padding-bottom: 18px;
     -webkit-box-sizing: border-box;
@@ -224,7 +220,6 @@ a:active {
 
 .header .nav-tabs {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -250,8 +245,6 @@ a:active {
 .header .nav-tabs li a:hover {
     color: #336e7b;
     background: transparent;
-    -webkit-transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
     transition: color 0.2s linear;
 }
 
@@ -267,20 +260,10 @@ a:active {
 }
 
 .header-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     padding-left: 0;
+}
+.header-btn .btn--yellow {
+    margin-right: 8px;
 }
 
 .header-btn button.btn {
@@ -298,35 +281,37 @@ a:active {
 }
 
 .hero.section--padding {
-    padding: 9vh 0 5vh;
-    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 50px no-repeat;
+    padding: 90px 0 50px;
+    background: url("/src/images/bitmap.png") center center no-repeat,
+                url("/src/images/lines.png") center 50px no-repeat;
     background-size: cover, auto;
+    background-color: #336e7b;
 }
 .thesis.section--padding {
-    padding:2vh 0;
+    padding:20px 0;
 }
 .lessons.section--padding,
 .efirium.section--padding,
 .how-work.section--padding,
 .faq.section--padding,
 .partnership.section--padding {
-    padding: 7vh 0 9vh;
+    padding: 70px 0 90px;
 }
 .team-block.section--padding {
     margin-top: 50px;
-    padding-bottom: 12vh;
+    padding-bottom: 110px;
 }
 
 .hero {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
-    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 150% no-repeat;
+    background: url("/src/images/bitmap.png") center center no-repeat,
+                url("/src/images/lines.png") center 150% no-repeat;
     background-size: cover, 80%;
     background-color: #336e7b;
     color: #ffffff;
 }
-
 .hero-wrapper {
     max-width: 760px;
     margin: 0 auto;
@@ -358,7 +343,7 @@ a:active {
 .hero-btn {
     width: 80%;
     max-width: 188px;
-    margin: 7vh auto;
+    margin: 70px auto;
     font-family: OpenSansSemiBold, sans-serif;
 }
 
@@ -371,13 +356,13 @@ a:active {
 .hero .btn--mouse {
     position: relative;
     display: block;
-    width: 20px;
+    width: 21px;
     height: 29px;
     margin: 50px auto 20px;
     padding: 0;
     border: none;
     background: transparent url("/src/images/icons/mouse_3x.png") center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .hero .btn--mouse:active::after {
@@ -427,7 +412,7 @@ a:active {
 }
 
 .thesis {
-    padding: 2vh 0;
+    padding: 20px 0;
     background: #f4f4f4;
 }
 
@@ -438,8 +423,6 @@ a:active {
 }
 
 .thesis-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -481,7 +464,7 @@ a:active {
 
 
 .lessons-title {
-    margin-bottom: 5vh;
+    margin-bottom: 50px;
 }
 
 .lessons-item {
@@ -490,7 +473,6 @@ a:active {
 
 .lessons-item button {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -531,27 +513,17 @@ a:active {
 }
 
 .partnership-title {
-    margin-bottom: 8vh;
+    margin-bottom: 80px;
     color: #ffffff;
 }
 
 .partner-advantages__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     min-height: 340px;
+    margin: 20px 0;
 }
 
 .partner-advantages__item .icon {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -697,13 +669,13 @@ a:active {
     padding: 20px;
 }
 
+
 .efirium-title {
     font-size: 41px;
 }
 
 .efirium-content {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -719,7 +691,6 @@ a:active {
 
 .efirium-text {
     font: 16px/23px RobotoSlabRegular, sans-serif;
-
 }
 
 .efirium-text p {
@@ -727,11 +698,7 @@ a:active {
 }
 
 .efirium ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     -webkit-box-align: center;
@@ -743,10 +710,11 @@ a:active {
     margin: 20px 0 20px 30px;
     list-style: disc;
     color: #336e7b;
+
 }
 
 .efirium ul li {
-    width: 49%;
+    width: 48%;
     margin-bottom: 5px;
 }
 
@@ -754,6 +722,7 @@ a:active {
     display: inline-block;
     vertical-align: middle;
     color: #404040;
+    margin-left: 10px;
     font-size: 15px;
 }
 
@@ -789,7 +758,7 @@ a:active {
 }
 
 .video-content {
-    margin-top: 7vh;
+    margin-top: 70px;
     overflow: hidden;
 }
 
@@ -864,6 +833,7 @@ a:active {
     height: 180px;
     border: solid 4px #006e7d;
     margin: auto;
+    background: #006e7d;
 }
 
 .how-work__title {
@@ -872,7 +842,7 @@ a:active {
 }
 
 .how-work__content {
-    margin-top: 7vh;
+    margin-top: 70px;
     overflow: hidden;
 }
 
@@ -909,7 +879,7 @@ a:active {
 
 .team-block {
     margin-top: 50px;
-    padding-bottom: 12vh;
+    padding-bottom: 110px;
 }
 
 .team-title {
@@ -918,10 +888,7 @@ a:active {
 }
 
 .team-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -931,6 +898,7 @@ a:active {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    overflow: hidden;
 }
 
 .team-item {
@@ -939,11 +907,19 @@ a:active {
 }
 
 .team-item__icon {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 170px;
     margin: 0 auto;
     border-radius: 50%;
     background-color: #f9e174;
+}
+.team-item__icon img {
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 .team-item__name {
@@ -967,7 +943,6 @@ a:active {
 }
 
 .faq {
-
     background: #006e7d;
 }
 
@@ -977,7 +952,7 @@ a:active {
 }
 
 .faq-wrapper {
-    margin-top: 6vh;
+    margin-top: 60px;
 }
 
 .faq-image {
@@ -1035,6 +1010,8 @@ a:active {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
     .hero-title {
         font-size: 35px;
         line-height: normal;
@@ -1054,6 +1031,14 @@ a:active {
         text-align: center;
     }
 
+    .lessons,
+    .partnership,
+    .efirium,
+    .video,
+    .how-work ,
+    .faq  {
+        padding: 50px 0;
+    }
 
     .partnership img,
     .efirium img,
@@ -1085,6 +1070,9 @@ a:active {
         display: block;
         min-height: inherit;
         margin: 50px 0 80px;
+    }
+    .partner-advantages__item:last-of-type {
+        margin: 50px 0 30px;
     }
 
     .partner-text {
@@ -1152,6 +1140,9 @@ a:active {
     .faq button {
         display: block;
         margin: 40px auto;
+    }
+    .partnership .hero-btn {
+        margin: 20px auto;
     }
     .efirium ul li {
         width: 100%;
@@ -1228,8 +1219,11 @@ a:active {
         -ms-flex-pack: start;
         justify-content: flex-start;
     }
-    .header-btn a {
-        margin-left: 15px;
+    .header-btn .btn--yellow {
+        max-width: 125px;
+        margin-left: 10px;
+        margin-right: 5px;
+        border: 2px solid transparent;
     }
 
     .header-btn button.btn {
@@ -1267,12 +1261,14 @@ a:active {
 
     .faq-content {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+    .team-block {
+        padding-bottom: 70px;
     }
 
     .footer-info {
@@ -1282,7 +1278,6 @@ a:active {
 
     .footer-social {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -1399,7 +1394,6 @@ a:active {
 
     .faq-content {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1413,7 +1407,6 @@ a:active {
 
     .footer-social {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -1430,7 +1423,6 @@ a:active {
         margin-left: 0;
     }
 }
-
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .partnership img,
     .efirium img,
