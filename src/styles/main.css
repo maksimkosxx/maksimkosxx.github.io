@@ -1354,6 +1354,9 @@ a:active {
     .lessons-content::before {
         left: 50.2%;
     }
+    .lessons-item {
+        overflow: hidden;
+    }
     .lessons-item:nth-child(even)::before,
     .lessons-item:nth-child(odd)::before,
     .lessons-item:nth-child(even)::after,
