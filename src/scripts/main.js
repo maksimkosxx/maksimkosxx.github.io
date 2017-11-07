@@ -40,13 +40,23 @@ $(document).ready(function () {
             scrollingSpeed: 700,
             autoScrolling: true
         });
-        $('section').removeClass('section--padding');
+        $('section').addClass.removeClass('section--padding');
     } else {
-        $('section').addClass('section--padding');
+        $('section').removeClass('section').addClass('section--padding');
     }
     $('.btn--mouse').on('click', function () {
         $.fn.fullpage.moveSectionDown();
     });
 
+    // LESSONS BUTTON
+
+    $('.lessons-item button').on('click', function () {
+        $(this).toggleClass('active');
+        if($(this).hasClass('active')) {
+            $(this).parent().siblings('.lessons-item').children('button').removeClass('active');
+        }
+        return false;
+    });
+    FastClick.attach(document.body);
 
 });
