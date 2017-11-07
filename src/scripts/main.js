@@ -50,9 +50,10 @@ $(document).ready(function () {
     //     }
     // });
 
-    // FULLPAGE SCROLL
 
-    if ($(window).width() > 1280) {
+    // FULLPAGE
+
+    if ($(window).width() > 1500) {
         $('#fullpage').fullpage({
             css3: true,
             scrollingSpeed: 700,

@@ -297,29 +297,32 @@ a:active {
     background: #336e7b;
 }
 
-/*.hero {*/
-    /*padding: 9vh 0 5vh;*/
-/*}*/
-/*.thesis {*/
-    /*padding:2vh 0;*/
-/*}*/
-/*.lessons,*/
-/*.efirium,*/
-/*.how-work,*/
-/*.faq,*/
-/*.partnership {*/
-    /*padding: 7vh 0 9vh;*/
-/*}*/
-/*.team-block {*/
-    /*margin-top: 50px;*/
-    /*padding-bottom: 12vh;*/
-/*}*/
+.hero.section--padding {
+    padding: 9vh 0 5vh;
+    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 50px no-repeat;
+    background-size: cover, auto;
+}
+.thesis.section--padding {
+    padding:2vh 0;
+}
+.lessons.section--padding,
+.efirium.section--padding,
+.how-work.section--padding,
+.faq.section--padding,
+.partnership.section--padding {
+    padding: 7vh 0 9vh;
+}
+.team-block.section--padding {
+    margin-top: 50px;
+    padding-bottom: 12vh;
+}
+
 .hero {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center;
-    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 50px no-repeat;
-    background-size: cover, auto;
+    background: url("/src/images/bitmap.png") center center no-repeat, url("/src/images/lines.png") center 150% no-repeat;
+    background-size: cover, 80%;
     background-color: #336e7b;
     color: #ffffff;
 }
@@ -560,13 +563,13 @@ a:active {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 170px;
+    min-height: 140px;
 }
 
 .partner-advantages img {
     display: inline-block;
-    max-width: 150px;
-    max-height: 110px;
+    max-width: 120px;
+    max-height: 80px;
 
 }
 
@@ -1441,24 +1444,5 @@ a:active {
     .how-work::after {
         bottom: -40px;
         height: 100px;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-    .hero {
-        padding: 9vh 0 5vh;
-    }
-    .thesis {
-        padding:2vh 0;
-    }
-    .lessons,
-    .efirium,
-    .how-work,
-    .faq,
-    .partnership {
-        padding: 7vh 0 9vh;
-    }
-    .team-block {
-        margin-top: 50px;
-        padding-bottom: 12vh;
     }
 }
