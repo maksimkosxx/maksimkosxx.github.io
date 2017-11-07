@@ -1,23 +1,41 @@
 $(document).ready(function () {
-    $(".mobile-btn").on("click", function () {
-        $(this).toggleClass("active").animate(500);
-        $(".nav").slideToggle()
-    }),
+    $('.mobile-btn').on('click', function () {
+        $(this).toggleClass('active').animate(500);
+        $('.nav').slideToggle();
+    });
 
 
-        $(".nav li a").on("click", function () {
-            var a = $(this).attr("href");
-            return 0 != $(a).length && ($(".nav li"),
-                $("html, body").animate({scrollTop: $(a).offset().top}, 800)), !1
-        }),
+    $('.nav li a').on('click', function () {
+        $('.nav li').removeClass('active');
+        var scroll_el = $(this).attr('href');
+        if ($(scroll_el).length != 0) {
+            $('html, body').animate({scrollTop: $(scroll_el).offset().top}, 800);
+        }
+        return false;
+    });
 
 
-        $(".video-btn").on("click", function () {
-            if ($(this).hasClass("play")) $(this).removeClass("play"), $(this).addClass("pause"), $("video").get(0).play(); else {
-                $(".video-btn").removeClass("pause"), $(this).addClass("play");
-                $("video").get(0).pause()
-            }
-        })
+    // VIDEO
+
+
+    $('.video-btn').on('click', function () {
+
+        if ($(this).hasClass('play')) {
+            $(this).removeClass('play');
+            $(this).addClass('pause');
+
+            $('video').get(0).play();
+
+        } else {
+
+            $('.video-btn').removeClass('pause');
+            $(this).addClass('play');
+
+            var pl = $('video').get(0);
+            pl.pause();
+
+        }
+    });
 
     $('#password-repeat').on('keyup', function () { // Выполняем скрипт при изменении содержимого 2-го поля
         var value_input1 = $("#password").val();
@@ -31,6 +49,15 @@ $(document).ready(function () {
         }
     });
 
+    // MOUSE SCROLL
+
+    $('.btn--mouse').on('click', function () {
+        var scroll_el = $(this).attr('href');
+        if ($(scroll_el).length != 0) {
+            $('html, body').animate({scrollTop: $(scroll_el).offset().top}, 800);
+        }
+        return false;
+    });
 
     // FULLPAGE
 
@@ -44,9 +71,9 @@ $(document).ready(function () {
     } else {
         $('section').removeClass('section').addClass('section--padding');
     }
-    $('.btn--mouse').on('click', function () {
-        $.fn.fullpage.moveSectionDown();
-    });
+    // $('.btn--mouse').on('click', function () {
+    //     $.fn.fullpage.moveSectionDown();
+    // });
 
     // LESSONS BUTTON
 
