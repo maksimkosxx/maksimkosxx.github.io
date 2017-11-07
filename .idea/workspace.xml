@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="fixed">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" afterPath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
     </list>
@@ -16,31 +15,20 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53519857">
+    <splitter split-orientation="horizontal" split-proportion="0.36236647">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="210" column="72" lean-forward="false" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
+                <state relative-caret-position="-3200">
+                  <caret line="200" column="70" lean-forward="true" selection-start-line="200" selection-start-column="70" selection-end-line="200" selection-end-column="70" />
                   <folding>
-                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#button#0;n#div#10;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -48,8 +36,12 @@
                     <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="e#45953#45960#1" expanded="true" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="e#47270#47277#1" expanded="true" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="e#49448#49455#1" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -62,8 +54,20 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/styles/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="2" selection-end-line="304" selection-end-column="3" />
+                <state relative-caret-position="671">
+                  <caret line="664" column="23" lean-forward="true" selection-start-line="664" selection-start-column="23" selection-end-line="664" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#29471#31920#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="249">
+                  <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -85,36 +89,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mobi</find>
-      <find>mous</find>
-      <find>nav</find>
-      <find>OpenSansSemiBold</find>
-      <find>HelveticaNeueLight</find>
-      <find>visitors</find>
-      <find>hero-form__title</find>
-      <find>/images</find>
-      <find>close</find>
-      <find>profile</find>
-      <find>wrapper--parners</find>
-      <find>key</find>
-      <find>user.svg</find>
-      <find>partners-content</find>
-      <find>partners</find>
-      <find>profile-contacts</find>
-      <find>video</find>
       <find>copy-button</find>
       <find>purse-form</find>
       <find>contacts-info__title</find>
       <find>contacts-requisites</find>
       <find>marketing-text</find>
       <find>video-block</find>
-      <find>&quot;</find>
-      <find>modal</find>
-      <find>blockch</find>
-      <find>section</find>
-      <find>st</find>
-      <find>.mp4</find>
-      <find>7vh 0 9vh</find>
+      <find>RobotoSlabRegular</find>
+      <find>Order</find>
+      <find>order</find>
+      <find>strong</find>
+      <find>Замена инвертора</find>
+      <find>Нет изображения</find>
+      <find>Windows</find>
+      <find>драй</find>
+      <find>шлейфов</find>
+      <find>цепи</find>
+      <find>Замена разъема питания</find>
+      <find>Замена видеокарты</find>
+      <find>шлейфа</find>
+      <find>шлей</find>
+      <find>инвертора</find>
+      <find>Blu</find>
+      <find>display: -ms-flexbox;</find>
+      <find>7vh</find>
+      <find>lessons</find>
+      <find>70px 0 90px</find>
+      <find>team-item__icon</find>
+      <find>lessons-item col-lg-6 col-sm-6</find>
+      <find>span</find>
+      <find>@media</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts/glyphicons-halflings-regular</replace>
@@ -125,7 +129,10 @@
       <replace>/lk/images</replace>
       <replace>wrapper--partners</replace>
       <replace>user_new.png</replace>
-      <replace>'</replace>
+      <replace>RobotoLight</replace>
+      <replace>70px</replace>
+      <replace>lessons-item</replace>
+      <replace>button</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,56 +142,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/styles/layout/_partnership.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_efirium.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_how-work.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/team-block.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_team.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/styles/main.scss" />
-        <option value="$PROJECT_DIR$/gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/styles/utils/_mixins.scss" />
-        <option value="$PROJECT_DIR$/dist/src/styles/main.css" />
-        <option value="$PROJECT_DIR$/dist/src/index.html" />
-        <option value="$PROJECT_DIR$/src/libs/main/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_hero.scss" />
-        <option value="$PROJECT_DIR$/src/scripts/main/scripts.js" />
-        <option value="$PROJECT_DIR$/src/styles/base/_base.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_lessons.scss" />
-        <option value="$PROJECT_DIR$/src/styles/layout/_faq.scss" />
-        <option value="$PROJECT_DIR$/dist/src/styles/main.min.css" />
-        <option value="$PROJECT_DIR$/src/styles/_media-queries.scss" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/register.html" />
-        <option value="$PROJECT_DIR$/mail.php" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/visitors.html" />
-        <option value="$PROJECT_DIR$/main.css" />
-        <option value="$USER_HOME$/Desktop/t3/marketing.html" />
-        <option value="$USER_HOME$/Desktop/t3/новая папка/cources.html" />
-        <option value="$PROJECT_DIR$/lk/index.html" />
-        <option value="$PROJECT_DIR$/lk/images/icons/dialog.svg" />
-        <option value="$PROJECT_DIR$/lk/images/icons/user.svg" />
-        <option value="$PROJECT_DIR$/lk/images/icons/parners-bg.svg" />
-        <option value="$PROJECT_DIR$/lk/styles/typography.css" />
-        <option value="$PROJECT_DIR$/lk_old_partner.html" />
-        <option value="$PROJECT_DIR$/lk_video.html" />
-        <option value="$PROJECT_DIR$/lk/styles/media.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$USER_HOME$/Desktop/новая папка/payment.html" />
-        <option value="$USER_HOME$/Desktop/новая папка/partners.html" />
-        <option value="$USER_HOME$/Desktop/новая папка/cources.html" />
-        <option value="$USER_HOME$/Desktop/новая папка/profile.html" />
+        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
+        <option value="&lt;e48a2acc-488e-4576-b19d-dfd5eba96a30&gt;/home/acer_repair/acer-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;95594ced-a7cf-4660-8f16-2e1438a5a7b8&gt;/home/asus_repair/asus-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/plug.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
+        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/styles/layout.css" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/plug.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
+        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
+        <option value="&lt;254574ed-aa59-4c83-8e2c-da507734f44a&gt;/home/sony_repair/sony-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/prices/msc.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/off.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
+        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/prices/msc.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
+        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
+        <option value="$PROJECT_DIR$/src/styles/register.css" />
         <option value="$PROJECT_DIR$/lk/styles/main.css" />
         <option value="$PROJECT_DIR$/lk/scripts/scripts.js" />
-        <option value="$USER_HOME$/Desktop/scripts.js" />
-        <option value="$PROJECT_DIR$/src/styles/register.css" />
-        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/lk.html" />
-        <option value="$PROJECT_DIR$/src/scripts/main.min.js" />
-        <option value="$PROJECT_DIR$/src/scripts/main.js" />
+        <option value="$PROJECT_DIR$/lk/images/icons/logo.svg" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/scripts/main.js" />
         <option value="$PROJECT_DIR$/src/styles/main.css" />
       </list>
     </option>
@@ -195,12 +202,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="316" />
+    <option name="y" value="44" />
+    <option name="width" value="1468" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,103 +224,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksimkosxx.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lk" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -321,7 +248,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../remont_center" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -335,11 +262,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\libs" />
-      <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\libs" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts\SegoeUI" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\images" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts\Roboto" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\bg" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\icons" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\fonts\RobotoSlab" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\bg" />
@@ -348,6 +275,129 @@
       <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io" />
       <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io\src" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/scripts/scripts.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/styles/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/register.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles/register.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/libs/clipboard.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/libs/jquery.fullpage.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/libs/jquery.fullpage.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scripts/main.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scripts/main.min.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -362,6 +412,14 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.drevo_lp">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -392,15 +450,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -421,12 +470,8 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="drevo_lp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8023">
-      <method />
-    </configuration>
-    <configuration default="false" name="drevo_lk" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/lk" port="8022">
-      <method />
-    </configuration>
+    <configuration name="drevo_lk" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/lk" port="8022" />
+    <configuration name="drevo_lp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8021" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.drevo_lp" />
       <item index="1" class="java.lang.String" itemvalue="PHP Built-in Web Server.drevo_lk" />
@@ -469,30 +514,15 @@
       <workItem from="1508911651773" duration="4000" />
       <workItem from="1508911671643" duration="18000" />
       <workItem from="1508912068349" duration="491000" />
-      <workItem from="1508931845546" duration="10407000" />
-      <workItem from="1508949776036" duration="1038000" />
-      <workItem from="1508951123100" duration="1100000" />
-      <workItem from="1508953656366" duration="1123000" />
-      <workItem from="1508963143498" duration="914000" />
-      <workItem from="1509032004668" duration="8000" />
-      <workItem from="1509041217877" duration="919000" />
-      <workItem from="1509114057567" duration="4754000" />
-      <workItem from="1509274633453" duration="949000" />
-      <workItem from="1509897135706" duration="10388000" />
-    </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1505927168606</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1505927168606</updated>
-    </task>
-    <task id="LOCAL-00002" summary="clean for new project">
-      <created>1506159063696</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1506159063697</updated>
+      <workItem from="1508931845546" duration="11098000" />
+      <workItem from="1509084637305" duration="4616000" />
+      <workItem from="1509090516923" duration="15170000" />
+      <workItem from="1509342158881" duration="14773000" />
+      <workItem from="1509439676648" duration="6164000" />
+      <workItem from="1509447983192" duration="2425000" />
+      <workItem from="1509451568767" duration="1591000" />
+      <workItem from="1509711764066" duration="1321000" />
+      <workItem from="1510033481672" duration="31804000" />
     </task>
     <task id="LOCAL-00003" summary="clean to drevo_lp">
       <created>1506457118510</created>
@@ -747,54 +777,117 @@
       <updated>1508942066741</updated>
     </task>
     <task id="LOCAL-00039" summary="fixed">
-      <created>1508950241441</created>
+      <created>1508942264897</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1508950241441</updated>
+      <updated>1508942264897</updated>
     </task>
-    <task id="LOCAL-00040" summary="check password">
-      <created>1509117738130</created>
+    <task id="LOCAL-00040" summary="new registration page">
+      <created>1509096565971</created>
       <option name="number" value="00040" />
       <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1509117738131</updated>
+      <updated>1509096565971</updated>
     </task>
-    <task id="LOCAL-00041" summary="section height 100vh">
-      <created>1509902287855</created>
+    <task id="LOCAL-00041" summary="fixed">
+      <created>1509096988414</created>
       <option name="number" value="00041" />
       <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1509902287855</updated>
+      <updated>1509096988414</updated>
     </task>
-    <task id="LOCAL-00042" summary="fullpage">
-      <created>1509910050649</created>
+    <task id="LOCAL-00042" summary="fixed">
+      <created>1509097411355</created>
       <option name="number" value="00042" />
       <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1509910050649</updated>
+      <updated>1509097411355</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fix">
+      <created>1509101250579</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101250579</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fixed">
+      <created>1509101429021</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101429021</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed">
+      <created>1509101606715</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101606715</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixed">
+      <created>1509101798817</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101798817</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fixed">
+      <created>1509101883655</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1509101883655</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix">
+      <created>1509102146364</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1509102146364</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fixed">
+      <created>1510039732109</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1510039732109</updated>
+    </task>
+    <task id="LOCAL-00050" summary="section learning">
+      <created>1510069581955</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1510069581955</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fixed">
+      <created>1510069802081</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1510069802081</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235586000" />
+    <option name="totallyTimeSpent" value="292948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="316" y="44" width="1468" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22491145" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2761438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27403316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -805,7 +898,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -825,40 +918,56 @@
     <MESSAGE value="960px&#10;" />
     <MESSAGE value="fixed&#10;" />
     <MESSAGE value="pages main and messages" />
-    <MESSAGE value="fix" />
     <MESSAGE value="start new lk page" />
     <MESSAGE value="finish new lk" />
     <MESSAGE value="links" />
     <MESSAGE value="font" />
     <MESSAGE value="media" />
+    <MESSAGE value="new registration page" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="section learning" />
     <MESSAGE value="fixed" />
-    <MESSAGE value="check password" />
-    <MESSAGE value="section height 100vh" />
-    <MESSAGE value="fullpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="fullpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;e48a2acc-488e-4576-b19d-dfd5eba96a30&gt;/home/acer_repair/acer-repair.ru/public/application/prices/vrn.php</url>
+          <line>170</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;95594ced-a7cf-4660-8f16-2e1438a5a7b8&gt;/home/asus_repair/asus-repair.ru/public/application/prices/msc.php</url>
+          <line>139</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/contacts.html">
+    <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/drevo (2)/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/DREVO_LK/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/cources.html" />
+    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/profile.html" />
+    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/partners.html" />
+    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/contacts.html" />
     <entry file="file://$PROJECT_DIR$/lk/lk.html" />
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lk/images/icons/dialog.svg" />
     <entry file="file://$PROJECT_DIR$/src/fonts/RobotoSlab/RobotoSlab-Regular.ttf">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,14 +995,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/base.html">
+    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/base.html" />
+    <entry file="file://$USER_HOME$/Desktop/DREVO_LK/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="566">
+          <caret line="562" column="49" lean-forward="false" selection-start-line="561" selection-start-column="4" selection-end-line="562" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/DREVO_LK/styles/main.css" />
     <entry file="file://$PROJECT_DIR$/lk/images/icons/parners-bg.svg" />
     <entry file="file://$PROJECT_DIR$/lk/images/bg/key-bg.png">
       <provider selected="true" editor-type-id="images">
@@ -901,13 +1010,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk/images/bg/parners-bg.png" />
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/user.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lk/images/icons/user_new.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -943,9 +1045,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lk_old_partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main.css" />
+    <entry file="file://$USER_HOME$/Desktop/media.css" />
+    <entry file="file://$USER_HOME$/Desktop/lk.html" />
+    <entry file="file://$USER_HOME$/Desktop/scripts.js" />
     <entry file="file://$PROJECT_DIR$/lk/styles/typography.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="20">
           <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
@@ -955,163 +1068,139 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/lk_old_partner.html" />
-    <entry file="file://$PROJECT_DIR$/lk_old_partner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3114">
-          <caret line="173" column="7" lean-forward="false" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/lk.html" />
-    <entry file="file://$USER_HOME$/Desktop/lk_video.html" />
     <entry file="file://$PROJECT_DIR$/lk_video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="146" column="7" lean-forward="false" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
+        <state relative-caret-position="291">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk/styles/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="258" column="1" lean-forward="false" selection-start-line="258" selection-start-column="1" selection-end-line="258" selection-end-column="1" />
+        <state relative-caret-position="2900">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/media.css" />
-    <entry file="file://$USER_HOME$/Desktop/main.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/новая папка/parent_info.html">
+    <entry file="file://$PROJECT_DIR$/src/fonts/Roboto/Roboto-Light.ttf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/новая папка/payment.html">
+    <entry file="file://$PROJECT_DIR$/src/images/reg-bg.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="100">
+          <caret line="0" column="483" lean-forward="true" selection-start-line="0" selection-start-column="483" selection-end-line="0" selection-end-column="483" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15192">
-          <caret line="844" column="18" lean-forward="false" selection-start-line="844" selection-start-column="18" selection-end-line="844" selection-end-column="18" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/images/logo@3x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/новая папка/cources.html">
+    <entry file="file://$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIBold.ttf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/новая папка/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/новая папка/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/lk/scripts/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/styles/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="488">
+          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="1012" column="16" lean-forward="false" selection-start-line="1012" selection-start-column="16" selection-end-line="1012" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lk/images/icons/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="93" lean-forward="false" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/jquery.fullpage.js">
+    <entry file="file://$PROJECT_DIR$/lk/images/icons/user.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/jquery.fullpage.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/clipboard.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/libs/clipboard.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="515" column="38" lean-forward="false" selection-start-line="515" selection-start-column="38" selection-end-line="515" selection-end-column="38" />
+        <state relative-caret-position="337">
+          <caret line="500" column="31" lean-forward="false" selection-start-line="500" selection-start-column="31" selection-end-line="500" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/lk/scripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUISemiBold.ttf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="210" column="72" lean-forward="false" selection-start-line="210" selection-start-column="72" selection-end-line="210" selection-end-column="72" />
+        <state relative-caret-position="-3200">
+          <caret line="200" column="70" lean-forward="true" selection-start-line="200" selection-start-column="70" selection-end-line="200" selection-end-column="70" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#div#10;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1119,17 +1208,31 @@
             <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#45953#45960#1" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#47270#47277#1" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#49448#49455#1" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="2" selection-end-line="304" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="671">
+          <caret line="664" column="23" lean-forward="true" selection-start-line="664" selection-start-column="23" selection-end-line="664" selection-end-column="23" />
+          <folding>
+            <element signature="e#29471#31920#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
