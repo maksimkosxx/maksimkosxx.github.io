@@ -1,0 +1,94 @@
+.reviews {
+  padding: 6vh 0 9vh;
+  h2 {
+    margin-bottom: 35px;
+  }
+  &-item {
+    display: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 930px;
+    margin: 0 auto 30px;
+    @include respond-to(handhelds) {
+      margin-bottom: 50px;
+    }
+    &__photo {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      width: 145px;
+      height: 145px;
+      margin-right: 15px;
+      border-radius: 50%;
+      text-align: center;
+      background: $purple;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 87%;
+      }
+    }
+    &__info {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+      .name {
+        font-weight: bold;
+      }
+      .date-time {
+        font-style: italic;
+      }
+    }
+    &__description {
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 583px;
+      min-height: 88px;
+      padding: 15px 30px;
+      border-radius: 40px;
+      box-sizing: border-box;
+      background: $brule;
+      @include respond-to(handhelds) {
+        margin-top: 20px;
+      }
+      @supports not (display: flex) {
+        & {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        top: calc(50% - 5px);
+        left: -18px;
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-right: 24px solid $brule;
+        border-bottom: 17px solid transparent;
+        @include respond-to(handhelds) {
+          display: none;
+        }
+      }
+    }
+  }
+  &-buttons {
+    margin-top: 50px;
+    text-align: center;
+    button {
+      margin: 20px 7px;
+      @include respond-to(handhelds) {
+        margin: 5px 0;
+      }
+    }
+  }
+}

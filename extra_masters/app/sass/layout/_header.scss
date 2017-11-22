@@ -1,0 +1,71 @@
+.header {
+  padding: 25px 0;
+  overflow: hidden;
+  &-column {
+    float: left;
+    &:last-child {
+      float: right;
+    }
+  }
+  &-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+    @include respond-to(tablets) {
+      font-size: 16px;
+      line-height:27px;
+    }
+    &::after {
+      display: inline-block;
+      vertical-align: middle;
+      content: '';
+      width: 3px;
+      height: 27px;
+      margin:0 20px;
+      background: $black;
+      @include respond-to(handhelds) {
+        display: none;
+      }
+      @include respond-to(tablets) {
+        margin:0 13px;
+      }
+    }
+  }
+  &-description {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 190px;
+    font-size: 12px;
+    @include respond-to(handhelds) {
+      margin: 0 0 10px;
+    }
+  }
+  &-phone {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+    @include respond-to(handhelds) {
+      margin-bottom: 10px;
+    }
+    i.fa {
+      margin-right: 5px;
+      font-size: 15px;
+      color: $purple;
+    }
+  }
+  button {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  @include respond-to(handhelds) {
+    text-align: center;
+  }
+}

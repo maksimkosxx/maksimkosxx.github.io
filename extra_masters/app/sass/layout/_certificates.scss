@@ -1,0 +1,47 @@
+.certificates {
+  padding: 70px 0 50px;
+  @include respond-to(handhelds) {
+    padding: 50px 0 40px;
+  }
+  h2 {
+    margin-bottom: 65px;
+    @include respond-to(handhelds) {
+      margin-bottom: 30px;
+    }
+  }
+  &-content {
+    text-align: center;
+    &__item {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      max-width: 229px;
+      min-height: 318px;
+      margin: 0 7px;
+      background: url("/images/certificates/border.png") center no-repeat;
+      box-shadow: -13px 15px 20px -11px rgba(0,0,0,0.75);
+      @include respond-to(handhelds) {
+        max-width: 40%;
+        min-height: 185px;
+        background: none;
+        box-shadow: none;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        max-width: 180px;
+        min-height: 272px;
+        @include respond-to(handhelds) {
+          width: 100%;
+          max-width: 100%;
+          min-height: inherit;
+        }
+      }
+    }
+  }
+}

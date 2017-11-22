@@ -1,0 +1,50 @@
+.form-field {
+  width: 100%;
+  max-width: 330px;
+  height: 60px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(122, 117, 217);
+  box-sizing: border-box;
+  text-align: center;
+  @include respond-to(handhelds) {
+    height: 50px;
+  }
+  &::-webkit-input-placeholder {
+    color: #949494;
+    font-family: $font-base;
+  }
+  &::-moz-placeholder {
+    color: #949494;
+    font-family: $font-base;
+  }
+  &:-moz-placeholder {
+    color: #949494;
+    font-family: $font-base;
+  }
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+    transition: .2s;
+  }
+  &:focus::-moz-placeholder {
+    color: transparent;
+    transition: .2s;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent;
+    transition: .2s;
+  }
+}
+.form-field + button {
+  margin: 13px 0 25px;
+}
+.form-note {
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+
+  a {
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
