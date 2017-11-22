@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     // NAVIGATION SCROLL
 
-    $('.nav li a').on('click', function () {
+    $('.nav-main > li:nth-child(n+2) > a').on('click', function () {
         var scroll_el = $(this).attr('href');
         if ($(scroll_el).length != 0) {
             $('html, body').animate({scrollTop: $(scroll_el).offset().top}, 800);

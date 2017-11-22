@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="">
+    <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="extra_masters">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/lyustr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/rozetok.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/schetchiki.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/razvodka-trub.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/remont.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/svarochnye-raboty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/usrtranenie-zasorov.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka-radiatorov.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/bide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/dushevoi-cabiny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/rakoviny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/smesitelya.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/unitaza.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/vanny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustranenie-protechek.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extra_masters/dist/favicon.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" afterPath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/css/main.css" afterPath="$PROJECT_DIR$/extra_masters/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/js/main.js" afterPath="$PROJECT_DIR$/extra_masters/app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/remont.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/remont.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" afterPath="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" afterPath="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/css/lightbox.css" afterPath="$PROJECT_DIR$/extra_masters/dist/css/lightbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/css/main.css" afterPath="$PROJECT_DIR$/extra_masters/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/index.html" afterPath="$PROJECT_DIR$/extra_masters/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/js/main.js" afterPath="$PROJECT_DIR$/extra_masters/dist/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/mail.php" afterPath="$PROJECT_DIR$/extra_masters/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,88 +68,54 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36236647">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3200">
-                  <caret line="200" column="70" lean-forward="true" selection-start-line="200" selection-start-column="70" selection-end-line="200" selection-end-column="70" />
-                  <folding>
-                    <element signature="n#ul#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#button#0;n#div#10;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#45953#45960#1" expanded="true" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#47270#47277#1" expanded="true" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#49448#49455#1" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/styles/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="411">
-                  <caret line="519" column="14" lean-forward="false" selection-start-line="519" selection-start-column="14" selection-end-line="519" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#29471#31920#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_hero.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_portfolio.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+              <folding>
+                <element signature="e#936#1119#0" expanded="false" />
+                <element signature="e#1139#2123#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extra_masters/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-600">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>copy-button</find>
-      <find>purse-form</find>
-      <find>contacts-info__title</find>
-      <find>contacts-requisites</find>
-      <find>marketing-text</find>
-      <find>video-block</find>
-      <find>RobotoSlabRegular</find>
-      <find>Order</find>
-      <find>order</find>
       <find>strong</find>
       <find>Замена инвертора</find>
       <find>Нет изображения</find>
@@ -119,6 +137,15 @@
       <find>lessons-item col-lg-6 col-sm-6</find>
       <find>span</find>
       <find>@media</find>
+      <find>active</find>
+      <find>moda</find>
+      <find>hidde</find>
+      <find>.certificates-content__item</find>
+      <find>/images/</find>
+      <find>Lightbox</find>
+      <find>validation</find>
+      <find>Validation</find>
+      <find>.php</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts/glyphicons-halflings-regular</replace>
@@ -133,6 +160,9 @@
       <replace>70px</replace>
       <replace>lessons-item</replace>
       <replace>button</replace>
+      <replace>images/</replace>
+      <replace>../images/</replace>
+      <replace>.html</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,57 +172,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
-        <option value="&lt;e48a2acc-488e-4576-b19d-dfd5eba96a30&gt;/home/acer_repair/acer-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;95594ced-a7cf-4660-8f16-2e1438a5a7b8&gt;/home/asus_repair/asus-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;0d93d07b-45af-4921-b4a8-7748c5830c20&gt;/home/drepair/d-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;a3c082b9-17a3-478a-abc4-ac5d0f7358e7&gt;/home/hp_repair/hp-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/plug.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
-        <option value="&lt;8d4bda4e-0db5-4372-b806-8dc505bc6e2d&gt;/home/lenovo_repair/lenovo-repair.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/styles/layout.css" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/plug.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
-        <option value="&lt;7334c7fa-8a5a-4881-aa2f-beadb0ae60cb&gt;/home/lg_repair/lg-repair.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
-        <option value="&lt;254574ed-aa59-4c83-8e2c-da507734f44a&gt;/home/sony_repair/sony-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/prices/msc.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/sound.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/off.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
-        <option value="&lt;cbd5c0f1-b142-4be2-aa3b-ed9108c4038c&gt;/home/se_center/se-center.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/prices/msc.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/camera.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/fan.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/keyboard.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/off.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/screen.php" />
-        <option value="&lt;fcd82fa6-2e28-4af0-89ac-5b73db36d237&gt;/home/toshiba_repair/toshiba-repair.ru/public/application/data/services/notebook/toubleshooting/rom.php" />
-        <option value="$PROJECT_DIR$/src/styles/register.css" />
-        <option value="$PROJECT_DIR$/lk/styles/main.css" />
-        <option value="$PROJECT_DIR$/lk/scripts/scripts.js" />
-        <option value="$PROJECT_DIR$/lk.html" />
-        <option value="$PROJECT_DIR$/lk/images/icons/logo.svg" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/scripts/main.js" />
-        <option value="$PROJECT_DIR$/src/styles/main.css" />
+        <option value="$PROJECT_DIR$/extra_masters/app/libs/lightbox.min.js" />
+        <option value="$PROJECT_DIR$/extra_masters/app/sass/base/_base.scss" />
+        <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_certificates.scss" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/advantages.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/head.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/header.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/nav.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/hero.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/price.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/advantages.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/portfolio.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/reviews.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/order.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/certificates.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/about.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/contacts.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/popups.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/base.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/templates/include/footer.php" />
+        <option value="$PROJECT_DIR$/extra_masters/gulpfile.js" />
+        <option value="$PROJECT_DIR$/extra_masters/app/index.php" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/montazh/remont.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/images/hero-icons/Монтаж люстр.svg" />
+        <option value="$PROJECT_DIR$/extra_masters/app/images/hero-icons/Монтаж розеток.svg" />
+        <option value="$PROJECT_DIR$/extra_masters/mail.php" />
+        <option value="$PROJECT_DIR$/extra_masters/dist/js/main.js" />
+        <option value="$PROJECT_DIR$/extra_masters/dist/mail.php" />
+        <option value="$PROJECT_DIR$/extra_masters/dist/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/remont.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html" />
+        <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" />
+        <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" />
+        <option value="$PROJECT_DIR$/extra_masters/app/js/main.js" />
       </list>
     </option>
   </component>
@@ -202,12 +232,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/extra_masters/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="316" />
-    <option name="y" value="44" />
-    <option name="width" value="1468" />
-    <option name="height" value="1032" />
+    <option name="x" value="180" />
+    <option name="y" value="205" />
+    <option name="width" value="1550" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -224,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,20 +269,25 @@
             <path>
               <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extra_masters" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extra_masters" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../remont_center" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZamerNew" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -256,148 +295,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts\SegoeUI" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\images" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\src\fonts\Roboto" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\bg" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist\css" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\santehnika" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\electrika\montazh" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\images\hero-icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\images\hero-icons" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\bg" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\icons" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\fonts\helvetica" />
-      <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io" />
-      <recent name="C:\Users\User\PhpstormProjects\maksimkosxx.github.io\src" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/scripts/scripts.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/styles/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/register.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/styles/register.css</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lk/libs/clipboard.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/libs/jquery.fullpage.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/libs/jquery.fullpage.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scripts/main.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/scripts/main.min.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -522,98 +438,21 @@
       <workItem from="1509447983192" duration="2425000" />
       <workItem from="1509451568767" duration="1591000" />
       <workItem from="1509711764066" duration="1321000" />
-      <workItem from="1510033481672" duration="31915000" />
-    </task>
-    <task id="LOCAL-00005" summary="drevo_lp fix">
-      <created>1506620377407</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1506620377407</updated>
-    </task>
-    <task id="LOCAL-00006" summary="drevo_lp fix2">
-      <created>1506622865841</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1506622865841</updated>
-    </task>
-    <task id="LOCAL-00007" summary="drevo_lp fix2">
-      <created>1506622952656</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1506622952656</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix&#10;">
-      <created>1506703446836</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1506703446836</updated>
-    </task>
-    <task id="LOCAL-00009" summary="registration form&#10;">
-      <created>1507217963873</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1507217963873</updated>
-    </task>
-    <task id="LOCAL-00010" summary="registration form finished&#10;">
-      <created>1507224101827</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1507224101827</updated>
-    </task>
-    <task id="LOCAL-00011" summary="registration form finished&#10;">
-      <created>1507224440705</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1507224440705</updated>
-    </task>
-    <task id="LOCAL-00012" summary="fixed&#10;">
-      <created>1507228639583</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1507228639583</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fixed&#10;">
-      <created>1507228778960</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1507228778960</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fixed&#10;">
-      <created>1507228819704</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1507228819704</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fixed&#10;">
-      <created>1507228983716</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1507228983716</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fixed&#10;">
-      <created>1507229053560</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1507229053560</updated>
-    </task>
-    <task id="LOCAL-00017" summary="fixed&#10;">
-      <created>1507229125555</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1507229125555</updated>
+      <workItem from="1510033481672" duration="32772000" />
+      <workItem from="1510119295186" duration="1497000" />
+      <workItem from="1510126067507" duration="882000" />
+      <workItem from="1510212057617" duration="167000" />
+      <workItem from="1510212313344" duration="2113000" />
+      <workItem from="1510217676988" duration="99000" />
+      <workItem from="1510217862927" duration="5000" />
+      <workItem from="1511156914568" duration="46510000" />
+      <workItem from="1511338424285" duration="10426000" />
+      <workItem from="1511349904590" duration="1533000" />
+      <workItem from="1511351453674" duration="1229000" />
+      <workItem from="1511352698503" duration="257000" />
+      <workItem from="1511352971189" duration="1074000" />
+      <workItem from="1511354058805" duration="11587000" />
+      <workItem from="1511367619039" duration="10000" />
     </task>
     <task id="LOCAL-00018" summary="fixed&#10;">
       <created>1507229309716</created>
@@ -867,27 +706,117 @@
       <option name="project" value="LOCAL" />
       <updated>1510069894293</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="fixed">
+      <created>1510069979889</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1510069979889</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fixed">
+      <created>1510070033514</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1510070033514</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fixed">
+      <created>1510070756268</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1510070756268</updated>
+    </task>
+    <task id="LOCAL-00057" summary="extra_masters">
+      <created>1511342837161</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1511342837161</updated>
+    </task>
+    <task id="LOCAL-00058" summary="extra_masters dist">
+      <created>1511343132246</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1511343132246</updated>
+    </task>
+    <task id="LOCAL-00059" summary="extra_masters">
+      <created>1511343323969</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1511343323969</updated>
+    </task>
+    <task id="LOCAL-00060" summary="extra_masters">
+      <created>1511343456074</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1511343456074</updated>
+    </task>
+    <task id="LOCAL-00061" summary="extra_masters">
+      <created>1511343507745</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1511343507745</updated>
+    </task>
+    <task id="LOCAL-00062" summary="extra_masters">
+      <created>1511343567355</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1511343567355</updated>
+    </task>
+    <task id="LOCAL-00063" summary="extra_masters">
+      <created>1511345113573</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1511345113573</updated>
+    </task>
+    <task id="LOCAL-00064" summary="extra_masters">
+      <created>1511346143084</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1511346143084</updated>
+    </task>
+    <task id="LOCAL-00065" summary="extra_masters">
+      <created>1511346719043</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1511346719043</updated>
+    </task>
+    <task id="LOCAL-00066" summary="extra_masters pages">
+      <created>1511356662380</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1511356662381</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293059000" />
+    <option name="totallyTimeSpent" value="371305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="316" y="44" width="1468" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="180" y="205" width="1550" height="808" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22491145" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22684564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27403316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27201784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44117647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -904,7 +833,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="clean for new project" />
     <MESSAGE value="ready to public" />
     <MESSAGE value="clean to drevo_lp" />
@@ -927,7 +855,10 @@
     <MESSAGE value="fix" />
     <MESSAGE value="section learning" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="extra_masters dist" />
+    <MESSAGE value="extra_masters" />
+    <MESSAGE value="extra_masters pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="extra_masters pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,291 +879,271 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/head.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/header.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/nav.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/hero.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/price.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/advantages.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/portfolio.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/reviews.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/order.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/certificates.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/contacts.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/about.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/popups.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/footer.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/base.php" />
+    <entry file="file://$PROJECT_DIR$/extra_masters/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/images/hero-icons/Установка сантехники, установка ванны, ремонт сантехники.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/images/hero-icons/Установка радиаторов отопления.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/images/hero-icons/Счетчики автоматы.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/images/hero-icons/Монтаж люстр.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="124" lean-forward="false" selection-start-line="0" selection-start-column="110" selection-end-line="0" selection-end-column="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/drevo (2)/index.html" />
-    <entry file="file://$USER_HOME$/Desktop/DREVO_LK/index.html">
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/images/hero-icons/Монтаж розеток.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="140" lean-forward="false" selection-start-line="0" selection-start-column="140" selection-end-line="0" selection-end-column="140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/cources.html" />
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/profile.html" />
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/partners.html" />
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/contacts.html" />
-    <entry file="file://$PROJECT_DIR$/lk/lk.html" />
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/dialog.svg" />
-    <entry file="file://$PROJECT_DIR$/src/fonts/RobotoSlab/RobotoSlab-Regular.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlab-Regular.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlabLight.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/not_confirm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/t3/новая папка/base.html" />
-    <entry file="file://$USER_HOME$/Desktop/DREVO_LK/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="562" column="49" lean-forward="false" selection-start-line="561" selection-start-column="4" selection-end-line="562" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/parners-bg.svg" />
-    <entry file="file://$PROJECT_DIR$/lk/images/bg/key-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/bg/parners-bg.png" />
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/user_new.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/dialog.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/edit-2@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/favicon32.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/logout-2@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/settings@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/user@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk_old_partner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main.css" />
-    <entry file="file://$USER_HOME$/Desktop/media.css" />
-    <entry file="file://$USER_HOME$/Desktop/lk.html" />
-    <entry file="file://$USER_HOME$/Desktop/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/lk/styles/typography.css">
+    <entry file="file://$PROJECT_DIR$/extra_masters/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/bg/marketing-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk_video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/Roboto/Roboto-Light.ttf">
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/bide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/reg-bg.svg">
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="0" column="483" lean-forward="true" selection-start-line="0" selection-start-column="483" selection-end-line="0" selection-end-column="483" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="199" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIBold.ttf">
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/remont.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/electrika/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="94" column="14" lean-forward="false" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="e#936#1119#0" expanded="false" />
+            <element signature="e#1139#2123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="0" column="21813" lean-forward="false" selection-start-line="0" selection-start-column="21813" selection-end-line="0" selection-end-column="21813" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/dist/electrika/montazh/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="1012" column="16" lean-forward="false" selection-start-line="1012" selection-start-column="16" selection-end-line="1012" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="93" lean-forward="false" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
+        <state relative-caret-position="-600">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/images/icons/user.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="500" column="31" lean-forward="false" selection-start-line="500" selection-start-column="31" selection-end-line="500" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lk/scripts/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUISemiBold.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3200">
-          <caret line="200" column="70" lean-forward="true" selection-start-line="200" selection-start-column="70" selection-end-line="200" selection-end-column="70" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#button#0;n#div#10;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#45953#45960#1" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#47270#47277#1" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#49448#49455#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="519" column="14" lean-forward="false" selection-start-line="519" selection-start-column="14" selection-end-line="519" selection-end-column="14" />
-          <folding>
-            <element signature="e#29471#31920#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

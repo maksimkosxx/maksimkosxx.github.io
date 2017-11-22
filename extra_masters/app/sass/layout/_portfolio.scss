@@ -18,6 +18,9 @@
     justify-content: space-between;
     align-items: flex-start;
     text-align: center;
+    @include respond-to(handhelds) {
+      margin: 0 -15px;
+    }
     &__item {
       display: inline-block;
       width: 100%;
@@ -31,7 +34,8 @@
       transition: .2s;
       cursor: pointer;
       @include respond-to(handhelds) {
-        max-width: 50%;
+        max-width: 25%;
+        padding: 15px 5px 0;
         border-radius: 0;
       }
       @include respond-to(tablets) {
@@ -96,8 +100,9 @@
       box-sizing: border-box;
       font-size: 18px;
       @include respond-to(handhelds) {
+        min-height: 50px;
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 12px;
       }
     }
   }

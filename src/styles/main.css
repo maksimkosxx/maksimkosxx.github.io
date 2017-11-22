@@ -719,6 +719,7 @@ a:active {
 }
 
 .lessons-item button .front::before {
+    position: relative;
     content: "0" counter(item);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -749,8 +750,8 @@ a:active {
 .lessons-item:nth-child(odd) button {
     float: left;
 }
-.lessons-item:nth-child(even) button .front::before {
-    left: -1px;
+.lessons-item button .front::before {
+    left: 0;
 }
 .lessons-item > button .front:hover {
     -webkit-box-shadow: 0 2px 12px 0 rgba(147, 147, 147, 0.5);
