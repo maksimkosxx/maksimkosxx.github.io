@@ -8,6 +8,10 @@ body {
 .wrapper-top {
   position: relative;
   background: radial-gradient(circle at 50% 25%, #fff4ce, $brule);
+  overflow: hidden;
+  @include respond-to(handhelds) {
+    overflow: visible;
+  }
   &::after {
     content: '';
     display: block;

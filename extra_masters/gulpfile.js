@@ -30,7 +30,7 @@ gulp.task('scripts', function() {
     return gulp.src([
         'app/libs/jquery.min.js',
         'app/libs/jquery.validate.min.js',
-        'app/libs/lightbox.min.jsgulp'
+        'app/libs/lightbox.min.js'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())

@@ -6,14 +6,17 @@
   &-text {
     float: left;
     max-width: 530px;
+    @include respond-to(handhelds) {
+      text-align: center;
+    }
     @include respond-to(tablets) {
       max-width: 350px;
     }
     h1 {
       margin: 0 0 0 -5px;
       padding-top: 30px;
-      font-size: 90px;
-      line-height: 70px;
+      font-size: 80px;
+      line-height: 80px;
       @include respond-to(handhelds) {
         font-size: 35px;
         line-height: 40px;
@@ -81,7 +84,10 @@
   }
   &-image {
     float: right;
-    padding-right: 20px;
+    max-width: 400px;
+    img {
+      max-width: 100%;
+    }
     @include respond-to(handhelds) {
       display: none;
     }

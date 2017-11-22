@@ -22,14 +22,14 @@
       background: url("/images/certificates/border.png") center no-repeat;
       box-shadow: -13px 15px 20px -11px rgba(0,0,0,0.75);
       @include respond-to(handhelds) {
-        max-width: 40%;
+        max-width: 116px;
         min-height: 185px;
-        margin-bottom: 30px;
+        margin-bottom: 3px;
         background: none;
         box-shadow: none;
       }
       @include respond-to(tablets) {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
       img {
         position: absolute;
