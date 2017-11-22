@@ -27,6 +27,9 @@
         background: none;
         box-shadow: none;
       }
+      @include respond-to(tablets) {
+        margin-bottom: 30px;
+      }
       img {
         position: absolute;
         top: 0;

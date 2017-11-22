@@ -8,6 +8,9 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    @include respond-to(tablets) {
+      justify-content: center;
+    }
   }
   &-item {
     display: inline-block;

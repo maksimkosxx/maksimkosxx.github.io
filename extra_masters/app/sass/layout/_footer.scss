@@ -7,10 +7,16 @@
     vertical-align: top;
     width: 100%;
     &:first-of-type {
-      max-width: 360px;
+      max-width: 350px;
+      @include respond-to(tablets) {
+       max-width: 260px;
+      }
     }
     &:nth-of-type(2) {
       max-width: 380px;
+      @include respond-to(tablets) {
+        max-width: 220px;
+      }
     }
     &:last-of-type {
       max-width: 249px;

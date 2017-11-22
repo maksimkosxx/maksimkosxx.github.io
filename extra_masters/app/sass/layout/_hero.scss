@@ -49,8 +49,13 @@
         display: inline-block;
         vertical-align: top;
         margin-right: 15px;
-        @include respond-to(handhelds) {
-
+        @include respond-to(tablets) {
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          img {
+            width: 100%;
+          }
         }
       }
       .text {
@@ -61,6 +66,10 @@
         font-weight: bold;
         @include respond-to(handhelds) {
           font-size: 16px;
+        }
+        @include respond-to(tablets) {
+          max-width: 130px;
+          font-size: 14px;
         }
       }
     }
@@ -75,7 +84,7 @@
       display: none;
     }
     @include respond-to(tablets) {
-      max-width: 300px;
+      max-width: 350px;
       img {
         width: 100%;
       }

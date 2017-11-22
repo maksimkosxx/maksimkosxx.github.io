@@ -8,9 +8,11 @@
     @include respond-to(handhelds) {
       max-width: 100%;
       margin-bottom: 40px;
-
     }
-
+    @include respond-to(tablets) {
+      max-width: 350px;
+      margin-bottom: 40px;
+    }
     h2 {
       max-width: 470px;
       margin: 80px 0 30px 0;
@@ -22,6 +24,11 @@
         font-size: 30px;
         line-height: 40px;
       }
+      @include respond-to(tablets) {
+        font-size: 45px;
+        line-height: 50px;
+      }
+
     }
     &__description {
       font-size: 18px;
@@ -41,6 +48,10 @@
     box-sizing: border-box;
     text-align: center;
     font-family: $font-base;
+    @include respond-to(tablets) {
+      max-width: 350px;
+      margin-right: 0;
+    }
     &::before {
       content: '';
       position: absolute;
@@ -53,6 +64,9 @@
       transform: skew(-3.5deg);
       @include respond-to(handhelds) {
         transform: skew(0deg);
+      }
+      @include respond-to(tablets) {
+
       }
     }
     &__content {

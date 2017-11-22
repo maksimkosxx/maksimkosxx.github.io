@@ -34,6 +34,9 @@
         max-width: 50%;
         border-radius: 0;
       }
+      @include respond-to(tablets) {
+        max-width: 180px;
+      }
       &.active {
         background: $brule;
         .portfolio-tabs__name {
@@ -122,6 +125,9 @@
         width: 100%;
         max-width: 485px;
         margin-bottom: 30px;
+        @include respond-to(tablets) {
+          max-width: 350px;
+        }
         &.hidden {
           position: absolute;
           overflow: hidden;

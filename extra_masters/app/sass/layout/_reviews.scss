@@ -59,6 +59,9 @@
       @include respond-to(handhelds) {
         margin-top: 20px;
       }
+      @include respond-to(tablets) {
+        max-width: 450px;
+      }
       @supports not (display: flex) {
         & {
           display: inline-block;
