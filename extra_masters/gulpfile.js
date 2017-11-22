@@ -30,7 +30,7 @@ gulp.task('scripts', function() {
     return gulp.src([
         'app/libs/jquery.min.js',
         'app/libs/jquery.validate.min.js',
-        'app/libs/lightbox.min.js'
+        'app/libs/lightbox.min.jsgulp'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
@@ -64,7 +64,7 @@ gulp.task('build', ['clean', 'sass', 'scripts'], function() {
 
     var buildCss = gulp.src([
         'app/css/main.css',
-        'app/css/libs.min.css'
+        'app/css/lightbox.css'
     ])
         .pipe(gulp.dest('/dist/css'));
 
