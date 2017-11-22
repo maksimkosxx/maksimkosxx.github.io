@@ -15,9 +15,10 @@
       font-size: 90px;
       line-height: 70px;
       @include respond-to(handhelds) {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 40px;
         padding: 0;
+        text-align: center;
       }
       @include respond-to(tablets) {
         font-size: 60px;
@@ -32,6 +33,7 @@
       @include respond-to(handhelds) {
         font-size: 20px;
         margin-bottom: 30px;
+        text-align: center;
       }
     }
   }

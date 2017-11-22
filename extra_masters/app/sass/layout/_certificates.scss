@@ -6,7 +6,7 @@
   h2 {
     margin-bottom: 65px;
     @include respond-to(handhelds) {
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
   }
   &-content {
@@ -24,6 +24,7 @@
       @include respond-to(handhelds) {
         max-width: 40%;
         min-height: 185px;
+        margin-bottom: 30px;
         background: none;
         box-shadow: none;
       }

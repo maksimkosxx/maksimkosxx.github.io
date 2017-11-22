@@ -5,6 +5,15 @@
     float: left;
     &:last-child {
       float: right;
+      @include respond-to(handhelds) {
+        float: none;
+      }
+    }
+    @include respond-to(handhelds) {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
   &-logo {
