@@ -422,7 +422,9 @@ a:active {
 }
 
 .thesis-content {
-    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -439,13 +441,15 @@ a:active {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    width: 47%;
     margin: 70px 0;
+
     overflow: hidden;
 }
 
 .thesis-item__icon {
-    max-width: 130px;
-    margin-right: 20px;
+    max-width: 100px;
+    margin-right: 15px;
 }
 
 .thesis-item__icon img {
@@ -464,6 +468,7 @@ a:active {
 }
 
 .thesis-item__description {
+    text-align: justify;
     font: 16px/23px RobotoSlabRegular, sans-serif;
 }
 
@@ -888,8 +893,8 @@ a:active {
 .partner-table {
     display: inline-block;
     width: 100%;
-    max-width: 350px;
-    margin: 30px 0;
+    max-width: 400px;
+    margin: 30px 0 0;
     border-radius: 13%;
     border: 15px solid #ffe169;
     text-align: center;
@@ -907,7 +912,7 @@ a:active {
 .partner-table__column {
     display: inline-block;
     vertical-align: top;
-    width: calc(49% + 3px);
+    width: calc(32% + 3px);
     height: 100%;
     padding-bottom: 15px;
 
@@ -924,16 +929,32 @@ a:active {
 }
 
 .partner-table__header {
-    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 66px;
+    padding: 10px;
     margin-bottom: 15px;
-    font: 20px/25px OpenSansSemiBold, sans-serif;
+    font: 16px/21px OpenSansSemiBold, sans-serif;
     background: #2b5d68;
 }
 
 .partner-table__key,
 .partner-table__price {
     padding: 7px 0;
-    font-size: 20px;
+    font-size: 18px;
+}
+.partner-table__value {
+    max-width: 790px;
+    min-height: 60px;
+    margin: -7px auto 50px;
+    padding-top: 7px;
+    border-radius: 23px;
+    text-align: center;
+    background: #ffe169;
+    color: #336e7b;
+    font: 33px RobotoSlabBold, sans-serif;
 }
 
 .partner-table__text {
@@ -1383,6 +1404,10 @@ a:active {
         padding: 0 10px;
         margin-bottom: 70px;
     }
+    .thesis-item {
+        width: 100%;
+        margin: 40px 0;
+    }
 
     .partner-advantages__item .icon {
         display: block;
@@ -1406,7 +1431,9 @@ a:active {
     .partner-text {
         margin-top: -40px;
     }
-
+    .partner-table {
+        margin-top: 0;
+    }
     .partner-table:first-of-type {
         margin-right: 0;
     }
@@ -1416,11 +1443,17 @@ a:active {
     }
 
     .partner-table__column {
-        width: 49%;
+        width: 32.3%;
+    }
+    .partner-table__value {
+        padding-top: 20px;
+        font-size: 18px;
     }
 
     .partner-table__header {
-        font-size: 17px;
+        padding: 0;
+        font-size: 12px;
+        line-height: normal;
     }
 
     .partner-text p, .partner-table__text p {
@@ -1486,7 +1519,7 @@ a:active {
         float: right;
         width: 30px;
         height: 30px;
-        margin: 8px 15px 0 0;
+        margin: 7px 10px 0 0;
         padding: 0;
         background: transparent;
         border: none;
@@ -1502,9 +1535,15 @@ a:active {
         -o-transition: all 0.2s linear;
         transition: all 0.2s linear;
     }
-
+    .mobile-btn.active span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
     .mobile-btn.active span:nth-child(1) {
-        margin-top: 7px;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -1516,7 +1555,6 @@ a:active {
     }
 
     .mobile-btn.active span:nth-child(3) {
-        margin-top: -7px;
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
@@ -1700,6 +1738,19 @@ a:active {
 
     .lessons-item a {
         font-size: 13px;
+    }
+    .thesis-item {
+        display: block;
+        margin: 40px 0;
+    }
+    .thesis-item__icon {
+        margin: 0 auto;
+    }
+    .thesis-item__text {
+        max-width: 100%;
+    }
+    .thesis-item__title {
+        text-align: center;
     }
 
     .video-item {
