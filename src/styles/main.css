@@ -268,7 +268,9 @@ a:active {
     padding-left: 0;
 }
 .header-btn .btn--yellow {
+    min-height: 44px;
     margin-right: 8px;
+    border: 3px solid #ffe26d;
 }
 
 .header-btn button.btn {
@@ -420,34 +422,21 @@ a:active {
     padding: 20px 0;
     background: #f4f4f4;
 }
-
 .thesis-content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    padding: 0 10px;
+    text-align: center;
 }
-
 .thesis-item {
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+   display: inline-block;
     width: 47%;
-    margin: 70px 0;
+    margin: 50px 0;
+    padding: 0 25px;
 
     overflow: hidden;
 }
 
 .thesis-item__icon {
+    display: inline-block;
+    vertical-align: middle;
     max-width: 100px;
     margin-right: 15px;
 }
@@ -458,12 +447,15 @@ a:active {
 }
 
 .thesis-item__text {
+    display: inline-block;
+    vertical-align: middle;
     max-width: 75%;
 }
 
 .thesis-item__title {
     margin: 15px 0;
     font: 20px/26px RobotoSlabBold, sans-serif;
+    text-align: left;
     color: #336e7b;
 }
 
@@ -1207,16 +1199,7 @@ a:active {
 }
 
 .team-content {
-    display: flex;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+
     overflow: hidden;
 }
 
@@ -1226,16 +1209,13 @@ a:active {
 }
 
 .team-item__icon {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
     width: 170px;
     height: 170px;
     margin: 0 auto;
     border-radius: 50%;
     background-color: #f9e174;
     overflow: hidden;
+    text-align: center;
 }
 .team-item__icon img {
     object-fit: contain;
