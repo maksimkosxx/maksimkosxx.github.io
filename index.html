@@ -20,7 +20,7 @@
 <body>
 
 <div id="fullpage">
-    <header class="header section fp-auto-height">
+    <header id="top" class="header section fp-auto-height">
         <div class="container">
             <div class="row">
                 <button class="mobile-btn">
@@ -28,9 +28,9 @@
                     <span></span>
                     <span></span>
                 </button>
-                <ul id="nav" class="nav nav-tabs col-lg-9">
+               <ul id="nav" class="nav nav-tabs col-lg-9">
                     <li><a href="#section2">Преимущества</a></li>
-                    <li><a href="#section3">Уроки</a></li>
+                    <li><a href="#section3">Образовательный курс</a></li>
                     <li><a href="#section4">Партнерская программа</a></li>
                     <li><a href="#section5">Ethereum</a></li>
                     <li><a href="#">Видео</a></li>
@@ -62,7 +62,7 @@
                     <!--<span>Смотреть видео</span>-->
                     <!--<i class="fa fa-caret-right" aria-hidden="true"></i>-->
                     <!--</button>-->
-                    <button class="btn--mouse"></button>
+                    <a href="#section2" class="btn--mouse"></a>
                 </div>
             </div>
         </div>
@@ -954,7 +954,11 @@
             </div>
         </div>
     </footer>
+    <a href="#top" class="scroll-btn">
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+    </a>
 </div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -1243,6 +1247,7 @@
 <script src="/src/libs/jquery.min.js"></script>
 <script src="/src/libs/bootstrap.min.js"></script>
 <script src="/src/libs/jquery.fullpage.js"></script>
+<script src="https://use.fontawesome.com/b6d5c21aaa.js"></script>
 <script src="/src/scripts/main.js"></script>
 
 </body>

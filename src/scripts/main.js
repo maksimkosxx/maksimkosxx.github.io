@@ -1,4 +1,25 @@
 $(document).ready(function () {
+
+    // SCROLL TOP
+
+    $(window).scroll(function(){
+
+        if ($(window).scrollTop() > '300'){
+            $('.scroll-btn').css('display', 'block');
+        } else {
+            $('.scroll-btn').css('display', 'none');
+        }
+    });
+    $('.scroll-btn').on('click', function () {
+        var scroll_el = $(this).attr('href');
+        if ($(scroll_el).length != 0) {
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 800);
+        }
+        return false;
+    });
+
+    // MOBILE BTN
+
     $('.mobile-btn').on('click', function () {
         $(this).toggleClass('active').animate(500);
         $('.nav').slideToggle();
@@ -68,12 +89,17 @@ $(document).ready(function () {
             autoScrolling: true
         });
         $('section').addClass.removeClass('section--padding');
+        $('.btn--mouse').on('click', function () {
+            $.fn.fullpage.moveSectionDown();
+        });
     } else {
         $('section').removeClass('section').addClass('section--padding');
+        $(".btn--mouse").on('click', function () {
+            var a = $(this).attr("href");
+            return 0 != $(a).length && $("html, body").animate({scrollTop: $(a).offset().top}, 800), !1
+        });
     }
-    // $('.btn--mouse').on('click', function () {
-    //     $.fn.fullpage.moveSectionDown();
-    // });
+
 
     // LESSONS BUTTON
 
@@ -84,5 +110,7 @@ $(document).ready(function () {
         }
         return false;
     });
+
+
 
 });
