@@ -116,5 +116,22 @@ $(document).ready(function () {
     });
 
 
+    // PHONE MASK
+
+    $(function () {
+        $('input[name=phone]').inputmask("+7 (999) 999-99-99");
+    });
+
+
+    // VALIDATION
+    $('form').each(function () {
+        $(this).validate({
+            errorPlacement: function () {
+                return false;
+            }
+        });
+    });
+
+
 });
 

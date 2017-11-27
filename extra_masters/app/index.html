@@ -463,7 +463,7 @@
         </div>
         <div class="order-form">
             <div class="order-form__content">
-                <form action="/mail.php" method="post">
+                <form action="/mail.php" enctype="multipart/form-data" method="post">
                     <input type="text" name="name" class="form-field" placeholder="Введите имя">
                     <input type="tel" name="phone" class="form-field" placeholder="+7 (___) ___-__-__" required>
                     <button type="submit" class="btn--yellow" data-title="Вызвать мастера">Вызвать мастера</button>
@@ -631,7 +631,7 @@
         <i class="fa fa-times" aria-hidden="true"></i>
     </div>
     <div class="popup-title">Оставить отзыв</div>
-    <form action="/mail.php" method="post">
+    <form action="/mail.php" enctype="multipart/form-data" method="post">
         <input type="text" name="name" class="form-field" placeholder="Введите имя" required>
         <input type="text" name="location" class="form-field" placeholder="Метро / город">
         <textarea name="message" class="form-field field--message" placeholder="Текст сообщения" required></textarea>
