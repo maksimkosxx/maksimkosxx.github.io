@@ -2,60 +2,251 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8e190f-d733-4399-8428-b8002b4fba1f" name="Default" comment="extra_masters">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/lyustr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/rozetok.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/electrika/montazh/schetchiki.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/razvodka-trub.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/remont.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/svarochnye-raboty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/usrtranenie-zasorov.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka-radiatorov.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/bide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/dushevoi-cabiny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/rakoviny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/smesitelya.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/unitaza.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustanovka/vanny.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extra_masters/dist/santehnika/ustranenie-protechek.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extra_masters/dist/favicon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" afterPath="$PROJECT_DIR$/.idea/maksimkosxx.github.io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/css/main.css" afterPath="$PROJECT_DIR$/extra_masters/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/lyustr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/rozetok.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html" afterPath="$PROJECT_DIR$/extra_masters/app/electrika/montazh/schetchiki.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/js/main.js" afterPath="$PROJECT_DIR$/extra_masters/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/razvodka-trub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/remont.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/remont.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/svarochnye-raboty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/usrtranenie-zasorov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka-radiatorov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/bide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/dushevoi-cabiny.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/rakoviny.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/smesitelya.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/unitaza.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustanovka/vanny.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html" afterPath="$PROJECT_DIR$/extra_masters/app/santehnika/ustranenie-protechek.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" afterPath="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" afterPath="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/css/lightbox.css" afterPath="$PROJECT_DIR$/extra_masters/dist/css/lightbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/css/main.css" afterPath="$PROJECT_DIR$/extra_masters/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/index.html" afterPath="$PROJECT_DIR$/extra_masters/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/dist/js/main.js" afterPath="$PROJECT_DIR$/extra_masters/dist/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_masters/mail.php" afterPath="$PROJECT_DIR$/extra_masters/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Demi.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Demi.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Demi.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Medium.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Medium.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/AvenirNextCyr-Regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Sylfaen.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Sylfaen.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/Sylfaen.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/datedropper/datedropper.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/datedropper/datedropper.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/datedropper/datedropper.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/fonts/datedropper/datedropper.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/advantages/image1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/advantages/image2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/advantages/image3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/advantages/image4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/bg_block1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/bg_block4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/bg_block6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/alexandria.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/clients-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/dalhim.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/gipro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/irbis.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/kapital.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/kvart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/magistral.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/media.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/mediamarkt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/nizhfarm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/onli.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/rostel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/rzhd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/saturn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/sber.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/clients/vtb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/contacts-img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/event-frame.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/events/image6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/gift-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/close-icon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/frame.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/events/icon-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/icons/quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/portfolio/image9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/principles/image6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/reviews/review1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/reviews/slide-arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/roman.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/social/fb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/social/insta.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/social/skype.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/social/vk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/social/youtube.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/steps/image1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/steps/image2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/steps/image3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/team/cat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/team/diego.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/team/roman.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/img/video-poster.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/jquery-ui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/js/jquery-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/js/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/js/slick.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/libs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/slick-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/libs/slick.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/mail.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/base/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/base/_reset.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/base/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/components/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/components/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/components/_popups.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_advantages.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_clients.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_contacts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_events.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_footer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_gift.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_header.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_hero.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_offers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_order.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_portfolio.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_reviews.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_steps.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_team.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/layout/_top.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/utils/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/utils/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/vendors/jquery-ui.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/vendors/slick-theme.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/sass/vendors/slick.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/drevo/index.html" />
+      <change beforePath="$PROJECT_DIR$/lk.html" afterPath="$PROJECT_DIR$/drevo/lk.html" />
+      <change beforePath="$PROJECT_DIR$/lk/favicon.ico" afterPath="$PROJECT_DIR$/drevo/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Opensans/OpenSansSemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/Roboto/Roboto-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlab-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlab-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlab-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/fonts/RobotoSlab/RobotoSlabLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/bg/key-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/bg/marketing-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/bg/old-partner-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/bg/partners-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/bg/video-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/cadr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/confirm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/dialog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/edit-2@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/favicon32.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/key-copy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/logout-2@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/not_confirm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/settings@3x-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/settings@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/telegram.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/user.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/user@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/user_new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/viber.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/images/icons/visibility@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/clipboard.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/libs/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/scripts/scripts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/styles/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/styles/media.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk/styles/typography.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lk_old_partner.html" afterPath="$PROJECT_DIR$/drevo/lk_old_partner.html" />
+      <change beforePath="$PROJECT_DIR$/lk_video.html" afterPath="$PROJECT_DIR$/drevo/lk_video.html" />
+      <change beforePath="$PROJECT_DIR$/mail.php" afterPath="$PROJECT_DIR$/drevo/mail.php" />
+      <change beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/drevo/register.html" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Opensans/OpenSansRegular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Opensans/OpenSansSemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/RobotoSlab/RobotoSlab-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/RobotoSlab/RobotoSlab-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/RobotoSlab/RobotoSlabLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIBold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIRegular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUIRegular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUISemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUISemiBold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name_2@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name_3@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name_4@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name_5@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/advantages/invalid-name_6@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/bitmap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/button-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/group-4@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/favicon32.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/mouse_3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/invalid-name_7@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/lines.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/lysyi.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/page-1@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/parner-icons/icon6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/reg-bg.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/social/fb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/social/tlg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/social/vk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/team@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/thesis/icon7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/thesis/icon8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/images/thesis/icon9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/jquery.fullpage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/jquery.fullpage.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/libs/jquery.min.js" afterPath="$PROJECT_DIR$/app/libs/js/jquery-3.2.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/styles/register.css" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,41 +259,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_hero.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_portfolio.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-              <folding>
-                <element signature="e#936#1119#0" expanded="false" />
-                <element signature="e#1139#2123#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extra_masters/app/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,7 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/extra_masters/app/libs/lightbox.min.js" />
         <option value="$PROJECT_DIR$/extra_masters/app/sass/base/_base.scss" />
         <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_certificates.scss" />
         <option value="$PROJECT_DIR$/extra_masters/app/templates/include/advantages.html" />
@@ -223,6 +379,7 @@
         <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss" />
         <option value="$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss" />
         <option value="$PROJECT_DIR$/extra_masters/app/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,12 +390,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/extra_masters/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="205" />
+    <option name="x" value="343" />
+    <option name="y" value="142" />
     <option name="width" value="1550" />
     <option name="height" value="808" />
   </component>
@@ -257,25 +414,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extra_masters" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="maksimkosxx.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maksimkosxx.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extra_masters" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -284,10 +430,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZamerNew" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ZamerNew" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -300,19 +446,19 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist\css" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\santehnika" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\electrika\montazh" />
-      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\images\hero-icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\images\hero-icons" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\bg" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\lk\images\icons" />
       <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\fonts\helvetica" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/drevo" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\dist\css" />
+      <recent name="C:\Users\Scheglov\PhpstormProjects\maksimkosxx.github.io\maksimkosxx.github.io\extra_masters\app\santehnika" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,14 +474,8 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.drevo_lp">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
+    <configuration name="drevo_lk" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/lk" port="8022" />
+    <configuration name="drevo_lp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8021" />
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -386,8 +526,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="drevo_lk" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/lk" port="8022" />
-    <configuration name="drevo_lp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8021" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.drevo_lp" />
       <item index="1" class="java.lang.String" itemvalue="PHP Built-in Web Server.drevo_lk" />
@@ -395,6 +541,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -453,6 +602,7 @@
       <workItem from="1511352971189" duration="1074000" />
       <workItem from="1511354058805" duration="11587000" />
       <workItem from="1511367619039" duration="10000" />
+      <workItem from="1520951373931" duration="212000" />
     </task>
     <task id="LOCAL-00018" summary="fixed&#10;">
       <created>1507229309716</created>
@@ -801,22 +951,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371305000" />
+    <option name="totallyTimeSpent" value="371517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="205" width="1550" height="808" extended-state="0" />
+    <frame x="343" y="142" width="1550" height="808" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22491145" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22684564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23005319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27201784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32684824" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1880734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -879,9 +1030,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/head.php" />
-    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/header.php" />
-    <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/nav.php" />
     <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/hero.php" />
     <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/price.php" />
     <entry file="file://$PROJECT_DIR$/extra_masters/app/templates/include/advantages.php" />
@@ -1106,25 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding>
-            <element signature="e#936#1119#0" expanded="false" />
-            <element signature="e#1139#2123#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extra_masters/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1141,8 +1270,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extra_masters/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
+        <state relative-caret-position="18">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="e#936#1119#0" expanded="false" />
+            <element signature="e#1139#2123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_masters/app/sass/layout/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drevo/lk/libs/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
