@@ -33046,12 +33046,18 @@
   }
 
   .banner-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%!important;
     height: 100%!important;
   }
 
   .banner-container div:empty {
     display: none;
+  }
+  .adfoxBanner {
+    position: relative;
   }
   </style>
   <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css">
@@ -33168,19 +33174,6 @@ var pType = 'guides_main'</script>
         phoneWidth: 991,
         isAutoReloads: false
       });
-    </script>
-    <script>
-      var bannerHeight = String(document.querySelector(".promBannerContainer").clientHeight);
-
-      console.log(bannerHeight);
-
-      document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
-
-      window.addEventListener("resize", function() {
-        var bannerHeight = String(document.querySelector(".promBannerContainer").clientHeight);
-
-        document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
-      }, false);
     </script>
   </div>
 </div>
