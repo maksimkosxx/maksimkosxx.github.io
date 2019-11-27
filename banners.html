@@ -80,21 +80,21 @@
       </script>
 
       <script>
-        // var contentWidth = String(document.body.clientWidth);
-        // var bannerHeight = '210';
-        //
-        // document.getElementById('banner-container').setAttribute("style","width:".concat(contentWidth, "px; height:".concat(bannerHeight,"px")));
-        // document.getElementById('promBannerContainer').setAttribute("style","width:".concat(contentWidth, "px; height:".concat(bannerHeight,"px")));
-        //
-        // window.addEventListener("resize", function() {
-        //   var getWidth = String(document.body.clientWidth);
-        //   var bannerHeight = '210';
-        //   if(window.innerWidth <= 768) {
-        //     bannerHeight = '236';
-        //   }
-        //   document.getElementById("banner-container").setAttribute("style","width:".concat(getWidth, "px; height:".concat(bannerHeight,"px")));
-        //   document.getElementById("promBannerContainer").setAttribute("style","width:".concat(getWidth, "px; height:".concat(bannerHeight,"px")));
-        // }, false);
+        var contentWidth = String(document.body.clientWidth);
+        var bannerHeight = '210';
+
+        document.getElementById('banner-container').setAttribute("style","width:".concat(contentWidth, "px; height:".concat(bannerHeight,"px")));
+        document.getElementById('promBannerContainer').setAttribute("style","width:".concat(contentWidth, "px; height:".concat(bannerHeight,"px")));
+
+        window.addEventListener("resize", function() {
+          var getWidth = String(document.body.clientWidth);
+          var bannerHeight = '210';
+          if(window.innerWidth <= 768) {
+            bannerHeight = '236';
+          }
+          document.getElementById("banner-container").setAttribute("style","width:".concat(getWidth, "px; height:".concat(bannerHeight,"px")));
+          document.getElementById("promBannerContainer").setAttribute("style","width:".concat(getWidth, "px; height:".concat(bannerHeight,"px")));
+        }, false);
 
       </script>
     </div>
