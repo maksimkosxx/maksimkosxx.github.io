@@ -33170,14 +33170,14 @@ var pType = 'guides_main'</script>
       });
     </script>
     <script>
-      var bannerHeight = String(document.querySelector(".promBannerContainer").offsetHeight);
+      var bannerHeight = String(document.querySelector(".promBannerContainer").clientHeight);
 
       console.log(bannerHeight);
 
       document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
 
       window.addEventListener("resize", function() {
-        var bannerHeight = String(document.querySelector(".promBannerContainer").offsetHeight);
+        var bannerHeight = String(document.querySelector(".promBannerContainer").clientHeight);
 
         document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
       }, false);
