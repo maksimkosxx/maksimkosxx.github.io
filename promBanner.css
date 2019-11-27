@@ -1,0 +1,189 @@
+
+.promBanner-body {
+    margin: 0;
+    padding: 0;
+}
+.promBannerContainer {
+    height: 236px;
+    border-radius: 0;
+    overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer {
+        border-radius: 8px;
+        height: 210px;
+    }
+}
+.promBannerContainer .promBanner {
+    font-family: Roboto, BlinkMacSystemFont, -apple-system, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background: #005bff;
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+}
+.promBannerContainer .promBanner .promBannerContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: self-end;
+    -ms-flex-align: self-end;
+    align-items: self-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    padding: 16px;
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerText {
+    -webkit-box-flex: 5;
+    -ms-flex-positive: 5;
+    flex-grow: 5;
+    width: 100%;
+    font-size: 16px;
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerText > h2 {
+    margin: 0;
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerText > p {
+    margin: 12px 8px 20px 0;
+    font-size: 14px;
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerText > ol {
+    padding: 0;
+    margin: 10px 0 10px 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerContent .promBannerText > ol,
+    .promBannerContainer .promBanner .promBannerContent .promBannerText > p {
+        font-size: 16px;
+    }
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerButton {
+    -webkit-box-flex: 5;
+    -ms-flex-positive: 5;
+    flex-grow: 5;
+    width: 100%;
+    text-align: left;
+    max-width: 200px;
+    height: 38px;
+    padding: 6px;
+    background: #ffc911;
+    -webkit-box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.promBannerContainer .promBanner .promBannerContent .promBannerButton .promBannerButtonInner {
+    color: #111;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: normal;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerContent {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding: 26px 0;
+    }
+    .promBannerContainer .promBanner .promBannerContent .promBannerText {
+        -webkit-box-flex: 7;
+        -ms-flex-positive: 7;
+        flex-grow: 7;
+        font-size: 20px;
+    }
+    .promBannerContainer .promBanner .promBannerContent .promBannerText > h2 {
+        font-weight: 700;
+        margin: 0;
+    }
+    .promBannerContainer .promBanner .promBannerContent .promBannerText > p {
+        margin: 12px 8px 30px 0;
+    }
+    .promBannerContainer .promBanner .promBannerContent .promBannerButton {
+        -webkit-box-flex: 3;
+        -ms-flex-positive: 3;
+        flex-grow: 3;
+        text-align: right;
+        max-width: 360px;
+        height: 62px;
+        padding: 14px;
+        margin-bottom: 14px;
+    }
+    .promBannerContainer .promBanner .promBannerContent .promBannerButton .promBannerButtonInner {
+        font-size: 45px;
+    }
+}
+.promBannerContainer .promBanner .promBannerLink {
+    text-align: left;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerLink {
+        right: 16px;
+    }
+}
+.promBannerContainer .promBanner .promBannerLink a,
+.promBannerContainer .promBanner .promBannerLink button {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 14px;
+    background: none;
+    outline: none;
+    border: 0 none;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerLink {
+        text-align: right;
+    }
+}
+.promBannerContainer .promBanner .promBannerFirstBox {
+    display: block;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerFirstBox {
+        padding: 0 32px;
+    }
+}
+.promBannerContainer .promBanner .promBannerFirstBox .promBannerTitle {
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerFirstBox .promBannerTitle {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .promBannerContainer .promBanner .promBannerFirstBox .promBannerTitle {
+        font-size: 45px;
+    }
+}
+.promBannerContainer .promBanner .promBannerNextBox {
+    display: none;
+    height: 100%;
+    position: relative;
+}
+.promBannerContainer .promBanner .promBannerNextBox .promBannerTitle {
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    .promBannerContainer .promBanner .promBannerNextBox {
+        padding: 0 32px;
+    }
+}
