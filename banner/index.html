@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="">
+  <title>Промокод</title>
+  <link rel="stylesheet" href="promBanner.css">
+</head>
+<body class="promBanner-body" marginwidth="0" marginheight="0">
+<div id="promBannerContainer" class="promBannerContainer">
+  <div class="promBanner">
+    <div id="1" class="promBannerFirstBox">
+      <div class="promBannerContent">
+        <div class="promBannerText">
+          <h2 class="promBannerTitle">ПРОМОКОД НА&nbsp;500&nbsp;?</h2>
+          <p>Промокод действует при заказе авиабилетов<br> с 20.12.2019 по 05.01.2020</p>
+        </div>
+        <div class="promBannerButton">
+          <div class="promBannerButtonInner">OZON500</div>
+        </div>
+      </div>
+      <div class="promBannerLink">
+        <button type="button" onclick="show();">Условия акции</button>
+      </div>
+    </div>
+    <div id="2" class="promBannerNextBox">
+      <div class="promBannerContent">
+        <div class="promBannerText">
+          <h2 class="promBannerTitle">Условия акции</h2>
+          <ol>
+            <li>Выберите билеты в&nbsp;Баку на&nbsp;сумму от&nbsp;6000 рублей</li>
+            <li>Введите <b>промокод BAKU700</b>&nbsp;на странице оплаты и&nbsp;оплатите заказ со&nbsp;скидкой 700 рублей
+            </li>
+            <li>Акция действует до&nbsp;31&nbsp;декабря 2019&nbsp;г.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="promBannerLink">
+        <a href="#">Полные условия акции</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  show.visible = '1';
+  show.hidden = '2';
+
+  function show() {
+    show.hidden = show.visible;
+    show.visible = (show.visible === '1') ? '2' : '1';
+    document.getElementById(show.visible).style.display = 'block';
+    document.getElementById(show.hidden).style.display = 'none';
+  }
+</script>
+<script>if (window.onCodeLoad) {
+  window.onCodeLoad();
+}</script>
+
+<script>if (window.onCodeLoad) {
+  window.onCodeLoad();
+}</script>
+<script>if (window.onCodeLoad) {
+  window.onCodeLoad();
+}</script>
+</body>
+</html>

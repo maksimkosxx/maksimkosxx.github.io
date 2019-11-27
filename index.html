@@ -14,6 +14,19 @@
   <script async="" src="//www.google-analytics.com/analytics.js"></script>
   <script src="/guides/assets/vendor.js?h6q8nsxf71a"></script>
   <script src="/guides/assets/bundle.js?h6q8nsxf71a"></script>
+  <script>
+    var bannerHeight = String(document.querySelector(".promBannerContainer").offsetHeight);
+
+    console.log(bannerHeight);
+
+    document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
+
+    window.addEventListener("resize", function() {
+      var bannerHeight = String(document.querySelector(".promBannerContainer").offsetHeight);
+
+      document.querySelectorAll(".adfoxBanner > iframe").setAttribute("style","height:".concat(bannerHeight,"px"));
+    }, false);
+  </script>
   <style type="text/css">/*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -33046,11 +33059,7 @@
   }
 
   .banner-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%!important;
-    height: 100%!important;
   }
 
   .banner-container div:empty {
